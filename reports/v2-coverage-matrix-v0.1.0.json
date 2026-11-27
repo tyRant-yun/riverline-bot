@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "strategy_source": "v2_conservative_baseline",
+  "information_set": "hero_cards_plus_public_state_only",
+  "rows": [
+    {"street": "preflop", "position": "BTN", "facing": "first_in", "depth": "100BB/60BB/20BB/5-20BB", "default_path": "button_first_in_baseline", "fallback": "legal check/fold/call/min-raise"},
+    {"street": "preflop", "position": "BB", "facing": "limp/option", "depth": "100BB/20BB/5-20BB", "default_path": "big_blind_limp_isolation or big_blind_option_check", "fallback": "legal check/min-raise"},
+    {"street": "preflop", "position": "BB", "facing": "open", "depth": "100BB/60BB/20BB/5-20BB", "default_path": "price_aware_defense", "fallback": "ledger conflict safe baseline"},
+    {"street": "preflop", "position": "BTN", "facing": "3-bet", "depth": "100BB/60BB/20BB", "default_path": "premium_price_aware_3bet or price_aware_defense", "fallback": "ledger conflict safe baseline"},
+    {"street": "preflop", "position": "BB/BTN", "facing": "4-bet/all-in", "depth": "100BB/8BB/5BB", "default_path": "premium_reraise or short_stack_price_defense", "fallback": "valid call/fold/min-raise"},
+    {"street": "flop", "position": "IP/OOP", "facing": "free/check", "depth": "100BB/20BB/8BB", "default_path": "made_hand_value_bet, draw_pressure_or_control, out_of_position_air_control", "fallback": "legal check/min-raise"},
+    {"street": "flop", "position": "IP/OOP", "facing": "bet", "depth": "100BB/20BB/8BB", "default_path": "made_hand_value_response or priced_draw_response", "fallback": "price-aware call/fold"},
+    {"street": "turn", "position": "IP/OOP", "facing": "free/bet/check-raise", "depth": "100BB/20BB/8BB", "default_path": "value/draw/pot-control baseline", "fallback": "price-aware call/fold"},
+    {"street": "river", "position": "IP/OOP", "facing": "free", "depth": "100BB/20BB/8BB", "default_path": "made_hand_value_bet or paired_board texture control", "fallback": "check"},
+    {"street": "river", "position": "IP/OOP", "facing": "large bet/check-raise", "depth": "100BB/20BB/8BB", "default_path": "made_hand_value_response or paired_board_two_pair_no_auto_raise", "fallback": "price-aware call/fold"},
+    {"street": "all streets", "position": "either", "facing": "unequal stacks/unknown cashflow", "depth": "5-100BB", "default_path": "same legal baseline with explicit ledger status", "fallback": "unscorable ledger conflict safe baseline"}
+  ],
+  "known_limits": [
+    "No conditioned opponent response Q or calibrated action EV.",
+    "No solver-derived GTO claim; thresholds are conservative baseline heuristics.",
+    "Platform all-in return, blind schedule and tournament payout rules remain unverified.",
+    "The default path uses a simple bounded synchronous computation; end-to-end constrained-container performance remains to be measured."
+  ]
+}

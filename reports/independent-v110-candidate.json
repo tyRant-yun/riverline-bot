@@ -1,0 +1,2230 @@
+{
+  "counters": {
+    "legal_remap": 1,
+    "range_out_of_scope": 6,
+    "strength_slice_decisions": 10,
+    "strength_slice_gate_closed": 10
+  },
+  "rows": [
+    {
+      "accounting": {
+        "authority": {
+          "max_raise": 1000,
+          "min_raise": 30,
+          "pot": 30,
+          "to_call": 10
+        },
+        "conflicts": [],
+        "hand_number": 1,
+        "hero_seat": 1,
+        "ledger": {
+          "authoritative_pot": 30,
+          "authoritative_to_call": 10,
+          "committed_by_seat": [
+            20,
+            10
+          ],
+          "conflicts": [],
+          "contestable_pot": 20,
+          "current_stacks": [
+            980,
+            990
+          ],
+          "hand_start_stacks": [
+            null,
+            null
+          ],
+          "payouts": [],
+          "potential_uncalled": 10,
+          "reconstructed_pot": 30,
+          "refunds": [],
+          "replay_to_call": 10,
+          "status": "consistent",
+          "street_bets_by_seat": [
+            20,
+            10
+          ]
+        },
+        "match_id": "independent-v110",
+        "phase": "preflop",
+        "request_id": "",
+        "round_id": "",
+        "rules": {
+          "ante": null,
+          "big_blind": 10,
+          "blind_schedule": [],
+          "evidence_uri": null,
+          "match_id": "independent-v110",
+          "num_players": null,
+          "rule_version": "unknown",
+          "schedule_source": "unknown",
+          "small_blind": null,
+          "source": "unknown",
+          "starting_stack": null,
+          "variant": null
+        },
+        "status": "consistent"
+      },
+      "action": {
+        "action": "call"
+      },
+      "case": "valid_preflop",
+      "elapsed_ms": 15.02,
+      "fallback": false,
+      "last_aggressor": 0,
+      "policy": {
+        "CALL": 0.92,
+        "FOLD": 0.08
+      },
+      "preflop_range": {
+        "applied": false,
+        "policy_l1": 0.0,
+        "research_window": false,
+        "status": "out_of_scope"
+      },
+      "strength": {
+        "action_value": {
+          "complete": false,
+          "known_downside_bb": null,
+          "model_errors": [
+            "no_conditioned_fold_call_raise_response",
+            "no_complete_future_street_tree",
+            "checkdown_equity_is_not_action_ev"
+          ],
+          "same_world": false,
+          "uncertainty_bb": [
+            [
+              "checkdown_equity_mc",
+              0.5
+            ]
+          ],
+          "values_bb": [
+            [
+              "checkdown_equity",
+              0.543
+            ]
+          ]
+        },
+        "low_bluff_prior_scope": {
+          "applied_to_strategy": false,
+          "eligible": false,
+          "scope": "opponent_turn_or_river_large_active_bet_only"
+        },
+        "node_key": {
+          "action_line": [
+            "preflop:0:post_small_blind:5",
+            "preflop:1:post_big_blind:10",
+            "preflop:0:raise:20"
+          ],
+          "big_blind": 10,
+          "effective_stack_bb": 100.0,
+          "hero_bet": 10,
+          "legal_actions": [
+            "call",
+            "fold",
+            "raise"
+          ],
+          "node_id": "PREFLOP_BB_VS_OPEN",
+          "position": "BB",
+          "pot": 30,
+          "street": "preflop",
+          "to_call": 10,
+          "villain_bet": 20
+        },
+        "resource": {
+          "budget_ms": 450,
+          "elapsed_ms": 11.251,
+          "within_budget": true
+        },
+        "strategy_gate": {
+          "enabled": false,
+          "limitations": [
+            "potential_uncalled_return_unknown",
+            "no_conditioned_fold_call_raise_response",
+            "no_complete_future_street_tree",
+            "checkdown_equity_is_not_action_ev"
+          ],
+          "module": "v1.10_vertical_slice",
+          "passed": false,
+          "reason": "action_value_model_incomplete"
+        }
+      },
+      "version": "1.10.0"
+    },
+    {
+      "accounting": {
+        "authority": {
+          "max_raise": 1000,
+          "min_raise": 190,
+          "pot": 110,
+          "to_call": 90
+        },
+        "conflicts": [
+          "pot_history_gap:30->110",
+          "to_call_history_gap:0->90"
+        ],
+        "hand_number": 1,
+        "hero_seat": 0,
+        "ledger": {
+          "authoritative_pot": 110,
+          "authoritative_to_call": 90,
+          "committed_by_seat": [
+            20,
+            10
+          ],
+          "conflicts": [
+            "pot_history_gap:30->110",
+            "to_call_history_gap:0->90"
+          ],
+          "contestable_pot": 20,
+          "current_stacks": [
+            900,
+            800
+          ],
+          "hand_start_stacks": [
+            null,
+            null
+          ],
+          "payouts": [],
+          "potential_uncalled": 10,
+          "reconstructed_pot": 30,
+          "refunds": [],
+          "replay_to_call": 0,
+          "status": "inconsistent",
+          "street_bets_by_seat": [
+            20,
+            10
+          ]
+        },
+        "match_id": "independent-v110",
+        "phase": "preflop",
+        "request_id": "",
+        "round_id": "",
+        "rules": {
+          "ante": null,
+          "big_blind": 10,
+          "blind_schedule": [],
+          "evidence_uri": null,
+          "match_id": "independent-v110",
+          "num_players": null,
+          "rule_version": "unknown",
+          "schedule_source": "unknown",
+          "small_blind": null,
+          "source": "unknown",
+          "starting_stack": null,
+          "variant": null
+        },
+        "status": "inconsistent"
+      },
+      "action": {
+        "action": "fold"
+      },
+      "case": "history_2bb_authority_10bb",
+      "elapsed_ms": 9.029,
+      "fallback": false,
+      "last_aggressor": 0,
+      "policy": {
+        "CALL": 0.008400000000000003,
+        "FOLD": 0.9916
+      },
+      "preflop_range": {
+        "applied": false,
+        "policy_l1": 0.0,
+        "research_window": false,
+        "status": "out_of_scope"
+      },
+      "strength": {
+        "action_value": {
+          "complete": false,
+          "known_downside_bb": null,
+          "model_errors": [
+            "no_conditioned_fold_call_raise_response",
+            "no_complete_future_street_tree",
+            "checkdown_equity_is_not_action_ev"
+          ],
+          "same_world": false,
+          "uncertainty_bb": [
+            [
+              "checkdown_equity_mc",
+              0.5
+            ]
+          ],
+          "values_bb": [
+            [
+              "checkdown_equity",
+              0.437
+            ]
+          ]
+        },
+        "low_bluff_prior_scope": {
+          "applied_to_strategy": false,
+          "eligible": false,
+          "scope": "opponent_turn_or_river_large_active_bet_only"
+        },
+        "node_key": {
+          "action_line": [
+            "preflop:0:post_small_blind:5",
+            "preflop:1:post_big_blind:10",
+            "preflop:0:raise:20"
+          ],
+          "big_blind": 10,
+          "effective_stack_bb": 91.0,
+          "hero_bet": 20,
+          "legal_actions": [
+            "call",
+            "fold",
+            "raise"
+          ],
+          "node_id": "PREFLOP_BTN_VS_LIMP_RAISE",
+          "position": "BTN",
+          "pot": 110,
+          "street": "preflop",
+          "to_call": 90,
+          "villain_bet": 110
+        },
+        "resource": {
+          "budget_ms": 450,
+          "elapsed_ms": 5.796,
+          "within_budget": true
+        },
+        "strategy_gate": {
+          "enabled": false,
+          "limitations": [
+            "pot_history_gap:30->110",
+            "to_call_history_gap:0->90",
+            "potential_uncalled_return_unknown",
+            "no_conditioned_fold_call_raise_response",
+            "no_complete_future_street_tree",
+            "checkdown_equity_is_not_action_ev"
+          ],
+          "module": "v1.10_vertical_slice",
+          "passed": false,
+          "reason": "action_value_model_incomplete"
+        }
+      },
+      "version": "1.10.0"
+    },
+    {
+      "accounting": {
+        "authority": {
+          "max_raise": 1000,
+          "min_raise": 30,
+          "pot": 130,
+          "to_call": 10
+        },
+        "conflicts": [
+          "pot_history_gap:30->130",
+          "to_call_history_gap:0->10"
+        ],
+        "hand_number": 1,
+        "hero_seat": 0,
+        "ledger": {
+          "authoritative_pot": 130,
+          "authoritative_to_call": 10,
+          "committed_by_seat": [
+            20,
+            10
+          ],
+          "conflicts": [
+            "pot_history_gap:30->130",
+            "to_call_history_gap:0->10"
+          ],
+          "contestable_pot": 20,
+          "current_stacks": [
+            990,
+            980
+          ],
+          "hand_start_stacks": [
+            null,
+            null
+          ],
+          "payouts": [],
+          "potential_uncalled": 10,
+          "reconstructed_pot": 30,
+          "refunds": [],
+          "replay_to_call": 0,
+          "status": "inconsistent",
+          "street_bets_by_seat": [
+            20,
+            10
+          ]
+        },
+        "match_id": "independent-v110",
+        "phase": "preflop",
+        "request_id": "",
+        "round_id": "",
+        "rules": {
+          "ante": null,
+          "big_blind": 10,
+          "blind_schedule": [],
+          "evidence_uri": null,
+          "match_id": "independent-v110",
+          "num_players": null,
+          "rule_version": "unknown",
+          "schedule_source": "unknown",
+          "small_blind": null,
+          "source": "unknown",
+          "starting_stack": null,
+          "variant": null
+        },
+        "status": "inconsistent"
+      },
+      "action": {
+        "action": "call"
+      },
+      "case": "pot_conflict",
+      "elapsed_ms": 8.751,
+      "fallback": false,
+      "last_aggressor": 0,
+      "policy": {
+        "CALL": 0.85,
+        "FOLD": 0.15
+      },
+      "preflop_range": {
+        "applied": false,
+        "policy_l1": 0.0,
+        "research_window": false,
+        "status": "out_of_scope"
+      },
+      "strength": {
+        "action_value": {
+          "complete": false,
+          "known_downside_bb": null,
+          "model_errors": [
+            "no_conditioned_fold_call_raise_response",
+            "no_complete_future_street_tree",
+            "checkdown_equity_is_not_action_ev"
+          ],
+          "same_world": false,
+          "uncertainty_bb": [
+            [
+              "checkdown_equity_mc",
+              0.5
+            ]
+          ],
+          "values_bb": [
+            [
+              "checkdown_equity",
+              0.543
+            ]
+          ]
+        },
+        "low_bluff_prior_scope": {
+          "applied_to_strategy": false,
+          "eligible": false,
+          "scope": "opponent_turn_or_river_large_active_bet_only"
+        },
+        "node_key": {
+          "action_line": [
+            "preflop:0:post_small_blind:5",
+            "preflop:1:post_big_blind:10",
+            "preflop:0:raise:20"
+          ],
+          "big_blind": 10,
+          "effective_stack_bb": 101.0,
+          "hero_bet": 20,
+          "legal_actions": [
+            "call",
+            "fold",
+            "raise"
+          ],
+          "node_id": "PREFLOP_BTN_VS_LIMP_RAISE",
+          "position": "BTN",
+          "pot": 130,
+          "street": "preflop",
+          "to_call": 10,
+          "villain_bet": 30
+        },
+        "resource": {
+          "budget_ms": 450,
+          "elapsed_ms": 4.851,
+          "within_budget": true
+        },
+        "strategy_gate": {
+          "enabled": false,
+          "limitations": [
+            "pot_history_gap:30->130",
+            "to_call_history_gap:0->10",
+            "potential_uncalled_return_unknown",
+            "no_conditioned_fold_call_raise_response",
+            "no_complete_future_street_tree",
+            "checkdown_equity_is_not_action_ev"
+          ],
+          "module": "v1.10_vertical_slice",
+          "passed": false,
+          "reason": "action_value_model_incomplete"
+        }
+      },
+      "version": "1.10.0"
+    },
+    {
+      "accounting": {
+        "authority": {
+          "max_raise": 20,
+          "min_raise": 80,
+          "pot": 15,
+          "to_call": 5
+        },
+        "conflicts": [
+          "authority:invalid_raise_bounds"
+        ],
+        "hand_number": 1,
+        "hero_seat": 0,
+        "ledger": {
+          "authoritative_pot": 15,
+          "authoritative_to_call": 5,
+          "committed_by_seat": [
+            5,
+            10
+          ],
+          "conflicts": [
+            "authority:invalid_raise_bounds"
+          ],
+          "contestable_pot": 10,
+          "current_stacks": [
+            995,
+            990
+          ],
+          "hand_start_stacks": [
+            null,
+            null
+          ],
+          "payouts": [],
+          "potential_uncalled": 5,
+          "reconstructed_pot": 15,
+          "refunds": [],
+          "replay_to_call": 5,
+          "status": "inconsistent",
+          "street_bets_by_seat": [
+            5,
+            10
+          ]
+        },
+        "match_id": "independent-v110",
+        "phase": "preflop",
+        "request_id": "",
+        "round_id": "",
+        "rules": {
+          "ante": null,
+          "big_blind": 10,
+          "blind_schedule": [],
+          "evidence_uri": null,
+          "match_id": "independent-v110",
+          "num_players": null,
+          "rule_version": "unknown",
+          "schedule_source": "unknown",
+          "small_blind": null,
+          "source": "unknown",
+          "starting_stack": null,
+          "variant": null
+        },
+        "status": "inconsistent"
+      },
+      "action": {
+        "action": "call"
+      },
+      "case": "invalid_raise_bounds",
+      "elapsed_ms": 55.073,
+      "fallback": true,
+      "last_aggressor": null,
+      "policy": {
+        "RAISE_SMALL": 1.0
+      },
+      "preflop_range": {
+        "applied": false,
+        "policy_l1": 0.0,
+        "research_window": false,
+        "status": "out_of_scope"
+      },
+      "strength": {
+        "action_value": {
+          "complete": false,
+          "known_downside_bb": null,
+          "model_errors": [
+            "no_conditioned_fold_call_raise_response",
+            "no_complete_future_street_tree",
+            "checkdown_equity_is_not_action_ev"
+          ],
+          "same_world": false,
+          "uncertainty_bb": [
+            [
+              "checkdown_equity_mc",
+              0.5
+            ]
+          ],
+          "values_bb": [
+            [
+              "checkdown_equity",
+              0.988
+            ]
+          ]
+        },
+        "low_bluff_prior_scope": {
+          "applied_to_strategy": false,
+          "eligible": false,
+          "scope": "opponent_turn_or_river_large_active_bet_only"
+        },
+        "node_key": {
+          "action_line": [
+            "preflop:0:post_small_blind:5",
+            "preflop:1:post_big_blind:10"
+          ],
+          "big_blind": 10,
+          "effective_stack_bb": 100.0,
+          "hero_bet": 5,
+          "legal_actions": [
+            "call",
+            "fold",
+            "raise"
+          ],
+          "node_id": "PREFLOP_BTN_FIRST_IN",
+          "position": "BTN",
+          "pot": 15,
+          "street": "preflop",
+          "to_call": 5,
+          "villain_bet": 10
+        },
+        "resource": {
+          "budget_ms": 450,
+          "elapsed_ms": 1.48,
+          "within_budget": true
+        },
+        "strategy_gate": {
+          "enabled": false,
+          "limitations": [
+            "authority:invalid_raise_bounds",
+            "potential_uncalled_return_unknown",
+            "invalid_raise_bounds",
+            "no_conditioned_fold_call_raise_response",
+            "no_complete_future_street_tree",
+            "checkdown_equity_is_not_action_ev"
+          ],
+          "module": "v1.10_vertical_slice",
+          "passed": false,
+          "reason": "action_value_model_incomplete"
+        }
+      },
+      "version": "1.10.0"
+    },
+    {
+      "accounting": {
+        "authority": {
+          "max_raise": 50,
+          "min_raise": 50,
+          "pot": 60,
+          "to_call": 50
+        },
+        "conflicts": [
+          "to_call_history_gap:0->50"
+        ],
+        "hand_number": 1,
+        "hero_seat": 0,
+        "ledger": {
+          "authoritative_pot": 60,
+          "authoritative_to_call": 50,
+          "committed_by_seat": [
+            50,
+            10
+          ],
+          "conflicts": [
+            "to_call_history_gap:0->50"
+          ],
+          "contestable_pot": 20,
+          "current_stacks": [
+            0,
+            50
+          ],
+          "hand_start_stacks": [
+            null,
+            null
+          ],
+          "payouts": [],
+          "potential_uncalled": 40,
+          "reconstructed_pot": 60,
+          "refunds": [],
+          "replay_to_call": 0,
+          "status": "inconsistent",
+          "street_bets_by_seat": [
+            50,
+            10
+          ]
+        },
+        "match_id": "independent-v110",
+        "phase": "preflop",
+        "request_id": "",
+        "round_id": "",
+        "rules": {
+          "ante": null,
+          "big_blind": 10,
+          "blind_schedule": [],
+          "evidence_uri": null,
+          "match_id": "independent-v110",
+          "num_players": null,
+          "rule_version": "unknown",
+          "schedule_source": "unknown",
+          "small_blind": null,
+          "source": "unknown",
+          "starting_stack": null,
+          "variant": null
+        },
+        "status": "inconsistent"
+      },
+      "action": {
+        "action": "raise",
+        "amount": 50
+      },
+      "case": "unequal_allin_unknown_refund",
+      "elapsed_ms": 7.58,
+      "fallback": false,
+      "last_aggressor": 0,
+      "policy": {
+        "ALL_IN": 1.0
+      },
+      "preflop_range": {
+        "applied": false,
+        "policy_l1": 0.0,
+        "research_window": false,
+        "status": "out_of_scope"
+      },
+      "strength": {
+        "action_value": {
+          "complete": false,
+          "known_downside_bb": null,
+          "model_errors": [
+            "no_conditioned_fold_call_raise_response",
+            "no_complete_future_street_tree",
+            "checkdown_equity_is_not_action_ev"
+          ],
+          "same_world": false,
+          "uncertainty_bb": [
+            [
+              "checkdown_equity_mc",
+              0.5
+            ]
+          ],
+          "values_bb": [
+            [
+              "checkdown_equity",
+              0.988
+            ]
+          ]
+        },
+        "low_bluff_prior_scope": {
+          "applied_to_strategy": false,
+          "eligible": false,
+          "scope": "opponent_turn_or_river_large_active_bet_only"
+        },
+        "node_key": {
+          "action_line": [
+            "preflop:0:post_small_blind:5",
+            "preflop:1:post_big_blind:10",
+            "preflop:0:all_in:50"
+          ],
+          "big_blind": 10,
+          "effective_stack_bb": 5.0,
+          "hero_bet": 50,
+          "legal_actions": [
+            "call",
+            "fold",
+            "raise"
+          ],
+          "node_id": "PREFLOP_BTN_VS_LIMP_RAISE",
+          "position": "BTN",
+          "pot": 60,
+          "street": "preflop",
+          "to_call": 0,
+          "villain_bet": 100
+        },
+        "resource": {
+          "budget_ms": 450,
+          "elapsed_ms": 4.473,
+          "within_budget": true
+        },
+        "strategy_gate": {
+          "enabled": false,
+          "limitations": [
+            "to_call_history_gap:0->50",
+            "potential_uncalled_return_unknown",
+            "no_conditioned_fold_call_raise_response",
+            "no_complete_future_street_tree",
+            "checkdown_equity_is_not_action_ev"
+          ],
+          "module": "v1.10_vertical_slice",
+          "passed": false,
+          "reason": "action_value_model_incomplete"
+        }
+      },
+      "version": "1.10.0"
+    },
+    {
+      "accounting": {
+        "authority": {
+          "max_raise": 875,
+          "min_raise": 200,
+          "pot": 150,
+          "to_call": 100
+        },
+        "conflicts": [],
+        "hand_number": 720,
+        "hero_seat": 0,
+        "ledger": {
+          "authoritative_pot": 150,
+          "authoritative_to_call": 100,
+          "committed_by_seat": [
+            25,
+            125
+          ],
+          "conflicts": [],
+          "contestable_pot": 50,
+          "current_stacks": [
+            875,
+            875
+          ],
+          "hand_start_stacks": [
+            null,
+            null
+          ],
+          "payouts": [],
+          "potential_uncalled": 100,
+          "reconstructed_pot": 150,
+          "refunds": [],
+          "replay_to_call": 100,
+          "status": "consistent",
+          "street_bets_by_seat": [
+            0,
+            100
+          ]
+        },
+        "match_id": "independent-v110",
+        "phase": "river",
+        "request_id": "",
+        "round_id": "",
+        "rules": {
+          "ante": null,
+          "big_blind": 10,
+          "blind_schedule": [],
+          "evidence_uri": null,
+          "match_id": "independent-v110",
+          "num_players": null,
+          "rule_version": "unknown",
+          "schedule_source": "unknown",
+          "small_blind": null,
+          "source": "unknown",
+          "starting_stack": null,
+          "variant": null
+        },
+        "status": "consistent"
+      },
+      "action": {
+        "action": "call"
+      },
+      "case": "heavy_history_720",
+      "elapsed_ms": 321.874,
+      "fallback": false,
+      "last_aggressor": 0,
+      "policy": {
+        "CALL": 1.0
+      },
+      "preflop_range": {
+        "applied": false,
+        "policy_l1": 0.0,
+        "status": "not_preflop"
+      },
+      "strength": {
+        "action_value": {
+          "complete": false,
+          "known_downside_bb": null,
+          "model_errors": [
+            "no_conditioned_fold_call_raise_response",
+            "no_complete_future_street_tree",
+            "checkdown_equity_is_not_action_ev"
+          ],
+          "same_world": false,
+          "uncertainty_bb": [
+            [
+              "checkdown_equity_mc",
+              0.0
+            ]
+          ],
+          "values_bb": [
+            [
+              "checkdown_equity",
+              0.865947
+            ]
+          ]
+        },
+        "low_bluff_prior_scope": {
+          "applied_to_strategy": false,
+          "eligible": false,
+          "scope": "opponent_turn_or_river_large_active_bet_only"
+        },
+        "node_key": {
+          "action_line": [
+            "preflop:0:post_small_blind:5",
+            "preflop:1:post_big_blind:10",
+            "preflop:0:raise:25",
+            "preflop:1:call:15",
+            "flop:0:check:0",
+            "flop:1:check:0",
+            "turn:0:check:0",
+            "turn:1:check:0",
+            "river:1:raise:100",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0",
+            "river:0:check:0",
+            "river:1:check:0"
+          ],
+          "big_blind": 10,
+          "effective_stack_bb": 87.5,
+          "hero_bet": 0,
+          "legal_actions": [
+            "call",
+            "fold",
+            "raise"
+          ],
+          "node_id": "SRP_RIVER_IP_VS_BET",
+          "position": "BTN",
+          "pot": 150,
+          "street": "river",
+          "to_call": 100,
+          "villain_bet": 100
+        },
+        "resource": {
+          "budget_ms": 450,
+          "elapsed_ms": 317.414,
+          "within_budget": true
+        },
+        "strategy_gate": {
+          "enabled": false,
+          "limitations": [
+            "conditional_range_incomplete",
+            "potential_uncalled_return_unknown",
+            "no_conditioned_fold_call_raise_response",
+            "no_complete_future_street_tree",
+            "checkdown_equity_is_not_action_ev"
+          ],
+          "module": "v1.10_vertical_slice",
+          "passed": false,
+          "reason": "action_value_model_incomplete"
+        }
+      },
+      "version": "1.10.0"
+    },
+    {
+      "accounting": {
+        "authority": {
+          "max_raise": 975,
+          "min_raise": 10,
+          "pot": 50,
+          "to_call": 0
+        },
+        "conflicts": [],
+        "hand_number": 1,
+        "hero_seat": 0,
+        "ledger": {
+          "authoritative_pot": 50,
+          "authoritative_to_call": 0,
+          "committed_by_seat": [
+            25,
+            25
+          ],
+          "conflicts": [],
+          "contestable_pot": 50,
+          "current_stacks": [
+            975,
+            975
+          ],
+          "hand_start_stacks": [
+            null,
+            null
+          ],
+          "payouts": [],
+          "potential_uncalled": 0,
+          "reconstructed_pot": 50,
+          "refunds": [],
+          "replay_to_call": 0,
+          "status": "consistent",
+          "street_bets_by_seat": [
+            0,
+            0
+          ]
+        },
+        "match_id": "independent-v110",
+        "phase": "river",
+        "request_id": "",
+        "round_id": "",
+        "rules": {
+          "ante": null,
+          "big_blind": 10,
+          "blind_schedule": [],
+          "evidence_uri": null,
+          "match_id": "independent-v110",
+          "num_players": null,
+          "rule_version": "unknown",
+          "schedule_source": "unknown",
+          "small_blind": null,
+          "source": "unknown",
+          "starting_stack": null,
+          "variant": null
+        },
+        "status": "consistent"
+      },
+      "action": {
+        "action": "raise",
+        "amount": 33
+      },
+      "case": "paired_river_sentinel",
+      "elapsed_ms": 296.718,
+      "fallback": false,
+      "last_aggressor": 0,
+      "policy": {
+        "BET_MEDIUM": 0.85,
+        "CHECK": 0.15
+      },
+      "preflop_range": {
+        "applied": false,
+        "policy_l1": 0.0,
+        "status": "not_preflop"
+      },
+      "strength": {
+        "action_value": {
+          "complete": false,
+          "known_downside_bb": null,
+          "model_errors": [
+            "no_conditioned_fold_call_raise_response",
+            "no_complete_future_street_tree",
+            "checkdown_equity_is_not_action_ev"
+          ],
+          "same_world": false,
+          "uncertainty_bb": [
+            [
+              "checkdown_equity_mc",
+              0.0
+            ]
+          ],
+          "values_bb": [
+            [
+              "checkdown_equity",
+              0.827374
+            ]
+          ]
+        },
+        "low_bluff_prior_scope": {
+          "applied_to_strategy": false,
+          "eligible": false,
+          "scope": "opponent_turn_or_river_large_active_bet_only"
+        },
+        "node_key": {
+          "action_line": [
+            "preflop:0:post_small_blind:5",
+            "preflop:1:post_big_blind:10",
+            "preflop:0:raise:25",
+            "preflop:1:call:15",
+            "flop:0:check:0",
+            "flop:1:check:0",
+            "turn:0:check:0",
+            "turn:1:check:0"
+          ],
+          "big_blind": 10,
+          "effective_stack_bb": 97.5,
+          "hero_bet": 0,
+          "legal_actions": [
+            "check",
+            "raise"
+          ],
+          "node_id": "SRP_RIVER_IP",
+          "position": "BTN",
+          "pot": 50,
+          "street": "river",
+          "to_call": 0,
+          "villain_bet": 0
+        },
+        "resource": {
+          "budget_ms": 450,
+          "elapsed_ms": 293.812,
+          "within_budget": true
+        },
+        "strategy_gate": {
+          "enabled": false,
+          "limitations": [
+            "conditional_range_incomplete",
+            "no_conditioned_fold_call_raise_response",
+            "no_complete_future_street_tree",
+            "checkdown_equity_is_not_action_ev"
+          ],
+          "module": "v1.10_vertical_slice",
+          "passed": false,
+          "reason": "action_value_model_incomplete"
+        }
+      },
+      "version": "1.10.0"
+    },
+    {
+      "accounting": {
+        "authority": {
+          "max_raise": 875,
+          "min_raise": 300,
+          "pot": 200,
+          "to_call": 150
+        },
+        "conflicts": [],
+        "hand_number": 1,
+        "hero_seat": 0,
+        "ledger": {
+          "authoritative_pot": 200,
+          "authoritative_to_call": 150,
+          "committed_by_seat": [
+            25,
+            175
+          ],
+          "conflicts": [],
+          "contestable_pot": 50,
+          "current_stacks": [
+            825,
+            875
+          ],
+          "hand_start_stacks": [
+            null,
+            null
+          ],
+          "payouts": [],
+          "potential_uncalled": 150,
+          "reconstructed_pot": 200,
+          "refunds": [],
+          "replay_to_call": 150,
+          "status": "consistent",
+          "street_bets_by_seat": [
+            0,
+            150
+          ]
+        },
+        "match_id": "independent-v110",
+        "phase": "river",
+        "request_id": "",
+        "round_id": "",
+        "rules": {
+          "ante": null,
+          "big_blind": 10,
+          "blind_schedule": [],
+          "evidence_uri": null,
+          "match_id": "independent-v110",
+          "num_players": null,
+          "rule_version": "unknown",
+          "schedule_source": "unknown",
+          "small_blind": null,
+          "source": "unknown",
+          "starting_stack": null,
+          "variant": null
+        },
+        "status": "consistent"
+      },
+      "action": {
+        "action": "call"
+      },
+      "case": "river_large_active_bet",
+      "elapsed_ms": 294.499,
+      "fallback": false,
+      "last_aggressor": 0,
+      "policy": {
+        "CALL": 1.0
+      },
+      "preflop_range": {
+        "applied": false,
+        "policy_l1": 0.0,
+        "status": "not_preflop"
+      },
+      "strength": {
+        "action_value": {
+          "complete": false,
+          "known_downside_bb": null,
+          "model_errors": [
+            "no_conditioned_fold_call_raise_response",
+            "no_complete_future_street_tree",
+            "checkdown_equity_is_not_action_ev"
+          ],
+          "same_world": false,
+          "uncertainty_bb": [
+            [
+              "checkdown_equity_mc",
+              0.0
+            ]
+          ],
+          "values_bb": [
+            [
+              "checkdown_equity",
+              0.884944
+            ]
+          ]
+        },
+        "low_bluff_prior_scope": {
+          "applied_to_strategy": false,
+          "eligible": false,
+          "scope": "opponent_turn_or_river_large_active_bet_only"
+        },
+        "node_key": {
+          "action_line": [
+            "preflop:0:post_small_blind:5",
+            "preflop:1:post_big_blind:10",
+            "preflop:0:raise:25",
+            "preflop:1:call:15",
+            "flop:0:check:0",
+            "flop:1:check:0",
+            "turn:0:check:0",
+            "turn:1:check:0",
+            "river:1:raise:150"
+          ],
+          "big_blind": 10,
+          "effective_stack_bb": 82.5,
+          "hero_bet": 0,
+          "legal_actions": [
+            "call",
+            "fold",
+            "raise"
+          ],
+          "node_id": "SRP_RIVER_IP_VS_BET",
+          "position": "BTN",
+          "pot": 200,
+          "street": "river",
+          "to_call": 150,
+          "villain_bet": 150
+        },
+        "resource": {
+          "budget_ms": 450,
+          "elapsed_ms": 291.486,
+          "within_budget": true
+        },
+        "strategy_gate": {
+          "enabled": false,
+          "limitations": [
+            "conditional_range_incomplete",
+            "potential_uncalled_return_unknown",
+            "no_conditioned_fold_call_raise_response",
+            "no_complete_future_street_tree",
+            "checkdown_equity_is_not_action_ev"
+          ],
+          "module": "v1.10_vertical_slice",
+          "passed": false,
+          "reason": "action_value_model_incomplete"
+        }
+      },
+      "version": "1.10.0"
+    },
+    {
+      "accounting": {
+        "authority": {
+          "max_raise": 875,
+          "min_raise": 240,
+          "pot": 160,
+          "to_call": 120
+        },
+        "conflicts": [],
+        "hand_number": 1,
+        "hero_seat": 1,
+        "ledger": {
+          "authoritative_pot": 160,
+          "authoritative_to_call": 120,
+          "committed_by_seat": [
+            140,
+            20
+          ],
+          "conflicts": [],
+          "contestable_pot": 40,
+          "current_stacks": [
+            875,
+            855
+          ],
+          "hand_start_stacks": [
+            null,
+            null
+          ],
+          "payouts": [],
+          "potential_uncalled": 120,
+          "reconstructed_pot": 160,
+          "refunds": [],
+          "replay_to_call": 120,
+          "status": "consistent",
+          "street_bets_by_seat": [
+            120,
+            0
+          ]
+        },
+        "match_id": "independent-v110",
+        "phase": "river",
+        "request_id": "",
+        "round_id": "",
+        "rules": {
+          "ante": null,
+          "big_blind": 10,
+          "blind_schedule": [],
+          "evidence_uri": null,
+          "match_id": "independent-v110",
+          "num_players": null,
+          "rule_version": "unknown",
+          "schedule_source": "unknown",
+          "small_blind": null,
+          "source": "unknown",
+          "starting_stack": null,
+          "variant": null
+        },
+        "status": "consistent"
+      },
+      "action": {
+        "action": "call"
+      },
+      "case": "river_prior_scope_probe",
+      "elapsed_ms": 301.327,
+      "fallback": false,
+      "last_aggressor": 0,
+      "policy": {
+        "CALL": 1.0
+      },
+      "preflop_range": {
+        "applied": false,
+        "policy_l1": 0.0,
+        "status": "not_preflop"
+      },
+      "strength": {
+        "action_value": {
+          "complete": false,
+          "known_downside_bb": null,
+          "model_errors": [
+            "no_conditioned_fold_call_raise_response",
+            "no_complete_future_street_tree",
+            "checkdown_equity_is_not_action_ev"
+          ],
+          "same_world": false,
+          "uncertainty_bb": [
+            [
+              "checkdown_equity_mc",
+              0.0
+            ]
+          ],
+          "values_bb": [
+            [
+              "checkdown_equity",
+              0.858811
+            ]
+          ]
+        },
+        "low_bluff_prior_scope": {
+          "applied_to_strategy": false,
+          "eligible": true,
+          "scope": "opponent_turn_or_river_large_active_bet_only"
+        },
+        "node_key": {
+          "action_line": [
+            "preflop:0:post_small_blind:5",
+            "preflop:1:post_big_blind:10",
+            "preflop:0:raise:20",
+            "preflop:1:call:10",
+            "flop:0:check:0",
+            "flop:1:check:0",
+            "turn:0:check:0",
+            "turn:1:check:0",
+            "river:0:raise:120"
+          ],
+          "big_blind": 10,
+          "effective_stack_bb": 85.5,
+          "hero_bet": 0,
+          "legal_actions": [
+            "call",
+            "fold",
+            "raise"
+          ],
+          "node_id": "SRP_RIVER_OOP_VS_BET",
+          "position": "BB",
+          "pot": 160,
+          "street": "river",
+          "to_call": 120,
+          "villain_bet": 120
+        },
+        "resource": {
+          "budget_ms": 450,
+          "elapsed_ms": 298.687,
+          "within_budget": true
+        },
+        "strategy_gate": {
+          "enabled": false,
+          "limitations": [
+            "conditional_range_incomplete",
+            "potential_uncalled_return_unknown",
+            "no_conditioned_fold_call_raise_response",
+            "no_complete_future_street_tree",
+            "checkdown_equity_is_not_action_ev"
+          ],
+          "module": "v1.10_vertical_slice",
+          "passed": false,
+          "reason": "action_value_model_incomplete"
+        }
+      },
+      "version": "1.10.0"
+    },
+    {
+      "accounting": {
+        "authority": {
+          "max_raise": 10000,
+          "min_raise": 300,
+          "pot": 300,
+          "to_call": 100
+        },
+        "conflicts": [
+          "to_call_history_gap:0->100"
+        ],
+        "hand_number": 1,
+        "hero_seat": 0,
+        "ledger": {
+          "authoritative_pot": 300,
+          "authoritative_to_call": 100,
+          "committed_by_seat": [
+            200,
+            100
+          ],
+          "conflicts": [
+            "to_call_history_gap:0->100"
+          ],
+          "contestable_pot": 200,
+          "current_stacks": [
+            9700,
+            9600
+          ],
+          "hand_start_stacks": [
+            null,
+            null
+          ],
+          "payouts": [],
+          "potential_uncalled": 100,
+          "reconstructed_pot": 300,
+          "refunds": [],
+          "replay_to_call": 0,
+          "status": "inconsistent",
+          "street_bets_by_seat": [
+            200,
+            100
+          ]
+        },
+        "match_id": "independent-v110",
+        "phase": "preflop",
+        "request_id": "",
+        "round_id": "",
+        "rules": {
+          "ante": null,
+          "big_blind": 10,
+          "blind_schedule": [],
+          "evidence_uri": null,
+          "match_id": "independent-v110",
+          "num_players": null,
+          "rule_version": "unknown",
+          "schedule_source": "unknown",
+          "small_blind": null,
+          "source": "unknown",
+          "starting_stack": null,
+          "variant": null
+        },
+        "status": "inconsistent"
+      },
+      "action": {
+        "action": "call"
+      },
+      "case": "blind_100bb",
+      "elapsed_ms": 58.997,
+      "fallback": false,
+      "last_aggressor": 0,
+      "policy": {
+        "CALL": 0.85,
+        "FOLD": 0.15
+      },
+      "preflop_range": {
+        "applied": false,
+        "policy_l1": 0.0,
+        "research_window": false,
+        "status": "out_of_scope"
+      },
+      "strength": {
+        "action_value": {
+          "complete": false,
+          "known_downside_bb": null,
+          "model_errors": [
+            "no_conditioned_fold_call_raise_response",
+            "no_complete_future_street_tree",
+            "checkdown_equity_is_not_action_ev"
+          ],
+          "same_world": false,
+          "uncertainty_bb": [
+            [
+              "checkdown_equity_mc",
+              0.5
+            ]
+          ],
+          "values_bb": [
+            [
+              "checkdown_equity",
+              0.543
+            ]
+          ]
+        },
+        "low_bluff_prior_scope": {
+          "applied_to_strategy": false,
+          "eligible": false,
+          "scope": "opponent_turn_or_river_large_active_bet_only"
+        },
+        "node_key": {
+          "action_line": [
+            "preflop:0:post_small_blind:50",
+            "preflop:1:post_big_blind:100",
+            "preflop:0:raise:200"
+          ],
+          "big_blind": 100,
+          "effective_stack_bb": 99.0,
+          "hero_bet": 200,
+          "legal_actions": [
+            "call",
+            "fold",
+            "raise"
+          ],
+          "node_id": "PREFLOP_BTN_VS_LIMP_RAISE",
+          "position": "BTN",
+          "pot": 300,
+          "street": "preflop",
+          "to_call": 100,
+          "villain_bet": 300
+        },
+        "resource": {
+          "budget_ms": 450,
+          "elapsed_ms": 4.68,
+          "within_budget": true
+        },
+        "strategy_gate": {
+          "enabled": false,
+          "limitations": [
+            "to_call_history_gap:0->100",
+            "potential_uncalled_return_unknown",
+            "no_conditioned_fold_call_raise_response",
+            "no_complete_future_street_tree",
+            "checkdown_equity_is_not_action_ev"
+          ],
+          "module": "v1.10_vertical_slice",
+          "passed": false,
+          "reason": "action_value_model_incomplete"
+        }
+      },
+      "version": "1.10.0"
+    }
+  ],
+  "version": "1.10.0"
+}

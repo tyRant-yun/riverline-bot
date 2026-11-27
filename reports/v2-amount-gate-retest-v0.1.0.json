@@ -1,0 +1,34 @@
+{
+  "candidate": "hu-v2-fast-v0.1.0",
+  "scope": "developer re-test after independent P0 history-price finding",
+  "cases": [
+    {
+      "name": "consistent_normal",
+      "ledger_status": "consistent",
+      "policy_reason": "premium_price_aware_3bet",
+      "action": {"action": "raise", "amount": 25}
+    },
+    {
+      "name": "wrong_price",
+      "ledger_status": "conflict",
+      "policy_reason": "ledger_conflict_safe_baseline",
+      "action": {"action": "fold"}
+    },
+    {
+      "name": "missing_history",
+      "ledger_status": "incomplete_history",
+      "policy_reason": "ledger_conflict_safe_baseline",
+      "action": {"action": "fold"}
+    }
+  ],
+  "independent_fixture_retest": {
+    "states": 16,
+    "legal_actions": 16,
+    "history_price_conflict_status": "conflict",
+    "history_price_conflict_policy": "ledger_conflict_safe_baseline",
+    "paired_river_non_nut_flush_action": "check",
+    "paired_river_non_nut_flush_policy": "paired_board_non_nut_flush_caution",
+    "invalid_bounds_status": "conflict",
+    "notes": "Independent test report remains unchanged; this is the developer-side retest receipt."
+  }
+}

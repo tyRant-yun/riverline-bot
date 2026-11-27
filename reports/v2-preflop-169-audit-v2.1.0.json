@@ -1,0 +1,1141 @@
+{
+  "bb_open": {
+    "actions_by_price_depth": {
+      "100BB/2.00BB": {
+        "call": 123,
+        "fold": 8,
+        "raise": 38
+      },
+      "100BB/2.25BB": {
+        "call": 117,
+        "fold": 14,
+        "raise": 38
+      },
+      "100BB/2.60BB": {
+        "call": 105,
+        "fold": 26,
+        "raise": 38
+      },
+      "20BB/2.00BB": {
+        "call": 123,
+        "fold": 8,
+        "raise": 38
+      },
+      "20BB/2.25BB": {
+        "call": 117,
+        "fold": 14,
+        "raise": 38
+      },
+      "20BB/2.60BB": {
+        "call": 105,
+        "fold": 26,
+        "raise": 38
+      },
+      "60BB/2.00BB": {
+        "call": 123,
+        "fold": 8,
+        "raise": 38
+      },
+      "60BB/2.25BB": {
+        "call": 117,
+        "fold": 14,
+        "raise": 38
+      },
+      "60BB/2.60BB": {
+        "call": 105,
+        "fold": 26,
+        "raise": 38
+      },
+      "8BB/2.00BB": {
+        "call": 38,
+        "fold": 74,
+        "raise": 57
+      },
+      "8BB/2.25BB": {
+        "call": 38,
+        "fold": 74,
+        "raise": 57
+      },
+      "8BB/2.60BB": {
+        "call": 38,
+        "fold": 74,
+        "raise": 57
+      }
+    },
+    "masked_call_candidates": 0,
+    "policy_reasons": {
+      "open_price_aware_3bet": 261,
+      "premium_price_aware_3bet": 81,
+      "price_aware_defense": 1035,
+      "price_aware_fold": 144,
+      "short_stack_conservative_fold": 222,
+      "short_stack_price_defense": 114,
+      "short_stack_value_jam": 171
+    },
+    "raise_medium_or_more": 342,
+    "rows": 2028,
+    "short_stack_call_candidates": 0
+  },
+  "btn_3bet": {
+    "actions_by_price_depth": {
+      "100BB/6.00BB": {
+        "call": 129,
+        "fold": 31,
+        "raise": 9
+      },
+      "100BB/7.00BB": {
+        "call": 128,
+        "fold": 41
+      },
+      "100BB/8.00BB": {
+        "call": 118,
+        "fold": 51
+      },
+      "20BB/6.00BB": {
+        "call": 129,
+        "fold": 31,
+        "raise": 9
+      },
+      "20BB/7.00BB": {
+        "call": 128,
+        "fold": 41
+      },
+      "20BB/8.00BB": {
+        "call": 118,
+        "fold": 51
+      },
+      "60BB/6.00BB": {
+        "call": 129,
+        "fold": 31,
+        "raise": 9
+      },
+      "60BB/7.00BB": {
+        "call": 128,
+        "fold": 41
+      },
+      "60BB/8.00BB": {
+        "call": 118,
+        "fold": 51
+      },
+      "8BB/6.00BB": {
+        "fold": 169
+      },
+      "8BB/7.00BB": {
+        "fold": 169
+      },
+      "8BB/8.00BB": {
+        "fold": 169
+      }
+    },
+    "policy_reasons": {
+      "ledger_conflict_safe_baseline": 507,
+      "premium_price_aware_3bet": 27,
+      "price_aware_defense": 1125,
+      "price_aware_fold": 369
+    },
+    "rows": 2028
+  },
+  "btn_first_in": {
+    "actions": {
+      "call": 40,
+      "raise": 636
+    },
+    "contexts": {
+      "FIRST_IN": 676
+    },
+    "facing_opponent_bet": 0,
+    "node_ids": {
+      "PREFLOP_BTN_FIRST_IN": 676
+    },
+    "policy_reasons": {
+      "button_first_in_baseline": 636,
+      "button_first_in_complete": 40
+    },
+    "price_branch_reasons": 0,
+    "rows": 676,
+    "to_call_positive": 676
+  },
+  "candidate": "E:\\hu bot\\.work\\hu-v2-strength-v2.1.0",
+  "classes": 169,
+  "fallback_rows": 0,
+  "legal_rows": 4732,
+  "rows": 4732,
+  "selected_rows": [
+    {
+      "action": {
+        "action": "raise",
+        "amount": 200
+      },
+      "class": "AA",
+      "depth_bb": 100,
+      "facing_opponent_bet": false,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BTN_FIRST_IN",
+      "node_id": "PREFLOP_BTN_FIRST_IN",
+      "policy_reason": "button_first_in_baseline",
+      "preflop_context": "FIRST_IN",
+      "price_bb": null,
+      "strength": 0.988,
+      "to_call": 50
+    },
+    {
+      "action": {
+        "action": "raise",
+        "amount": 500
+      },
+      "class": "AA",
+      "depth_bb": 100,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BB_OPEN",
+      "node_id": "PREFLOP_BB_VS_OPEN",
+      "policy_reason": "premium_price_aware_3bet",
+      "preflop_context": "VS_OPEN",
+      "price_bb": 2.0,
+      "strength": 0.988,
+      "to_call": 100
+    },
+    {
+      "action": {
+        "action": "raise",
+        "amount": 550
+      },
+      "class": "AA",
+      "depth_bb": 100,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BB_OPEN",
+      "node_id": "PREFLOP_BB_VS_OPEN",
+      "policy_reason": "premium_price_aware_3bet",
+      "preflop_context": "VS_OPEN",
+      "price_bb": 2.25,
+      "strength": 0.988,
+      "to_call": 125
+    },
+    {
+      "action": {
+        "action": "raise",
+        "amount": 620
+      },
+      "class": "AA",
+      "depth_bb": 100,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BB_OPEN",
+      "node_id": "PREFLOP_BB_VS_OPEN",
+      "policy_reason": "premium_price_aware_3bet",
+      "preflop_context": "VS_OPEN",
+      "price_bb": 2.6,
+      "strength": 0.988,
+      "to_call": 160
+    },
+    {
+      "action": {
+        "action": "raise",
+        "amount": 1425
+      },
+      "class": "AA",
+      "depth_bb": 100,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BTN_3BET",
+      "node_id": "PREFLOP_BTN_VS_3BET",
+      "policy_reason": "premium_price_aware_3bet",
+      "preflop_context": "VS_3BET",
+      "price_bb": 6.0,
+      "strength": 0.988,
+      "to_call": 375
+    },
+    {
+      "action": {
+        "action": "call"
+      },
+      "class": "AA",
+      "depth_bb": 100,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BTN_3BET",
+      "node_id": "PREFLOP_BTN_VS_3BET",
+      "policy_reason": "price_aware_defense",
+      "preflop_context": "VS_3BET",
+      "price_bb": 7.0,
+      "strength": 0.988,
+      "to_call": 475
+    },
+    {
+      "action": {
+        "action": "call"
+      },
+      "class": "AA",
+      "depth_bb": 100,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BTN_3BET",
+      "node_id": "PREFLOP_BTN_VS_3BET",
+      "policy_reason": "price_aware_defense",
+      "preflop_context": "VS_3BET",
+      "price_bb": 8.0,
+      "strength": 0.988,
+      "to_call": 575
+    },
+    {
+      "action": {
+        "action": "raise",
+        "amount": 200
+      },
+      "class": "AA",
+      "depth_bb": 20,
+      "facing_opponent_bet": false,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BTN_FIRST_IN",
+      "node_id": "PREFLOP_BTN_FIRST_IN",
+      "policy_reason": "button_first_in_baseline",
+      "preflop_context": "FIRST_IN",
+      "price_bb": null,
+      "strength": 0.988,
+      "to_call": 50
+    },
+    {
+      "action": {
+        "action": "raise",
+        "amount": 500
+      },
+      "class": "AA",
+      "depth_bb": 20,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BB_OPEN",
+      "node_id": "PREFLOP_BB_VS_OPEN",
+      "policy_reason": "premium_price_aware_3bet",
+      "preflop_context": "VS_OPEN",
+      "price_bb": 2.0,
+      "strength": 0.988,
+      "to_call": 100
+    },
+    {
+      "action": {
+        "action": "raise",
+        "amount": 550
+      },
+      "class": "AA",
+      "depth_bb": 20,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BB_OPEN",
+      "node_id": "PREFLOP_BB_VS_OPEN",
+      "policy_reason": "premium_price_aware_3bet",
+      "preflop_context": "VS_OPEN",
+      "price_bb": 2.25,
+      "strength": 0.988,
+      "to_call": 125
+    },
+    {
+      "action": {
+        "action": "raise",
+        "amount": 620
+      },
+      "class": "AA",
+      "depth_bb": 20,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BB_OPEN",
+      "node_id": "PREFLOP_BB_VS_OPEN",
+      "policy_reason": "premium_price_aware_3bet",
+      "preflop_context": "VS_OPEN",
+      "price_bb": 2.6,
+      "strength": 0.988,
+      "to_call": 160
+    },
+    {
+      "action": {
+        "action": "raise",
+        "amount": 1425
+      },
+      "class": "AA",
+      "depth_bb": 20,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BTN_3BET",
+      "node_id": "PREFLOP_BTN_VS_3BET",
+      "policy_reason": "premium_price_aware_3bet",
+      "preflop_context": "VS_3BET",
+      "price_bb": 6.0,
+      "strength": 0.988,
+      "to_call": 375
+    },
+    {
+      "action": {
+        "action": "call"
+      },
+      "class": "AA",
+      "depth_bb": 20,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BTN_3BET",
+      "node_id": "PREFLOP_BTN_VS_3BET",
+      "policy_reason": "price_aware_defense",
+      "preflop_context": "VS_3BET",
+      "price_bb": 7.0,
+      "strength": 0.988,
+      "to_call": 475
+    },
+    {
+      "action": {
+        "action": "call"
+      },
+      "class": "AA",
+      "depth_bb": 20,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BTN_3BET",
+      "node_id": "PREFLOP_BTN_VS_3BET",
+      "policy_reason": "price_aware_defense",
+      "preflop_context": "VS_3BET",
+      "price_bb": 8.0,
+      "strength": 0.988,
+      "to_call": 575
+    },
+    {
+      "action": {
+        "action": "raise",
+        "amount": 200
+      },
+      "class": "AKs",
+      "depth_bb": 100,
+      "facing_opponent_bet": false,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BTN_FIRST_IN",
+      "node_id": "PREFLOP_BTN_FIRST_IN",
+      "policy_reason": "button_first_in_baseline",
+      "preflop_context": "FIRST_IN",
+      "price_bb": null,
+      "strength": 0.85,
+      "to_call": 50
+    },
+    {
+      "action": {
+        "action": "raise",
+        "amount": 500
+      },
+      "class": "AKs",
+      "depth_bb": 100,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BB_OPEN",
+      "node_id": "PREFLOP_BB_VS_OPEN",
+      "policy_reason": "premium_price_aware_3bet",
+      "preflop_context": "VS_OPEN",
+      "price_bb": 2.0,
+      "strength": 0.85,
+      "to_call": 100
+    },
+    {
+      "action": {
+        "action": "raise",
+        "amount": 550
+      },
+      "class": "AKs",
+      "depth_bb": 100,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BB_OPEN",
+      "node_id": "PREFLOP_BB_VS_OPEN",
+      "policy_reason": "premium_price_aware_3bet",
+      "preflop_context": "VS_OPEN",
+      "price_bb": 2.25,
+      "strength": 0.85,
+      "to_call": 125
+    },
+    {
+      "action": {
+        "action": "raise",
+        "amount": 620
+      },
+      "class": "AKs",
+      "depth_bb": 100,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BB_OPEN",
+      "node_id": "PREFLOP_BB_VS_OPEN",
+      "policy_reason": "premium_price_aware_3bet",
+      "preflop_context": "VS_OPEN",
+      "price_bb": 2.6,
+      "strength": 0.85,
+      "to_call": 160
+    },
+    {
+      "action": {
+        "action": "raise",
+        "amount": 1425
+      },
+      "class": "AKs",
+      "depth_bb": 100,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BTN_3BET",
+      "node_id": "PREFLOP_BTN_VS_3BET",
+      "policy_reason": "premium_price_aware_3bet",
+      "preflop_context": "VS_3BET",
+      "price_bb": 6.0,
+      "strength": 0.85,
+      "to_call": 375
+    },
+    {
+      "action": {
+        "action": "call"
+      },
+      "class": "AKs",
+      "depth_bb": 100,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BTN_3BET",
+      "node_id": "PREFLOP_BTN_VS_3BET",
+      "policy_reason": "price_aware_defense",
+      "preflop_context": "VS_3BET",
+      "price_bb": 7.0,
+      "strength": 0.85,
+      "to_call": 475
+    },
+    {
+      "action": {
+        "action": "call"
+      },
+      "class": "AKs",
+      "depth_bb": 100,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BTN_3BET",
+      "node_id": "PREFLOP_BTN_VS_3BET",
+      "policy_reason": "price_aware_defense",
+      "preflop_context": "VS_3BET",
+      "price_bb": 8.0,
+      "strength": 0.85,
+      "to_call": 575
+    },
+    {
+      "action": {
+        "action": "raise",
+        "amount": 200
+      },
+      "class": "AKs",
+      "depth_bb": 20,
+      "facing_opponent_bet": false,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BTN_FIRST_IN",
+      "node_id": "PREFLOP_BTN_FIRST_IN",
+      "policy_reason": "button_first_in_baseline",
+      "preflop_context": "FIRST_IN",
+      "price_bb": null,
+      "strength": 0.85,
+      "to_call": 50
+    },
+    {
+      "action": {
+        "action": "raise",
+        "amount": 500
+      },
+      "class": "AKs",
+      "depth_bb": 20,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BB_OPEN",
+      "node_id": "PREFLOP_BB_VS_OPEN",
+      "policy_reason": "premium_price_aware_3bet",
+      "preflop_context": "VS_OPEN",
+      "price_bb": 2.0,
+      "strength": 0.85,
+      "to_call": 100
+    },
+    {
+      "action": {
+        "action": "raise",
+        "amount": 550
+      },
+      "class": "AKs",
+      "depth_bb": 20,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BB_OPEN",
+      "node_id": "PREFLOP_BB_VS_OPEN",
+      "policy_reason": "premium_price_aware_3bet",
+      "preflop_context": "VS_OPEN",
+      "price_bb": 2.25,
+      "strength": 0.85,
+      "to_call": 125
+    },
+    {
+      "action": {
+        "action": "raise",
+        "amount": 620
+      },
+      "class": "AKs",
+      "depth_bb": 20,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BB_OPEN",
+      "node_id": "PREFLOP_BB_VS_OPEN",
+      "policy_reason": "premium_price_aware_3bet",
+      "preflop_context": "VS_OPEN",
+      "price_bb": 2.6,
+      "strength": 0.85,
+      "to_call": 160
+    },
+    {
+      "action": {
+        "action": "raise",
+        "amount": 1425
+      },
+      "class": "AKs",
+      "depth_bb": 20,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BTN_3BET",
+      "node_id": "PREFLOP_BTN_VS_3BET",
+      "policy_reason": "premium_price_aware_3bet",
+      "preflop_context": "VS_3BET",
+      "price_bb": 6.0,
+      "strength": 0.85,
+      "to_call": 375
+    },
+    {
+      "action": {
+        "action": "call"
+      },
+      "class": "AKs",
+      "depth_bb": 20,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BTN_3BET",
+      "node_id": "PREFLOP_BTN_VS_3BET",
+      "policy_reason": "price_aware_defense",
+      "preflop_context": "VS_3BET",
+      "price_bb": 7.0,
+      "strength": 0.85,
+      "to_call": 475
+    },
+    {
+      "action": {
+        "action": "call"
+      },
+      "class": "AKs",
+      "depth_bb": 20,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BTN_3BET",
+      "node_id": "PREFLOP_BTN_VS_3BET",
+      "policy_reason": "price_aware_defense",
+      "preflop_context": "VS_3BET",
+      "price_bb": 8.0,
+      "strength": 0.85,
+      "to_call": 575
+    },
+    {
+      "action": {
+        "action": "raise",
+        "amount": 200
+      },
+      "class": "Q8o",
+      "depth_bb": 100,
+      "facing_opponent_bet": false,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BTN_FIRST_IN",
+      "node_id": "PREFLOP_BTN_FIRST_IN",
+      "policy_reason": "button_first_in_baseline",
+      "preflop_context": "FIRST_IN",
+      "price_bb": null,
+      "strength": 0.543,
+      "to_call": 50
+    },
+    {
+      "action": {
+        "action": "call"
+      },
+      "class": "Q8o",
+      "depth_bb": 100,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BB_OPEN",
+      "node_id": "PREFLOP_BB_VS_OPEN",
+      "policy_reason": "price_aware_defense",
+      "preflop_context": "VS_OPEN",
+      "price_bb": 2.0,
+      "strength": 0.543,
+      "to_call": 100
+    },
+    {
+      "action": {
+        "action": "call"
+      },
+      "class": "Q8o",
+      "depth_bb": 100,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BB_OPEN",
+      "node_id": "PREFLOP_BB_VS_OPEN",
+      "policy_reason": "price_aware_defense",
+      "preflop_context": "VS_OPEN",
+      "price_bb": 2.25,
+      "strength": 0.543,
+      "to_call": 125
+    },
+    {
+      "action": {
+        "action": "call"
+      },
+      "class": "Q8o",
+      "depth_bb": 100,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BB_OPEN",
+      "node_id": "PREFLOP_BB_VS_OPEN",
+      "policy_reason": "price_aware_defense",
+      "preflop_context": "VS_OPEN",
+      "price_bb": 2.6,
+      "strength": 0.543,
+      "to_call": 160
+    },
+    {
+      "action": {
+        "action": "call"
+      },
+      "class": "Q8o",
+      "depth_bb": 100,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BTN_3BET",
+      "node_id": "PREFLOP_BTN_VS_3BET",
+      "policy_reason": "price_aware_defense",
+      "preflop_context": "VS_3BET",
+      "price_bb": 6.0,
+      "strength": 0.543,
+      "to_call": 375
+    },
+    {
+      "action": {
+        "action": "call"
+      },
+      "class": "Q8o",
+      "depth_bb": 100,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BTN_3BET",
+      "node_id": "PREFLOP_BTN_VS_3BET",
+      "policy_reason": "price_aware_defense",
+      "preflop_context": "VS_3BET",
+      "price_bb": 7.0,
+      "strength": 0.543,
+      "to_call": 475
+    },
+    {
+      "action": {
+        "action": "call"
+      },
+      "class": "Q8o",
+      "depth_bb": 100,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BTN_3BET",
+      "node_id": "PREFLOP_BTN_VS_3BET",
+      "policy_reason": "price_aware_defense",
+      "preflop_context": "VS_3BET",
+      "price_bb": 8.0,
+      "strength": 0.543,
+      "to_call": 575
+    },
+    {
+      "action": {
+        "action": "raise",
+        "amount": 200
+      },
+      "class": "Q8o",
+      "depth_bb": 20,
+      "facing_opponent_bet": false,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BTN_FIRST_IN",
+      "node_id": "PREFLOP_BTN_FIRST_IN",
+      "policy_reason": "button_first_in_baseline",
+      "preflop_context": "FIRST_IN",
+      "price_bb": null,
+      "strength": 0.543,
+      "to_call": 50
+    },
+    {
+      "action": {
+        "action": "call"
+      },
+      "class": "Q8o",
+      "depth_bb": 20,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BB_OPEN",
+      "node_id": "PREFLOP_BB_VS_OPEN",
+      "policy_reason": "price_aware_defense",
+      "preflop_context": "VS_OPEN",
+      "price_bb": 2.0,
+      "strength": 0.543,
+      "to_call": 100
+    },
+    {
+      "action": {
+        "action": "call"
+      },
+      "class": "Q8o",
+      "depth_bb": 20,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BB_OPEN",
+      "node_id": "PREFLOP_BB_VS_OPEN",
+      "policy_reason": "price_aware_defense",
+      "preflop_context": "VS_OPEN",
+      "price_bb": 2.25,
+      "strength": 0.543,
+      "to_call": 125
+    },
+    {
+      "action": {
+        "action": "call"
+      },
+      "class": "Q8o",
+      "depth_bb": 20,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BB_OPEN",
+      "node_id": "PREFLOP_BB_VS_OPEN",
+      "policy_reason": "price_aware_defense",
+      "preflop_context": "VS_OPEN",
+      "price_bb": 2.6,
+      "strength": 0.543,
+      "to_call": 160
+    },
+    {
+      "action": {
+        "action": "call"
+      },
+      "class": "Q8o",
+      "depth_bb": 20,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BTN_3BET",
+      "node_id": "PREFLOP_BTN_VS_3BET",
+      "policy_reason": "price_aware_defense",
+      "preflop_context": "VS_3BET",
+      "price_bb": 6.0,
+      "strength": 0.543,
+      "to_call": 375
+    },
+    {
+      "action": {
+        "action": "call"
+      },
+      "class": "Q8o",
+      "depth_bb": 20,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BTN_3BET",
+      "node_id": "PREFLOP_BTN_VS_3BET",
+      "policy_reason": "price_aware_defense",
+      "preflop_context": "VS_3BET",
+      "price_bb": 7.0,
+      "strength": 0.543,
+      "to_call": 475
+    },
+    {
+      "action": {
+        "action": "call"
+      },
+      "class": "Q8o",
+      "depth_bb": 20,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BTN_3BET",
+      "node_id": "PREFLOP_BTN_VS_3BET",
+      "policy_reason": "price_aware_defense",
+      "preflop_context": "VS_3BET",
+      "price_bb": 8.0,
+      "strength": 0.543,
+      "to_call": 575
+    },
+    {
+      "action": {
+        "action": "raise",
+        "amount": 200
+      },
+      "class": "72o",
+      "depth_bb": 100,
+      "facing_opponent_bet": false,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BTN_FIRST_IN",
+      "node_id": "PREFLOP_BTN_FIRST_IN",
+      "policy_reason": "button_first_in_baseline",
+      "preflop_context": "FIRST_IN",
+      "price_bb": null,
+      "strength": 0.296,
+      "to_call": 50
+    },
+    {
+      "action": {
+        "action": "fold"
+      },
+      "class": "72o",
+      "depth_bb": 100,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BB_OPEN",
+      "node_id": "PREFLOP_BB_VS_OPEN",
+      "policy_reason": "price_aware_fold",
+      "preflop_context": "VS_OPEN",
+      "price_bb": 2.0,
+      "strength": 0.296,
+      "to_call": 100
+    },
+    {
+      "action": {
+        "action": "fold"
+      },
+      "class": "72o",
+      "depth_bb": 100,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BB_OPEN",
+      "node_id": "PREFLOP_BB_VS_OPEN",
+      "policy_reason": "price_aware_fold",
+      "preflop_context": "VS_OPEN",
+      "price_bb": 2.25,
+      "strength": 0.296,
+      "to_call": 125
+    },
+    {
+      "action": {
+        "action": "fold"
+      },
+      "class": "72o",
+      "depth_bb": 100,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BB_OPEN",
+      "node_id": "PREFLOP_BB_VS_OPEN",
+      "policy_reason": "price_aware_fold",
+      "preflop_context": "VS_OPEN",
+      "price_bb": 2.6,
+      "strength": 0.296,
+      "to_call": 160
+    },
+    {
+      "action": {
+        "action": "fold"
+      },
+      "class": "72o",
+      "depth_bb": 100,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BTN_3BET",
+      "node_id": "PREFLOP_BTN_VS_3BET",
+      "policy_reason": "price_aware_fold",
+      "preflop_context": "VS_3BET",
+      "price_bb": 6.0,
+      "strength": 0.296,
+      "to_call": 375
+    },
+    {
+      "action": {
+        "action": "fold"
+      },
+      "class": "72o",
+      "depth_bb": 100,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BTN_3BET",
+      "node_id": "PREFLOP_BTN_VS_3BET",
+      "policy_reason": "price_aware_fold",
+      "preflop_context": "VS_3BET",
+      "price_bb": 7.0,
+      "strength": 0.296,
+      "to_call": 475
+    },
+    {
+      "action": {
+        "action": "fold"
+      },
+      "class": "72o",
+      "depth_bb": 100,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BTN_3BET",
+      "node_id": "PREFLOP_BTN_VS_3BET",
+      "policy_reason": "price_aware_fold",
+      "preflop_context": "VS_3BET",
+      "price_bb": 8.0,
+      "strength": 0.296,
+      "to_call": 575
+    },
+    {
+      "action": {
+        "action": "raise",
+        "amount": 200
+      },
+      "class": "72o",
+      "depth_bb": 20,
+      "facing_opponent_bet": false,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BTN_FIRST_IN",
+      "node_id": "PREFLOP_BTN_FIRST_IN",
+      "policy_reason": "button_first_in_baseline",
+      "preflop_context": "FIRST_IN",
+      "price_bb": null,
+      "strength": 0.296,
+      "to_call": 50
+    },
+    {
+      "action": {
+        "action": "fold"
+      },
+      "class": "72o",
+      "depth_bb": 20,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BB_OPEN",
+      "node_id": "PREFLOP_BB_VS_OPEN",
+      "policy_reason": "price_aware_fold",
+      "preflop_context": "VS_OPEN",
+      "price_bb": 2.0,
+      "strength": 0.296,
+      "to_call": 100
+    },
+    {
+      "action": {
+        "action": "fold"
+      },
+      "class": "72o",
+      "depth_bb": 20,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BB_OPEN",
+      "node_id": "PREFLOP_BB_VS_OPEN",
+      "policy_reason": "price_aware_fold",
+      "preflop_context": "VS_OPEN",
+      "price_bb": 2.25,
+      "strength": 0.296,
+      "to_call": 125
+    },
+    {
+      "action": {
+        "action": "fold"
+      },
+      "class": "72o",
+      "depth_bb": 20,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BB_OPEN",
+      "node_id": "PREFLOP_BB_VS_OPEN",
+      "policy_reason": "price_aware_fold",
+      "preflop_context": "VS_OPEN",
+      "price_bb": 2.6,
+      "strength": 0.296,
+      "to_call": 160
+    },
+    {
+      "action": {
+        "action": "fold"
+      },
+      "class": "72o",
+      "depth_bb": 20,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BTN_3BET",
+      "node_id": "PREFLOP_BTN_VS_3BET",
+      "policy_reason": "price_aware_fold",
+      "preflop_context": "VS_3BET",
+      "price_bb": 6.0,
+      "strength": 0.296,
+      "to_call": 375
+    },
+    {
+      "action": {
+        "action": "fold"
+      },
+      "class": "72o",
+      "depth_bb": 20,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BTN_3BET",
+      "node_id": "PREFLOP_BTN_VS_3BET",
+      "policy_reason": "price_aware_fold",
+      "preflop_context": "VS_3BET",
+      "price_bb": 7.0,
+      "strength": 0.296,
+      "to_call": 475
+    },
+    {
+      "action": {
+        "action": "fold"
+      },
+      "class": "72o",
+      "depth_bb": 20,
+      "facing_opponent_bet": true,
+      "fallback_reason": null,
+      "legal": true,
+      "name": "BTN_3BET",
+      "node_id": "PREFLOP_BTN_VS_3BET",
+      "policy_reason": "price_aware_fold",
+      "preflop_context": "VS_3BET",
+      "price_bb": 8.0,
+      "strength": 0.296,
+      "to_call": 575
+    }
+  ]
+}

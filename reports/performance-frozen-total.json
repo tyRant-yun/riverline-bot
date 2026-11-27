@@ -1,0 +1,593 @@
+{
+  "schema_version": 1,
+  "candidate": "hu-river-v1.9.1-total",
+  "source": "frozen source total-time comparison",
+  "seed": 20260921,
+  "max_samples": 900,
+  "cases": [
+    "preflop_deep",
+    "preflop_short",
+    "preflop_3bet",
+    "flop_wet",
+    "turn_scare",
+    "river_high_loss",
+    "river_nuts",
+    "river_heavy_history"
+  ],
+  "summary": {
+    "stages_ms": {
+      "decision_total": {
+        "n": 24,
+        "p50": 12.1252,
+        "p95": 280.5718,
+        "p99": 280.7196,
+        "max": 280.7196
+      },
+      "legalized": {
+        "n": 24,
+        "p50": 12.1252,
+        "p95": 280.5718,
+        "p99": 280.7196,
+        "max": 280.7196
+      },
+      "wall_total": {
+        "n": 24,
+        "p50": 12.125,
+        "p95": 280.5717,
+        "p99": 280.7194,
+        "max": 280.7194
+      }
+    },
+    "rss_peak_bytes": 38465536,
+    "budget_ms": 450,
+    "cpu_limit": 0.5,
+    "memory_limit_bytes": 268435456,
+    "decision_count": 24,
+    "over_budget_count": 0,
+    "over_budget_rate": 0.0,
+    "complete_result_count": 21,
+    "complete_result_rate": 0.875,
+    "fallback_count": 0,
+    "rss_peak_mib": 36.683594,
+    "elapsed_mean_ms": 47.452821
+  },
+  "samples": [
+    {
+      "case": "preflop_deep",
+      "repeat": 0,
+      "phase": "preflop",
+      "stack_bb": 99.0,
+      "hand_number": 1,
+      "stages_ms": {
+        "legalized": 2.1608,
+        "decision_total": 2.1608,
+        "wall_total": 2.1608
+      },
+      "rss_peak_bytes": 37408768,
+      "budget_ms": 450,
+      "over_budget": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 22
+      },
+      "error": null,
+      "accounting_status": null
+    },
+    {
+      "case": "preflop_deep",
+      "repeat": 1,
+      "phase": "preflop",
+      "stack_bb": 99.0,
+      "hand_number": 1,
+      "stages_ms": {
+        "legalized": 1.7323,
+        "decision_total": 1.7323,
+        "wall_total": 1.732
+      },
+      "rss_peak_bytes": 37466112,
+      "budget_ms": 450,
+      "over_budget": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 22
+      },
+      "error": null,
+      "accounting_status": null
+    },
+    {
+      "case": "preflop_deep",
+      "repeat": 2,
+      "phase": "preflop",
+      "stack_bb": 99.0,
+      "hand_number": 1,
+      "stages_ms": {
+        "legalized": 1.6697,
+        "decision_total": 1.6697,
+        "wall_total": 1.6696
+      },
+      "rss_peak_bytes": 37490688,
+      "budget_ms": 450,
+      "over_budget": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 22
+      },
+      "error": null,
+      "accounting_status": null
+    },
+    {
+      "case": "preflop_short",
+      "repeat": 0,
+      "phase": "preflop",
+      "stack_bb": 9.0,
+      "hand_number": 1,
+      "stages_ms": {
+        "legalized": 1.7347,
+        "decision_total": 1.7347,
+        "wall_total": 1.7345
+      },
+      "rss_peak_bytes": 37494784,
+      "budget_ms": 450,
+      "over_budget": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 100
+      },
+      "error": null,
+      "accounting_status": null
+    },
+    {
+      "case": "preflop_short",
+      "repeat": 1,
+      "phase": "preflop",
+      "stack_bb": 9.0,
+      "hand_number": 1,
+      "stages_ms": {
+        "legalized": 1.6918,
+        "decision_total": 1.6918,
+        "wall_total": 1.6917
+      },
+      "rss_peak_bytes": 37507072,
+      "budget_ms": 450,
+      "over_budget": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 100
+      },
+      "error": null,
+      "accounting_status": null
+    },
+    {
+      "case": "preflop_short",
+      "repeat": 2,
+      "phase": "preflop",
+      "stack_bb": 9.0,
+      "hand_number": 1,
+      "stages_ms": {
+        "legalized": 1.7539,
+        "decision_total": 1.7539,
+        "wall_total": 1.7537
+      },
+      "rss_peak_bytes": 37507072,
+      "budget_ms": 450,
+      "over_budget": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 100
+      },
+      "error": null,
+      "accounting_status": null
+    },
+    {
+      "case": "preflop_3bet",
+      "repeat": 0,
+      "phase": "preflop",
+      "stack_bb": 91.0,
+      "hand_number": 1,
+      "stages_ms": {
+        "legalized": 4.2628,
+        "decision_total": 4.2628,
+        "wall_total": 4.2626
+      },
+      "rss_peak_bytes": 37564416,
+      "budget_ms": 450,
+      "over_budget": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "call"
+      },
+      "error": null,
+      "accounting_status": null
+    },
+    {
+      "case": "preflop_3bet",
+      "repeat": 1,
+      "phase": "preflop",
+      "stack_bb": 91.0,
+      "hand_number": 1,
+      "stages_ms": {
+        "legalized": 4.2957,
+        "decision_total": 4.2957,
+        "wall_total": 4.2954
+      },
+      "rss_peak_bytes": 37576704,
+      "budget_ms": 450,
+      "over_budget": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "call"
+      },
+      "error": null,
+      "accounting_status": null
+    },
+    {
+      "case": "preflop_3bet",
+      "repeat": 2,
+      "phase": "preflop",
+      "stack_bb": 91.0,
+      "hand_number": 1,
+      "stages_ms": {
+        "legalized": 4.2702,
+        "decision_total": 4.2702,
+        "wall_total": 4.27
+      },
+      "rss_peak_bytes": 37580800,
+      "budget_ms": 450,
+      "over_budget": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "call"
+      },
+      "error": null,
+      "accounting_status": null
+    },
+    {
+      "case": "flop_wet",
+      "repeat": 0,
+      "phase": "flop",
+      "stack_bb": 97.5,
+      "hand_number": 1,
+      "stages_ms": {
+        "legalized": 20.9515,
+        "decision_total": 20.9515,
+        "wall_total": 20.9513
+      },
+      "rss_peak_bytes": 37584896,
+      "budget_ms": 450,
+      "over_budget": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "check"
+      },
+      "error": null,
+      "accounting_status": null
+    },
+    {
+      "case": "flop_wet",
+      "repeat": 1,
+      "phase": "flop",
+      "stack_bb": 97.5,
+      "hand_number": 1,
+      "stages_ms": {
+        "legalized": 20.6872,
+        "decision_total": 20.6872,
+        "wall_total": 20.6869
+      },
+      "rss_peak_bytes": 37584896,
+      "budget_ms": 450,
+      "over_budget": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "check"
+      },
+      "error": null,
+      "accounting_status": null
+    },
+    {
+      "case": "flop_wet",
+      "repeat": 2,
+      "phase": "flop",
+      "stack_bb": 97.5,
+      "hand_number": 1,
+      "stages_ms": {
+        "legalized": 20.8619,
+        "decision_total": 20.8619,
+        "wall_total": 20.8617
+      },
+      "rss_peak_bytes": 37597184,
+      "budget_ms": 450,
+      "over_budget": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "check"
+      },
+      "error": null,
+      "accounting_status": null
+    },
+    {
+      "case": "turn_scare",
+      "repeat": 0,
+      "phase": "turn",
+      "stack_bb": 97.5,
+      "hand_number": 1,
+      "stages_ms": {
+        "legalized": 20.8925,
+        "decision_total": 20.8925,
+        "wall_total": 20.8923
+      },
+      "rss_peak_bytes": 37597184,
+      "budget_ms": 450,
+      "over_budget": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "check"
+      },
+      "error": null,
+      "accounting_status": null
+    },
+    {
+      "case": "turn_scare",
+      "repeat": 1,
+      "phase": "turn",
+      "stack_bb": 97.5,
+      "hand_number": 1,
+      "stages_ms": {
+        "legalized": 20.81,
+        "decision_total": 20.81,
+        "wall_total": 20.8098
+      },
+      "rss_peak_bytes": 37601280,
+      "budget_ms": 450,
+      "over_budget": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "check"
+      },
+      "error": null,
+      "accounting_status": null
+    },
+    {
+      "case": "turn_scare",
+      "repeat": 2,
+      "phase": "turn",
+      "stack_bb": 97.5,
+      "hand_number": 1,
+      "stages_ms": {
+        "legalized": 20.9089,
+        "decision_total": 20.9089,
+        "wall_total": 20.9087
+      },
+      "rss_peak_bytes": 37601280,
+      "budget_ms": 450,
+      "over_budget": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "check"
+      },
+      "error": null,
+      "accounting_status": null
+    },
+    {
+      "case": "river_high_loss",
+      "repeat": 0,
+      "phase": "river",
+      "stack_bb": 87.5,
+      "hand_number": 1,
+      "stages_ms": {
+        "legalized": 37.2093,
+        "decision_total": 37.2093,
+        "wall_total": 37.209
+      },
+      "rss_peak_bytes": 37601280,
+      "budget_ms": 450,
+      "over_budget": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "call"
+      },
+      "error": null,
+      "accounting_status": null
+    },
+    {
+      "case": "river_high_loss",
+      "repeat": 1,
+      "phase": "river",
+      "stack_bb": 87.5,
+      "hand_number": 1,
+      "stages_ms": {
+        "legalized": 36.9676,
+        "decision_total": 36.9676,
+        "wall_total": 36.9674
+      },
+      "rss_peak_bytes": 37683200,
+      "budget_ms": 450,
+      "over_budget": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "call"
+      },
+      "error": null,
+      "accounting_status": null
+    },
+    {
+      "case": "river_high_loss",
+      "repeat": 2,
+      "phase": "river",
+      "stack_bb": 87.5,
+      "hand_number": 1,
+      "stages_ms": {
+        "legalized": 38.3802,
+        "decision_total": 38.3802,
+        "wall_total": 38.3801
+      },
+      "rss_peak_bytes": 37691392,
+      "budget_ms": 450,
+      "over_budget": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "call"
+      },
+      "error": null,
+      "accounting_status": null
+    },
+    {
+      "case": "river_nuts",
+      "repeat": 0,
+      "phase": "river",
+      "stack_bb": 97.5,
+      "hand_number": 1,
+      "stages_ms": {
+        "legalized": 12.1252,
+        "decision_total": 12.1252,
+        "wall_total": 12.125
+      },
+      "rss_peak_bytes": 37695488,
+      "budget_ms": 450,
+      "over_budget": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 50
+      },
+      "error": null,
+      "accounting_status": null
+    },
+    {
+      "case": "river_nuts",
+      "repeat": 1,
+      "phase": "river",
+      "stack_bb": 97.5,
+      "hand_number": 1,
+      "stages_ms": {
+        "legalized": 11.9169,
+        "decision_total": 11.9169,
+        "wall_total": 11.9167
+      },
+      "rss_peak_bytes": 37695488,
+      "budget_ms": 450,
+      "over_budget": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 50
+      },
+      "error": null,
+      "accounting_status": null
+    },
+    {
+      "case": "river_nuts",
+      "repeat": 2,
+      "phase": "river",
+      "stack_bb": 97.5,
+      "hand_number": 1,
+      "stages_ms": {
+        "legalized": 11.9196,
+        "decision_total": 11.9196,
+        "wall_total": 11.9194
+      },
+      "rss_peak_bytes": 37695488,
+      "budget_ms": 450,
+      "over_budget": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 50
+      },
+      "error": null,
+      "accounting_status": null
+    },
+    {
+      "case": "river_heavy_history",
+      "repeat": 0,
+      "phase": "river",
+      "stack_bb": 87.5,
+      "hand_number": 700,
+      "stages_ms": {
+        "legalized": 280.3781,
+        "decision_total": 280.3781,
+        "wall_total": 280.378
+      },
+      "rss_peak_bytes": 38281216,
+      "budget_ms": 450,
+      "over_budget": false,
+      "fallback": false,
+      "complete_result": false,
+      "action": {
+        "action": "call"
+      },
+      "error": null,
+      "accounting_status": null
+    },
+    {
+      "case": "river_heavy_history",
+      "repeat": 1,
+      "phase": "river",
+      "stack_bb": 87.5,
+      "hand_number": 700,
+      "stages_ms": {
+        "legalized": 280.7196,
+        "decision_total": 280.7196,
+        "wall_total": 280.7194
+      },
+      "rss_peak_bytes": 38461440,
+      "budget_ms": 450,
+      "over_budget": false,
+      "fallback": false,
+      "complete_result": false,
+      "action": {
+        "action": "call"
+      },
+      "error": null,
+      "accounting_status": null
+    },
+    {
+      "case": "river_heavy_history",
+      "repeat": 2,
+      "phase": "river",
+      "stack_bb": 87.5,
+      "hand_number": 700,
+      "stages_ms": {
+        "legalized": 280.5718,
+        "decision_total": 280.5718,
+        "wall_total": 280.5717
+      },
+      "rss_peak_bytes": 38465536,
+      "budget_ms": 450,
+      "over_budget": false,
+      "fallback": false,
+      "complete_result": false,
+      "action": {
+        "action": "call"
+      },
+      "error": null,
+      "accounting_status": null
+    }
+  ]
+}

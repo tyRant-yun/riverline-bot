@@ -1,0 +1,9 @@
+*
+!Dockerfile
+!requirements.txt
+!bot.py
+!hu_bot/
+!hu_bot/*.py
+!hu_bot/*.json
+**/__pycache__
+**/*.pyc

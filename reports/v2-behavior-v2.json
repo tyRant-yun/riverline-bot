@@ -1,0 +1,73 @@
+{
+  "mode": "v2",
+  "rows": [
+    {
+      "fixture": 1,
+      "action": {
+        "action": "raise",
+        "amount": 25
+      },
+      "legal": true,
+      "reason": "premium_price_aware_3bet"
+    },
+    {
+      "fixture": 1,
+      "action": {
+        "action": "raise",
+        "amount": 21
+      },
+      "legal": true,
+      "reason": "button_first_in_baseline"
+    },
+    {
+      "fixture": 1,
+      "action": {
+        "action": "raise",
+        "amount": 80
+      },
+      "legal": true,
+      "reason": "premium_price_aware_3bet"
+    },
+    {
+      "fixture": 1,
+      "action": {
+        "action": "raise",
+        "amount": 16
+      },
+      "legal": true,
+      "reason": "positioned_baseline_bluff"
+    },
+    {
+      "fixture": 1,
+      "action": {
+        "action": "check"
+      },
+      "legal": true,
+      "reason": "out_of_position_air_control"
+    },
+    {
+      "fixture": 1,
+      "action": {
+        "action": "check"
+      },
+      "legal": true,
+      "reason": "paired_board_non_nut_flush_caution"
+    },
+    {
+      "fixture": 1,
+      "action": {
+        "action": "fold"
+      },
+      "legal": true,
+      "reason": "weak_facing_bet"
+    },
+    {
+      "fixture": 8,
+      "action": {
+        "action": "fold"
+      },
+      "legal": true,
+      "reason": "ledger_conflict_safe_baseline"
+    }
+  ]
+}

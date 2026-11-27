@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "rules": "fixed_100bb_no_ante_cash_hand_smoke",
+  "not_platform_tournament": true,
+  "results": [
+    {
+      "profile": "normal",
+      "opponent": "tight",
+      "seed": 11001,
+      "pairs": 8,
+      "hands": 16,
+      "bb_per_100": 25.624999999999996,
+      "normal_95_ci_bb_per_100": [
+        -18.840499266285093,
+        70.0904992662851
+      ],
+      "pair_net_bb_mean": [
+        0.0,
+        0.0,
+        -0.6000000000000001,
+        1.0,
+        0.75,
+        0.75,
+        -0.6000000000000001,
+        0.75
+      ],
+      "elapsed_seconds": 2.45,
+      "diagnostics": {
+        "decisions": 27,
+        "fallbacks": 0,
+        "strong_river_opportunities": 1,
+        "strong_river_checkbacks": 0,
+        "strong_river_checkback_rate": 0.0,
+        "marginal_large_raises": 0,
+        "latency_ms": {
+          "p50": 45.25,
+          "p95": 246.199,
+          "max": 291.507
+        },
+        "flags": [],
+        "limitations": "Heuristic decision flags; not solver EV or full-hand profitability."
+      },
+      "limitations": "Fixed 100BB cash hands against simple scripted baselines. Paired normal CI; no tournament win-rate, GTO strength, or exploitability claim."
+    },
+    {
+      "profile": "reverse_value",
+      "opponent": "aggressive",
+      "seed": 11002,
+      "pairs": 8,
+      "hands": 16,
+      "bb_per_100": 648.125,
+      "normal_95_ci_bb_per_100": [
+        -471.76114851019577,
+        1768.0111485101957
+      ],
+      "pair_net_bb_mean": [
+        -1.2999999999999998,
+        -1.6,
+        -1.85,
+        20.400000000000002,
+        -1.6,
+        41.6,
+        -1.7,
+        -2.1
+      ],
+      "elapsed_seconds": 7.3,
+      "diagnostics": {
+        "decisions": 48,
+        "fallbacks": 0,
+        "strong_river_opportunities": 0,
+        "strong_river_checkbacks": 0,
+        "strong_river_checkback_rate": null,
+        "marginal_large_raises": 0,
+        "latency_ms": {
+          "p50": 94.5925,
+          "p95": 332.906,
+          "max": 397.425
+        },
+        "flags": [],
+        "limitations": "Heuristic decision flags; not solver EV or full-hand profitability."
+      },
+      "limitations": "Fixed 100BB cash hands against simple scripted baselines. Paired normal CI; no tournament win-rate, GTO strength, or exploitability claim."
+    }
+  ],
+  "interpretation": "engineering smoke only; no strength or Swiss claim"
+}

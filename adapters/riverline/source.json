@@ -1,0 +1,15 @@
+{
+  "contract": "riverline-bot/1",
+  "files": {
+    "hu_bot/__init__.py": "c9288bec7aa8b82815063377875054a8f5f7763410f06ad2e9cad399a6bc80e4",
+    "hu_bot/poker.py": "f7552b3e2120a9036a84971badaed35b09f2f4c18d5ce4899629996f12e2ea04",
+    "hu_bot/v2_contracts.py": "0d332b538df482610b4683c799c6c6a4fc3bfa3888ec10c423309d3fb370bbcf",
+    "hu_bot/v2_policy.py": "b4a03e788a33b3e234513ddfa30eb87ea0e194979f68e40b058236da21043bac",
+    "hu_bot/v2_runtime.py": "1d09cf36483c2e33a831099fbc585edab7b62836fd29640b605f3b824f3957c2"
+  },
+  "id": "hu-v2.2.2-experimental",
+  "sourceArchiveSha256": "14d7fd7605df3063e8df2b18b51d63e185aeeee0fafa534ec4a8a0b1586ffd34",
+  "strategyStatus": "experimental-model-limited",
+  "strengthVerified": false,
+  "version": "2.2.2-final-r9"
+}

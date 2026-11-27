@@ -1,0 +1,927 @@
+{
+  "counters": {
+    "legal_remap": 1,
+    "range_out_of_scope": 6
+  },
+  "rows": [
+    {
+      "accounting": {
+        "authority": {
+          "max_raise": 1000,
+          "min_raise": 30,
+          "pot": 30,
+          "to_call": 10
+        },
+        "conflicts": [],
+        "hand_number": 1,
+        "hero_seat": 1,
+        "ledger": {
+          "authoritative_pot": 30,
+          "authoritative_to_call": 10,
+          "committed_by_seat": [
+            20,
+            10
+          ],
+          "conflicts": [],
+          "contestable_pot": 20,
+          "current_stacks": [
+            980,
+            990
+          ],
+          "hand_start_stacks": [
+            null,
+            null
+          ],
+          "payouts": [],
+          "potential_uncalled": 10,
+          "reconstructed_pot": 30,
+          "refunds": [],
+          "replay_to_call": 10,
+          "status": "consistent",
+          "street_bets_by_seat": [
+            20,
+            10
+          ]
+        },
+        "match_id": "independent-v110",
+        "phase": "preflop",
+        "request_id": "",
+        "round_id": "",
+        "rules": {
+          "ante": null,
+          "big_blind": 10,
+          "blind_schedule": [],
+          "evidence_uri": null,
+          "match_id": "independent-v110",
+          "num_players": null,
+          "rule_version": "unknown",
+          "schedule_source": "unknown",
+          "small_blind": null,
+          "source": "unknown",
+          "starting_stack": null,
+          "variant": null
+        },
+        "status": "consistent"
+      },
+      "action": {
+        "action": "call"
+      },
+      "case": "valid_preflop",
+      "elapsed_ms": 6.56,
+      "fallback": false,
+      "last_aggressor": 0,
+      "policy": {
+        "CALL": 0.92,
+        "FOLD": 0.08
+      },
+      "preflop_range": {
+        "applied": false,
+        "policy_l1": 0.0,
+        "research_window": false,
+        "status": "out_of_scope"
+      },
+      "strength": {
+        "action_value": null,
+        "low_bluff_prior_scope": null,
+        "node_key": null,
+        "resource": null,
+        "strategy_gate": {
+          "enabled": false,
+          "module": "v1.10_vertical_slice",
+          "passed": false,
+          "reason": "diagnostics_disabled"
+        }
+      },
+      "version": "1.10.1"
+    },
+    {
+      "accounting": {
+        "authority": {
+          "max_raise": 1000,
+          "min_raise": 190,
+          "pot": 110,
+          "to_call": 90
+        },
+        "conflicts": [
+          "pot_history_gap:30->110",
+          "to_call_history_gap:0->90"
+        ],
+        "hand_number": 1,
+        "hero_seat": 0,
+        "ledger": {
+          "authoritative_pot": 110,
+          "authoritative_to_call": 90,
+          "committed_by_seat": [
+            20,
+            10
+          ],
+          "conflicts": [
+            "pot_history_gap:30->110",
+            "to_call_history_gap:0->90"
+          ],
+          "contestable_pot": 20,
+          "current_stacks": [
+            900,
+            800
+          ],
+          "hand_start_stacks": [
+            null,
+            null
+          ],
+          "payouts": [],
+          "potential_uncalled": 10,
+          "reconstructed_pot": 30,
+          "refunds": [],
+          "replay_to_call": 0,
+          "status": "inconsistent",
+          "street_bets_by_seat": [
+            20,
+            10
+          ]
+        },
+        "match_id": "independent-v110",
+        "phase": "preflop",
+        "request_id": "",
+        "round_id": "",
+        "rules": {
+          "ante": null,
+          "big_blind": 10,
+          "blind_schedule": [],
+          "evidence_uri": null,
+          "match_id": "independent-v110",
+          "num_players": null,
+          "rule_version": "unknown",
+          "schedule_source": "unknown",
+          "small_blind": null,
+          "source": "unknown",
+          "starting_stack": null,
+          "variant": null
+        },
+        "status": "inconsistent"
+      },
+      "action": {
+        "action": "fold"
+      },
+      "case": "history_2bb_authority_10bb",
+      "elapsed_ms": 4.883,
+      "fallback": false,
+      "last_aggressor": 0,
+      "policy": {
+        "CALL": 0.008400000000000003,
+        "FOLD": 0.9916
+      },
+      "preflop_range": {
+        "applied": false,
+        "policy_l1": 0.0,
+        "research_window": false,
+        "status": "out_of_scope"
+      },
+      "strength": {
+        "action_value": null,
+        "low_bluff_prior_scope": null,
+        "node_key": null,
+        "resource": null,
+        "strategy_gate": {
+          "enabled": false,
+          "module": "v1.10_vertical_slice",
+          "passed": false,
+          "reason": "diagnostics_disabled"
+        }
+      },
+      "version": "1.10.1"
+    },
+    {
+      "accounting": {
+        "authority": {
+          "max_raise": 1000,
+          "min_raise": 30,
+          "pot": 130,
+          "to_call": 10
+        },
+        "conflicts": [
+          "pot_history_gap:30->130",
+          "to_call_history_gap:0->10"
+        ],
+        "hand_number": 1,
+        "hero_seat": 0,
+        "ledger": {
+          "authoritative_pot": 130,
+          "authoritative_to_call": 10,
+          "committed_by_seat": [
+            20,
+            10
+          ],
+          "conflicts": [
+            "pot_history_gap:30->130",
+            "to_call_history_gap:0->10"
+          ],
+          "contestable_pot": 20,
+          "current_stacks": [
+            990,
+            980
+          ],
+          "hand_start_stacks": [
+            null,
+            null
+          ],
+          "payouts": [],
+          "potential_uncalled": 10,
+          "reconstructed_pot": 30,
+          "refunds": [],
+          "replay_to_call": 0,
+          "status": "inconsistent",
+          "street_bets_by_seat": [
+            20,
+            10
+          ]
+        },
+        "match_id": "independent-v110",
+        "phase": "preflop",
+        "request_id": "",
+        "round_id": "",
+        "rules": {
+          "ante": null,
+          "big_blind": 10,
+          "blind_schedule": [],
+          "evidence_uri": null,
+          "match_id": "independent-v110",
+          "num_players": null,
+          "rule_version": "unknown",
+          "schedule_source": "unknown",
+          "small_blind": null,
+          "source": "unknown",
+          "starting_stack": null,
+          "variant": null
+        },
+        "status": "inconsistent"
+      },
+      "action": {
+        "action": "call"
+      },
+      "case": "pot_conflict",
+      "elapsed_ms": 4.732,
+      "fallback": false,
+      "last_aggressor": 0,
+      "policy": {
+        "CALL": 0.85,
+        "FOLD": 0.15
+      },
+      "preflop_range": {
+        "applied": false,
+        "policy_l1": 0.0,
+        "research_window": false,
+        "status": "out_of_scope"
+      },
+      "strength": {
+        "action_value": null,
+        "low_bluff_prior_scope": null,
+        "node_key": null,
+        "resource": null,
+        "strategy_gate": {
+          "enabled": false,
+          "module": "v1.10_vertical_slice",
+          "passed": false,
+          "reason": "diagnostics_disabled"
+        }
+      },
+      "version": "1.10.1"
+    },
+    {
+      "accounting": {
+        "authority": {
+          "max_raise": 20,
+          "min_raise": 80,
+          "pot": 15,
+          "to_call": 5
+        },
+        "conflicts": [
+          "authority:invalid_raise_bounds"
+        ],
+        "hand_number": 1,
+        "hero_seat": 0,
+        "ledger": {
+          "authoritative_pot": 15,
+          "authoritative_to_call": 5,
+          "committed_by_seat": [
+            5,
+            10
+          ],
+          "conflicts": [
+            "authority:invalid_raise_bounds"
+          ],
+          "contestable_pot": 10,
+          "current_stacks": [
+            995,
+            990
+          ],
+          "hand_start_stacks": [
+            null,
+            null
+          ],
+          "payouts": [],
+          "potential_uncalled": 5,
+          "reconstructed_pot": 15,
+          "refunds": [],
+          "replay_to_call": 5,
+          "status": "inconsistent",
+          "street_bets_by_seat": [
+            5,
+            10
+          ]
+        },
+        "match_id": "independent-v110",
+        "phase": "preflop",
+        "request_id": "",
+        "round_id": "",
+        "rules": {
+          "ante": null,
+          "big_blind": 10,
+          "blind_schedule": [],
+          "evidence_uri": null,
+          "match_id": "independent-v110",
+          "num_players": null,
+          "rule_version": "unknown",
+          "schedule_source": "unknown",
+          "small_blind": null,
+          "source": "unknown",
+          "starting_stack": null,
+          "variant": null
+        },
+        "status": "inconsistent"
+      },
+      "action": {
+        "action": "call"
+      },
+      "case": "invalid_raise_bounds",
+      "elapsed_ms": 1.468,
+      "fallback": true,
+      "last_aggressor": null,
+      "policy": {
+        "RAISE_SMALL": 1.0
+      },
+      "preflop_range": {
+        "applied": false,
+        "policy_l1": 0.0,
+        "research_window": false,
+        "status": "out_of_scope"
+      },
+      "strength": {
+        "action_value": null,
+        "low_bluff_prior_scope": null,
+        "node_key": null,
+        "resource": null,
+        "strategy_gate": {
+          "enabled": false,
+          "module": "v1.10_vertical_slice",
+          "passed": false,
+          "reason": "diagnostics_disabled"
+        }
+      },
+      "version": "1.10.1"
+    },
+    {
+      "accounting": {
+        "authority": {
+          "max_raise": 50,
+          "min_raise": 50,
+          "pot": 60,
+          "to_call": 50
+        },
+        "conflicts": [
+          "to_call_history_gap:0->50"
+        ],
+        "hand_number": 1,
+        "hero_seat": 0,
+        "ledger": {
+          "authoritative_pot": 60,
+          "authoritative_to_call": 50,
+          "committed_by_seat": [
+            50,
+            10
+          ],
+          "conflicts": [
+            "to_call_history_gap:0->50"
+          ],
+          "contestable_pot": 20,
+          "current_stacks": [
+            0,
+            50
+          ],
+          "hand_start_stacks": [
+            null,
+            null
+          ],
+          "payouts": [],
+          "potential_uncalled": 40,
+          "reconstructed_pot": 60,
+          "refunds": [],
+          "replay_to_call": 0,
+          "status": "inconsistent",
+          "street_bets_by_seat": [
+            50,
+            10
+          ]
+        },
+        "match_id": "independent-v110",
+        "phase": "preflop",
+        "request_id": "",
+        "round_id": "",
+        "rules": {
+          "ante": null,
+          "big_blind": 10,
+          "blind_schedule": [],
+          "evidence_uri": null,
+          "match_id": "independent-v110",
+          "num_players": null,
+          "rule_version": "unknown",
+          "schedule_source": "unknown",
+          "small_blind": null,
+          "source": "unknown",
+          "starting_stack": null,
+          "variant": null
+        },
+        "status": "inconsistent"
+      },
+      "action": {
+        "action": "raise",
+        "amount": 50
+      },
+      "case": "unequal_allin_unknown_refund",
+      "elapsed_ms": 4.424,
+      "fallback": false,
+      "last_aggressor": 0,
+      "policy": {
+        "ALL_IN": 1.0
+      },
+      "preflop_range": {
+        "applied": false,
+        "policy_l1": 0.0,
+        "research_window": false,
+        "status": "out_of_scope"
+      },
+      "strength": {
+        "action_value": null,
+        "low_bluff_prior_scope": null,
+        "node_key": null,
+        "resource": null,
+        "strategy_gate": {
+          "enabled": false,
+          "module": "v1.10_vertical_slice",
+          "passed": false,
+          "reason": "diagnostics_disabled"
+        }
+      },
+      "version": "1.10.1"
+    },
+    {
+      "accounting": {
+        "authority": {
+          "max_raise": 875,
+          "min_raise": 200,
+          "pot": 150,
+          "to_call": 100
+        },
+        "conflicts": [],
+        "hand_number": 720,
+        "hero_seat": 0,
+        "ledger": {
+          "authoritative_pot": 150,
+          "authoritative_to_call": 100,
+          "committed_by_seat": [
+            25,
+            125
+          ],
+          "conflicts": [],
+          "contestable_pot": 50,
+          "current_stacks": [
+            875,
+            875
+          ],
+          "hand_start_stacks": [
+            null,
+            null
+          ],
+          "payouts": [],
+          "potential_uncalled": 100,
+          "reconstructed_pot": 150,
+          "refunds": [],
+          "replay_to_call": 100,
+          "status": "consistent",
+          "street_bets_by_seat": [
+            0,
+            100
+          ]
+        },
+        "match_id": "independent-v110",
+        "phase": "river",
+        "request_id": "",
+        "round_id": "",
+        "rules": {
+          "ante": null,
+          "big_blind": 10,
+          "blind_schedule": [],
+          "evidence_uri": null,
+          "match_id": "independent-v110",
+          "num_players": null,
+          "rule_version": "unknown",
+          "schedule_source": "unknown",
+          "small_blind": null,
+          "source": "unknown",
+          "starting_stack": null,
+          "variant": null
+        },
+        "status": "consistent"
+      },
+      "action": {
+        "action": "call"
+      },
+      "case": "heavy_history_720",
+      "elapsed_ms": 287.255,
+      "fallback": false,
+      "last_aggressor": 0,
+      "policy": {
+        "CALL": 1.0
+      },
+      "preflop_range": {
+        "applied": false,
+        "policy_l1": 0.0,
+        "status": "not_preflop"
+      },
+      "strength": {
+        "action_value": null,
+        "low_bluff_prior_scope": null,
+        "node_key": null,
+        "resource": null,
+        "strategy_gate": {
+          "enabled": false,
+          "module": "v1.10_vertical_slice",
+          "passed": false,
+          "reason": "diagnostics_disabled"
+        }
+      },
+      "version": "1.10.1"
+    },
+    {
+      "accounting": {
+        "authority": {
+          "max_raise": 975,
+          "min_raise": 10,
+          "pot": 50,
+          "to_call": 0
+        },
+        "conflicts": [],
+        "hand_number": 1,
+        "hero_seat": 0,
+        "ledger": {
+          "authoritative_pot": 50,
+          "authoritative_to_call": 0,
+          "committed_by_seat": [
+            25,
+            25
+          ],
+          "conflicts": [],
+          "contestable_pot": 50,
+          "current_stacks": [
+            975,
+            975
+          ],
+          "hand_start_stacks": [
+            null,
+            null
+          ],
+          "payouts": [],
+          "potential_uncalled": 0,
+          "reconstructed_pot": 50,
+          "refunds": [],
+          "replay_to_call": 0,
+          "status": "consistent",
+          "street_bets_by_seat": [
+            0,
+            0
+          ]
+        },
+        "match_id": "independent-v110",
+        "phase": "river",
+        "request_id": "",
+        "round_id": "",
+        "rules": {
+          "ante": null,
+          "big_blind": 10,
+          "blind_schedule": [],
+          "evidence_uri": null,
+          "match_id": "independent-v110",
+          "num_players": null,
+          "rule_version": "unknown",
+          "schedule_source": "unknown",
+          "small_blind": null,
+          "source": "unknown",
+          "starting_stack": null,
+          "variant": null
+        },
+        "status": "consistent"
+      },
+      "action": {
+        "action": "raise",
+        "amount": 50
+      },
+      "case": "paired_river_sentinel",
+      "elapsed_ms": 262.517,
+      "fallback": false,
+      "last_aggressor": 0,
+      "policy": {
+        "BET_LARGE": 0.375,
+        "BET_MEDIUM": 0.125,
+        "BET_OVERBET": 0.5
+      },
+      "preflop_range": {
+        "applied": false,
+        "policy_l1": 0.0,
+        "status": "not_preflop"
+      },
+      "strength": {
+        "action_value": null,
+        "low_bluff_prior_scope": null,
+        "node_key": null,
+        "resource": null,
+        "strategy_gate": {
+          "enabled": false,
+          "module": "v1.10_vertical_slice",
+          "passed": false,
+          "reason": "diagnostics_disabled"
+        }
+      },
+      "version": "1.10.1"
+    },
+    {
+      "accounting": {
+        "authority": {
+          "max_raise": 875,
+          "min_raise": 300,
+          "pot": 200,
+          "to_call": 150
+        },
+        "conflicts": [],
+        "hand_number": 1,
+        "hero_seat": 0,
+        "ledger": {
+          "authoritative_pot": 200,
+          "authoritative_to_call": 150,
+          "committed_by_seat": [
+            25,
+            175
+          ],
+          "conflicts": [],
+          "contestable_pot": 50,
+          "current_stacks": [
+            825,
+            875
+          ],
+          "hand_start_stacks": [
+            null,
+            null
+          ],
+          "payouts": [],
+          "potential_uncalled": 150,
+          "reconstructed_pot": 200,
+          "refunds": [],
+          "replay_to_call": 150,
+          "status": "consistent",
+          "street_bets_by_seat": [
+            0,
+            150
+          ]
+        },
+        "match_id": "independent-v110",
+        "phase": "river",
+        "request_id": "",
+        "round_id": "",
+        "rules": {
+          "ante": null,
+          "big_blind": 10,
+          "blind_schedule": [],
+          "evidence_uri": null,
+          "match_id": "independent-v110",
+          "num_players": null,
+          "rule_version": "unknown",
+          "schedule_source": "unknown",
+          "small_blind": null,
+          "source": "unknown",
+          "starting_stack": null,
+          "variant": null
+        },
+        "status": "consistent"
+      },
+      "action": {
+        "action": "call"
+      },
+      "case": "river_large_active_bet",
+      "elapsed_ms": 288.035,
+      "fallback": false,
+      "last_aggressor": 0,
+      "policy": {
+        "CALL": 1.0
+      },
+      "preflop_range": {
+        "applied": false,
+        "policy_l1": 0.0,
+        "status": "not_preflop"
+      },
+      "strength": {
+        "action_value": null,
+        "low_bluff_prior_scope": null,
+        "node_key": null,
+        "resource": null,
+        "strategy_gate": {
+          "enabled": false,
+          "module": "v1.10_vertical_slice",
+          "passed": false,
+          "reason": "diagnostics_disabled"
+        }
+      },
+      "version": "1.10.1"
+    },
+    {
+      "accounting": {
+        "authority": {
+          "max_raise": 875,
+          "min_raise": 240,
+          "pot": 160,
+          "to_call": 120
+        },
+        "conflicts": [],
+        "hand_number": 1,
+        "hero_seat": 1,
+        "ledger": {
+          "authoritative_pot": 160,
+          "authoritative_to_call": 120,
+          "committed_by_seat": [
+            140,
+            20
+          ],
+          "conflicts": [],
+          "contestable_pot": 40,
+          "current_stacks": [
+            875,
+            855
+          ],
+          "hand_start_stacks": [
+            null,
+            null
+          ],
+          "payouts": [],
+          "potential_uncalled": 120,
+          "reconstructed_pot": 160,
+          "refunds": [],
+          "replay_to_call": 120,
+          "status": "consistent",
+          "street_bets_by_seat": [
+            120,
+            0
+          ]
+        },
+        "match_id": "independent-v110",
+        "phase": "river",
+        "request_id": "",
+        "round_id": "",
+        "rules": {
+          "ante": null,
+          "big_blind": 10,
+          "blind_schedule": [],
+          "evidence_uri": null,
+          "match_id": "independent-v110",
+          "num_players": null,
+          "rule_version": "unknown",
+          "schedule_source": "unknown",
+          "small_blind": null,
+          "source": "unknown",
+          "starting_stack": null,
+          "variant": null
+        },
+        "status": "consistent"
+      },
+      "action": {
+        "action": "call"
+      },
+      "case": "river_prior_scope_probe",
+      "elapsed_ms": 287.819,
+      "fallback": false,
+      "last_aggressor": 0,
+      "policy": {
+        "CALL": 1.0
+      },
+      "preflop_range": {
+        "applied": false,
+        "policy_l1": 0.0,
+        "status": "not_preflop"
+      },
+      "strength": {
+        "action_value": null,
+        "low_bluff_prior_scope": null,
+        "node_key": null,
+        "resource": null,
+        "strategy_gate": {
+          "enabled": false,
+          "module": "v1.10_vertical_slice",
+          "passed": false,
+          "reason": "diagnostics_disabled"
+        }
+      },
+      "version": "1.10.1"
+    },
+    {
+      "accounting": {
+        "authority": {
+          "max_raise": 10000,
+          "min_raise": 300,
+          "pot": 300,
+          "to_call": 100
+        },
+        "conflicts": [
+          "to_call_history_gap:0->100"
+        ],
+        "hand_number": 1,
+        "hero_seat": 0,
+        "ledger": {
+          "authoritative_pot": 300,
+          "authoritative_to_call": 100,
+          "committed_by_seat": [
+            200,
+            100
+          ],
+          "conflicts": [
+            "to_call_history_gap:0->100"
+          ],
+          "contestable_pot": 200,
+          "current_stacks": [
+            9700,
+            9600
+          ],
+          "hand_start_stacks": [
+            null,
+            null
+          ],
+          "payouts": [],
+          "potential_uncalled": 100,
+          "reconstructed_pot": 300,
+          "refunds": [],
+          "replay_to_call": 0,
+          "status": "inconsistent",
+          "street_bets_by_seat": [
+            200,
+            100
+          ]
+        },
+        "match_id": "independent-v110",
+        "phase": "preflop",
+        "request_id": "",
+        "round_id": "",
+        "rules": {
+          "ante": null,
+          "big_blind": 10,
+          "blind_schedule": [],
+          "evidence_uri": null,
+          "match_id": "independent-v110",
+          "num_players": null,
+          "rule_version": "unknown",
+          "schedule_source": "unknown",
+          "small_blind": null,
+          "source": "unknown",
+          "starting_stack": null,
+          "variant": null
+        },
+        "status": "inconsistent"
+      },
+      "action": {
+        "action": "call"
+      },
+      "case": "blind_100bb",
+      "elapsed_ms": 4.016,
+      "fallback": false,
+      "last_aggressor": 0,
+      "policy": {
+        "CALL": 0.85,
+        "FOLD": 0.15
+      },
+      "preflop_range": {
+        "applied": false,
+        "policy_l1": 0.0,
+        "research_window": false,
+        "status": "out_of_scope"
+      },
+      "strength": {
+        "action_value": null,
+        "low_bluff_prior_scope": null,
+        "node_key": null,
+        "resource": null,
+        "strategy_gate": {
+          "enabled": false,
+          "module": "v1.10_vertical_slice",
+          "passed": false,
+          "reason": "diagnostics_disabled"
+        }
+      },
+      "version": "1.10.1"
+    }
+  ],
+  "version": "1.10.1"
+}

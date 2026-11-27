@@ -1,0 +1,2913 @@
+{
+  "schema_version": 1,
+  "summary": {
+    "stages_ms": {
+      "decision_total": {
+        "n": 112,
+        "p50": 100.3816080000206,
+        "p95": 296.1801029999833,
+        "p99": 317.6430499999583
+      },
+      "equity": {
+        "n": 80,
+        "p50": 40.21711400002914,
+        "p95": 97.45879999996987,
+        "p99": 160.17985499996712
+      },
+      "features": {
+        "n": 112,
+        "p50": 0.09687499999699867,
+        "p95": 0.14667099998177946,
+        "p99": 0.17594400003417832
+      },
+      "legalized": {
+        "n": 112,
+        "p50": 0.016259000005902635,
+        "p95": 0.024725999992369907,
+        "p99": 0.041253999995660706
+      },
+      "normalized": {
+        "n": 112,
+        "p50": 0.21239599999489656,
+        "p95": 91.41255899999123,
+        "p99": 96.20055099998126
+      },
+      "policy": {
+        "n": 112,
+        "p50": 2.9180369999721734,
+        "p95": 5.54080699998849,
+        "p99": 53.680143999997654
+      },
+      "ranges": {
+        "n": 112,
+        "p50": 6.301760999974704,
+        "p95": 182.0921020000128,
+        "p99": 192.07684700000982
+      }
+    },
+    "candidate_version": "1.10.0",
+    "sample_count": 112,
+    "states": 7,
+    "repeats_per_state": 16,
+    "budget_ms": 450,
+    "cpu_limit": 0.5,
+    "memory_limit_mib": 256,
+    "wall_total_ms": {
+      "p50": 103.03771299999198,
+      "p95": 300.8562920000486,
+      "p99": 326.62961299996596,
+      "max": 352.24940699998797
+    },
+    "rss_peak_mib": 36.0703125,
+    "over_budget_count": 0,
+    "budget_truncated_count": 0,
+    "incomplete_range_count": 16,
+    "fallback_count": 0,
+    "complete_result_count": 96,
+    "same_state_unique_actions": 6,
+    "same_state_unique_actions_by_case": {
+      "flop_wet": 1,
+      "preflop_deep": 1,
+      "preflop_short": 1,
+      "river_heavy_history": 1,
+      "river_high_loss": 1,
+      "river_nuts": 1,
+      "turn_scare": 1
+    },
+    "same_state_action_sha256": "5585ad88903819467d75591531607401e908d5a0a61c9ed6171731ffe920d3c1"
+  },
+  "samples": [
+    {
+      "case": "preflop_deep",
+      "repeat": 0,
+      "phase": "preflop",
+      "stages_ms": {
+        "normalized": 0.27812100000801365,
+        "features": 0.01992400001427086,
+        "ranges": 1.4717349999955331,
+        "policy": 5.54080699998849,
+        "legalized": 0.02543900001228394,
+        "decision_total": 7.336026000018592
+      },
+      "wall_total_ms": 57.104623999975956,
+      "rss_peak_mib": 34.3203125,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 22
+      },
+      "error": null
+    },
+    {
+      "case": "preflop_deep",
+      "repeat": 1,
+      "phase": "preflop",
+      "stages_ms": {
+        "normalized": 0.1955650000127207,
+        "features": 0.021102000005157606,
+        "ranges": 1.2480639999807863,
+        "policy": 3.2917920000272716,
+        "legalized": 0.020250999966719974,
+        "decision_total": 4.776773999992656
+      },
+      "wall_total_ms": 7.817294999995283,
+      "rss_peak_mib": 34.3203125,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 22
+      },
+      "error": null
+    },
+    {
+      "case": "preflop_deep",
+      "repeat": 2,
+      "phase": "preflop",
+      "stages_ms": {
+        "normalized": 1.4678639999488041,
+        "features": 0.03490400001737726,
+        "ranges": 1.8746700000065175,
+        "policy": 2.956535000009808,
+        "legalized": 0.01672000001917695,
+        "decision_total": 6.350693000001684
+      },
+      "wall_total_ms": 10.044553000000178,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 22
+      },
+      "error": null
+    },
+    {
+      "case": "preflop_deep",
+      "repeat": 3,
+      "phase": "preflop",
+      "stages_ms": {
+        "normalized": 0.14867499999127176,
+        "features": 0.014649999968696648,
+        "ranges": 1.1604390000456988,
+        "policy": 2.9877779999765153,
+        "legalized": 0.015849000021717075,
+        "decision_total": 4.3273910000038995
+      },
+      "wall_total_ms": 7.2413590000337535,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 22
+      },
+      "error": null
+    },
+    {
+      "case": "preflop_deep",
+      "repeat": 4,
+      "phase": "preflop",
+      "stages_ms": {
+        "normalized": 0.14592500002663655,
+        "features": 0.013633999969897559,
+        "ranges": 1.129552000008971,
+        "policy": 3.296528000021226,
+        "legalized": 0.021790999994664162,
+        "decision_total": 4.607430000021395
+      },
+      "wall_total_ms": 7.6970250000272245,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 22
+      },
+      "error": null
+    },
+    {
+      "case": "preflop_deep",
+      "repeat": 5,
+      "phase": "preflop",
+      "stages_ms": {
+        "normalized": 0.1556140000502637,
+        "features": 0.01569599999129423,
+        "ranges": 1.211533999992298,
+        "policy": 3.0462889999967047,
+        "legalized": 0.0152279999952043,
+        "decision_total": 4.444361000025765
+      },
+      "wall_total_ms": 7.38838099999839,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 22
+      },
+      "error": null
+    },
+    {
+      "case": "preflop_deep",
+      "repeat": 6,
+      "phase": "preflop",
+      "stages_ms": {
+        "normalized": 0.13809099999662067,
+        "features": 0.013737000017499668,
+        "ranges": 1.1143610000203807,
+        "policy": 2.9756629999724282,
+        "legalized": 0.014808999992510508,
+        "decision_total": 4.25666099999944
+      },
+      "wall_total_ms": 57.99631799999361,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 22
+      },
+      "error": null
+    },
+    {
+      "case": "preflop_deep",
+      "repeat": 7,
+      "phase": "preflop",
+      "stages_ms": {
+        "normalized": 0.1662679999867578,
+        "features": 0.0172320000046966,
+        "ranges": 1.1429350000184968,
+        "policy": 3.2956849999550286,
+        "legalized": 0.020626000036827463,
+        "decision_total": 4.642746000001807
+      },
+      "wall_total_ms": 7.789268000010452,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 22
+      },
+      "error": null
+    },
+    {
+      "case": "preflop_deep",
+      "repeat": 8,
+      "phase": "preflop",
+      "stages_ms": {
+        "normalized": 0.16639000000395754,
+        "features": 0.017091000017899205,
+        "ranges": 1.2313110000263805,
+        "policy": 3.0899089999820717,
+        "legalized": 0.016997999978229927,
+        "decision_total": 4.521699000008539
+      },
+      "wall_total_ms": 7.4515739999583275,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 22
+      },
+      "error": null
+    },
+    {
+      "case": "preflop_deep",
+      "repeat": 9,
+      "phase": "preflop",
+      "stages_ms": {
+        "normalized": 0.16389099999969403,
+        "features": 0.01611699997283722,
+        "ranges": 1.0880400000132795,
+        "policy": 2.9463469999768677,
+        "legalized": 0.014667000016288512,
+        "decision_total": 4.229061999978967
+      },
+      "wall_total_ms": 7.150443999989875,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 22
+      },
+      "error": null
+    },
+    {
+      "case": "preflop_deep",
+      "repeat": 10,
+      "phase": "preflop",
+      "stages_ms": {
+        "normalized": 0.14120400004458133,
+        "features": 0.01373499998180705,
+        "ranges": 1.1423519999880227,
+        "policy": 2.887014000009458,
+        "legalized": 0.015189999999165593,
+        "decision_total": 4.199495000023035
+      },
+      "wall_total_ms": 7.569337999996151,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 22
+      },
+      "error": null
+    },
+    {
+      "case": "preflop_deep",
+      "repeat": 11,
+      "phase": "preflop",
+      "stages_ms": {
+        "normalized": 0.17455500000096436,
+        "features": 0.017720000016652193,
+        "ranges": 1.2143969999556248,
+        "policy": 2.999079000005622,
+        "legalized": 0.020941999991919147,
+        "decision_total": 4.426692999970783
+      },
+      "wall_total_ms": 7.37683099998776,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 22
+      },
+      "error": null
+    },
+    {
+      "case": "preflop_deep",
+      "repeat": 12,
+      "phase": "preflop",
+      "stages_ms": {
+        "normalized": 0.14936499997020292,
+        "features": 0.016248999997969804,
+        "ranges": 1.1718499999915366,
+        "policy": 2.9230229999939183,
+        "legalized": 0.01648100004558728,
+        "decision_total": 4.276967999999215
+      },
+      "wall_total_ms": 7.269022000002678,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 22
+      },
+      "error": null
+    },
+    {
+      "case": "preflop_deep",
+      "repeat": 13,
+      "phase": "preflop",
+      "stages_ms": {
+        "normalized": 0.15041700004303493,
+        "features": 0.01518199997008196,
+        "ranges": 51.77076500001476,
+        "policy": 3.2404959999894345,
+        "legalized": 0.021341000035590696,
+        "decision_total": 55.198201000052904
+      },
+      "wall_total_ms": 58.32362699999294,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 22
+      },
+      "error": null
+    },
+    {
+      "case": "preflop_deep",
+      "repeat": 14,
+      "phase": "preflop",
+      "stages_ms": {
+        "normalized": 0.16355899998643508,
+        "features": 0.01594500002966015,
+        "ranges": 1.3166909999995369,
+        "policy": 3.2993460000056984,
+        "legalized": 0.022177999994710262,
+        "decision_total": 4.817719000016041
+      },
+      "wall_total_ms": 8.002521999969758,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 22
+      },
+      "error": null
+    },
+    {
+      "case": "preflop_deep",
+      "repeat": 15,
+      "phase": "preflop",
+      "stages_ms": {
+        "normalized": 0.1637720000076115,
+        "features": 0.016178999999283405,
+        "ranges": 1.1630999999852065,
+        "policy": 3.052795000030528,
+        "legalized": 0.01977499999838983,
+        "decision_total": 4.415621000021019
+      },
+      "wall_total_ms": 7.4021439999683025,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 22
+      },
+      "error": null
+    },
+    {
+      "case": "preflop_short",
+      "repeat": 0,
+      "phase": "preflop",
+      "stages_ms": {
+        "normalized": 0.1477779999845552,
+        "features": 0.012151000021276559,
+        "ranges": 1.1450339999896642,
+        "policy": 3.0459650000125293,
+        "legalized": 0.014777999979287415,
+        "decision_total": 4.365705999987313
+      },
+      "wall_total_ms": 7.27136599999767,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 100
+      },
+      "error": null
+    },
+    {
+      "case": "preflop_short",
+      "repeat": 1,
+      "phase": "preflop",
+      "stages_ms": {
+        "normalized": 0.1604029999953127,
+        "features": 0.01355399996327833,
+        "ranges": 1.0765030000357,
+        "policy": 2.9180369999721734,
+        "legalized": 0.01273100002663341,
+        "decision_total": 4.181227999993098
+      },
+      "wall_total_ms": 7.09429200003342,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 100
+      },
+      "error": null
+    },
+    {
+      "case": "preflop_short",
+      "repeat": 2,
+      "phase": "preflop",
+      "stages_ms": {
+        "normalized": 0.1613839999663469,
+        "features": 0.012198000035823497,
+        "ranges": 1.0780889999750798,
+        "policy": 3.011324999988574,
+        "legalized": 0.013634000026740978,
+        "decision_total": 4.276629999992565
+      },
+      "wall_total_ms": 7.162963999974181,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 100
+      },
+      "error": null
+    },
+    {
+      "case": "preflop_short",
+      "repeat": 3,
+      "phase": "preflop",
+      "stages_ms": {
+        "normalized": 0.13870400005089323,
+        "features": 0.011798000002727349,
+        "ranges": 1.1163409999994656,
+        "policy": 2.9217729999686526,
+        "legalized": 0.013685999988410913,
+        "decision_total": 4.20230200001015
+      },
+      "wall_total_ms": 58.340614000030655,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 100
+      },
+      "error": null
+    },
+    {
+      "case": "preflop_short",
+      "repeat": 4,
+      "phase": "preflop",
+      "stages_ms": {
+        "normalized": 0.20259000001487948,
+        "features": 0.016076000008524716,
+        "ranges": 1.1908920000109902,
+        "policy": 3.3143999999651896,
+        "legalized": 0.017626000044401735,
+        "decision_total": 4.741584000043986
+      },
+      "wall_total_ms": 8.049973999959548,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 100
+      },
+      "error": null
+    },
+    {
+      "case": "preflop_short",
+      "repeat": 5,
+      "phase": "preflop",
+      "stages_ms": {
+        "normalized": 0.1647979999575,
+        "features": 0.014524000050641916,
+        "ranges": 1.22679399999015,
+        "policy": 3.4132220000060443,
+        "legalized": 0.021152999977402942,
+        "decision_total": 4.840490999981739
+      },
+      "wall_total_ms": 8.05068099998607,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 100
+      },
+      "error": null
+    },
+    {
+      "case": "preflop_short",
+      "repeat": 6,
+      "phase": "preflop",
+      "stages_ms": {
+        "normalized": 0.1787900000067566,
+        "features": 0.01733699997430449,
+        "ranges": 1.1926920000178143,
+        "policy": 3.0858259999604343,
+        "legalized": 0.01677900002050592,
+        "decision_total": 4.491423999979816
+      },
+      "wall_total_ms": 7.7587310000239995,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 100
+      },
+      "error": null
+    },
+    {
+      "case": "preflop_short",
+      "repeat": 7,
+      "phase": "preflop",
+      "stages_ms": {
+        "normalized": 0.16762100000278224,
+        "features": 0.01405300002943477,
+        "ranges": 1.3060050000035517,
+        "policy": 3.166362999991179,
+        "legalized": 0.019962000010309566,
+        "decision_total": 4.674004000037257
+      },
+      "wall_total_ms": 7.793096000000332,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 100
+      },
+      "error": null
+    },
+    {
+      "case": "preflop_short",
+      "repeat": 8,
+      "phase": "preflop",
+      "stages_ms": {
+        "normalized": 0.16452200003413964,
+        "features": 0.01480699995681789,
+        "ranges": 1.208092000013039,
+        "policy": 3.3918980000180454,
+        "legalized": 0.020473000006404618,
+        "decision_total": 4.799792000028447
+      },
+      "wall_total_ms": 7.954813000026206,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 100
+      },
+      "error": null
+    },
+    {
+      "case": "preflop_short",
+      "repeat": 9,
+      "phase": "preflop",
+      "stages_ms": {
+        "normalized": 0.16719600000669743,
+        "features": 0.01342799998838018,
+        "ranges": 1.2973849999866616,
+        "policy": 3.0565550000005715,
+        "legalized": 0.016928000036386948,
+        "decision_total": 4.551492000018698
+      },
+      "wall_total_ms": 58.509126999979344,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 100
+      },
+      "error": null
+    },
+    {
+      "case": "preflop_short",
+      "repeat": 10,
+      "phase": "preflop",
+      "stages_ms": {
+        "normalized": 0.17749300002378732,
+        "features": 0.014951999958157103,
+        "ranges": 1.1804540000071029,
+        "policy": 3.2559300000229996,
+        "legalized": 0.01708700000335739,
+        "decision_total": 4.645916000015404
+      },
+      "wall_total_ms": 8.00734099999545,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 100
+      },
+      "error": null
+    },
+    {
+      "case": "preflop_short",
+      "repeat": 11,
+      "phase": "preflop",
+      "stages_ms": {
+        "normalized": 0.170774999958212,
+        "features": 0.014652000004389265,
+        "ranges": 1.2177579999956833,
+        "policy": 3.2371290000128283,
+        "legalized": 0.018251000028612907,
+        "decision_total": 4.658564999999726
+      },
+      "wall_total_ms": 7.76122799999257,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 100
+      },
+      "error": null
+    },
+    {
+      "case": "preflop_short",
+      "repeat": 12,
+      "phase": "preflop",
+      "stages_ms": {
+        "normalized": 0.15946600001370825,
+        "features": 0.013158000001567416,
+        "ranges": 1.1477279999780876,
+        "policy": 3.082769999991797,
+        "legalized": 0.019882000003690337,
+        "decision_total": 4.42300399998885
+      },
+      "wall_total_ms": 7.573089999993954,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 100
+      },
+      "error": null
+    },
+    {
+      "case": "preflop_short",
+      "repeat": 13,
+      "phase": "preflop",
+      "stages_ms": {
+        "normalized": 0.15629799997896043,
+        "features": 0.013114000012137694,
+        "ranges": 1.2531500000250162,
+        "policy": 3.1875089999857664,
+        "legalized": 0.017247000016595848,
+        "decision_total": 4.627318000018477
+      },
+      "wall_total_ms": 7.994231999987278,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 100
+      },
+      "error": null
+    },
+    {
+      "case": "preflop_short",
+      "repeat": 14,
+      "phase": "preflop",
+      "stages_ms": {
+        "normalized": 0.1588130000413912,
+        "features": 0.013736999960656249,
+        "ranges": 1.238010999998096,
+        "policy": 5.952723000007154,
+        "legalized": 0.02224700000397206,
+        "decision_total": 7.3855310000112695
+      },
+      "wall_total_ms": 10.493289999999433,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 100
+      },
+      "error": null
+    },
+    {
+      "case": "preflop_short",
+      "repeat": 15,
+      "phase": "preflop",
+      "stages_ms": {
+        "normalized": 0.15628900001729562,
+        "features": 0.013341999988369935,
+        "ranges": 1.186248000010437,
+        "policy": 3.2061489999932746,
+        "legalized": 0.01415600002019346,
+        "decision_total": 4.576184000029571
+      },
+      "wall_total_ms": 54.509778000010556,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 100
+      },
+      "error": null
+    },
+    {
+      "case": "flop_wet",
+      "repeat": 0,
+      "phase": "flop",
+      "stages_ms": {
+        "normalized": 0.2228259999697002,
+        "features": 0.19680000002608722,
+        "ranges": 6.307316000004448,
+        "equity": 39.57384899996441,
+        "policy": 53.680143999997654,
+        "legalized": 0.02314800002523043,
+        "decision_total": 100.00408299998753
+      },
+      "wall_total_ms": 102.81789700002264,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 33
+      },
+      "error": null
+    },
+    {
+      "case": "flop_wet",
+      "repeat": 1,
+      "phase": "flop",
+      "stages_ms": {
+        "normalized": 0.20019600003706728,
+        "features": 0.10572399997954562,
+        "ranges": 6.171820000020034,
+        "equity": 89.98357399997303,
+        "policy": 2.7727970000341884,
+        "legalized": 0.019245999965278315,
+        "decision_total": 99.25335700000915
+      },
+      "wall_total_ms": 101.95980600002486,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 33
+      },
+      "error": null
+    },
+    {
+      "case": "flop_wet",
+      "repeat": 2,
+      "phase": "flop",
+      "stages_ms": {
+        "normalized": 0.23033899998381457,
+        "features": 0.1040900000361944,
+        "ranges": 6.716836999999032,
+        "equity": 91.52829399999973,
+        "policy": 2.662152999960199,
+        "legalized": 0.01876000004585876,
+        "decision_total": 101.26047300002483
+      },
+      "wall_total_ms": 103.91665400004513,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 33
+      },
+      "error": null
+    },
+    {
+      "case": "flop_wet",
+      "repeat": 3,
+      "phase": "flop",
+      "stages_ms": {
+        "normalized": 0.19618200002469166,
+        "features": 0.09628099996916717,
+        "ranges": 6.445294999991802,
+        "equity": 90.75423199999477,
+        "policy": 2.744822000011027,
+        "legalized": 0.019050999981118366,
+        "decision_total": 100.25586299997258
+      },
+      "wall_total_ms": 102.90931499997669,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 33
+      },
+      "error": null
+    },
+    {
+      "case": "flop_wet",
+      "repeat": 4,
+      "phase": "flop",
+      "stages_ms": {
+        "normalized": 0.19316200001640027,
+        "features": 0.0968869999837807,
+        "ranges": 6.0308989999953155,
+        "equity": 90.73828200001799,
+        "policy": 2.684814000019742,
+        "legalized": 0.020281999979943066,
+        "decision_total": 99.76432600001317
+      },
+      "wall_total_ms": 102.48718100001497,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 33
+      },
+      "error": null
+    },
+    {
+      "case": "flop_wet",
+      "repeat": 5,
+      "phase": "flop",
+      "stages_ms": {
+        "normalized": 0.2009879999604891,
+        "features": 0.14444800001456315,
+        "ranges": 6.105994999984432,
+        "equity": 86.31215600001951,
+        "policy": 2.6977339999803007,
+        "legalized": 0.02171400001316215,
+        "decision_total": 95.48303499997246
+      },
+      "wall_total_ms": 98.22635000000446,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 33
+      },
+      "error": null
+    },
+    {
+      "case": "flop_wet",
+      "repeat": 6,
+      "phase": "flop",
+      "stages_ms": {
+        "normalized": 0.19673299999567462,
+        "features": 0.09615600004053704,
+        "ranges": 6.126695999967069,
+        "equity": 91.2406110000461,
+        "policy": 2.7025619999676564,
+        "legalized": 0.018850000003567402,
+        "decision_total": 100.3816080000206
+      },
+      "wall_total_ms": 103.03771299999198,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 33
+      },
+      "error": null
+    },
+    {
+      "case": "flop_wet",
+      "repeat": 7,
+      "phase": "flop",
+      "stages_ms": {
+        "normalized": 0.22692100003496307,
+        "features": 0.10093700001334582,
+        "ranges": 6.113156999958846,
+        "equity": 93.77542600003608,
+        "policy": 2.7861689999895134,
+        "legalized": 0.019723999969301076,
+        "decision_total": 103.02233400000205
+      },
+      "wall_total_ms": 105.67458600002055,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 33
+      },
+      "error": null
+    },
+    {
+      "case": "flop_wet",
+      "repeat": 8,
+      "phase": "flop",
+      "stages_ms": {
+        "normalized": 0.2202959999522136,
+        "features": 0.09925700004487226,
+        "ranges": 6.07824299999038,
+        "equity": 95.8458949999681,
+        "policy": 2.733020000050601,
+        "legalized": 0.02009699994687253,
+        "decision_total": 104.99680799995303
+      },
+      "wall_total_ms": 107.67738500004498,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 33
+      },
+      "error": null
+    },
+    {
+      "case": "flop_wet",
+      "repeat": 9,
+      "phase": "flop",
+      "stages_ms": {
+        "normalized": 0.19509200001266436,
+        "features": 0.09788199997728952,
+        "ranges": 6.074884000042857,
+        "equity": 93.07004699996924,
+        "policy": 2.778099000011025,
+        "legalized": 0.020398000003751804,
+        "decision_total": 102.23640200001682
+      },
+      "wall_total_ms": 105.05016799999112,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 33
+      },
+      "error": null
+    },
+    {
+      "case": "flop_wet",
+      "repeat": 10,
+      "phase": "flop",
+      "stages_ms": {
+        "normalized": 0.21266300001343552,
+        "features": 0.10900699999183416,
+        "ranges": 6.183080000027985,
+        "equity": 93.23296799999525,
+        "policy": 2.8080999999815504,
+        "legalized": 0.021079000021018146,
+        "decision_total": 102.56689700003108
+      },
+      "wall_total_ms": 105.31185599995752,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 33
+      },
+      "error": null
+    },
+    {
+      "case": "flop_wet",
+      "repeat": 11,
+      "phase": "flop",
+      "stages_ms": {
+        "normalized": 0.20476099996358244,
+        "features": 0.10311700003740043,
+        "ranges": 6.363030999978037,
+        "equity": 89.4872569999734,
+        "policy": 2.7892120000387877,
+        "legalized": 0.02203100001452185,
+        "decision_total": 98.96940900000573
+      },
+      "wall_total_ms": 101.69801600000028,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 33
+      },
+      "error": null
+    },
+    {
+      "case": "flop_wet",
+      "repeat": 12,
+      "phase": "flop",
+      "stages_ms": {
+        "normalized": 0.20912100001169165,
+        "features": 0.10374999999385182,
+        "ranges": 57.73571599996785,
+        "equity": 41.68046699999195,
+        "policy": 2.9160920000208534,
+        "legalized": 0.023530000021310116,
+        "decision_total": 102.66867600000751
+      },
+      "wall_total_ms": 156.33090199997923,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 33
+      },
+      "error": null
+    },
+    {
+      "case": "flop_wet",
+      "repeat": 13,
+      "phase": "flop",
+      "stages_ms": {
+        "normalized": 0.2217719999748624,
+        "features": 0.11187600000539533,
+        "ranges": 6.407143999979326,
+        "equity": 39.590148000002046,
+        "policy": 54.38433800003395,
+        "legalized": 0.030268999978488864,
+        "decision_total": 100.74554699997407
+      },
+      "wall_total_ms": 104.34710399999858,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 33
+      },
+      "error": null
+    },
+    {
+      "case": "flop_wet",
+      "repeat": 14,
+      "phase": "flop",
+      "stages_ms": {
+        "normalized": 0.27949699995133415,
+        "features": 0.12490700004263999,
+        "ranges": 7.991503999960514,
+        "equity": 101.02519600002324,
+        "policy": 2.7383209999811697,
+        "legalized": 0.02051500001698514,
+        "decision_total": 112.17993999997589
+      },
+      "wall_total_ms": 114.93261500004337,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 33
+      },
+      "error": null
+    },
+    {
+      "case": "flop_wet",
+      "repeat": 15,
+      "phase": "flop",
+      "stages_ms": {
+        "normalized": 0.2022119999764982,
+        "features": 0.10056100001065715,
+        "ranges": 6.618863999960922,
+        "equity": 92.77008700001943,
+        "policy": 2.91629999998122,
+        "legalized": 0.023576000046432455,
+        "decision_total": 102.63159999999516
+      },
+      "wall_total_ms": 105.44652800001586,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 33
+      },
+      "error": null
+    },
+    {
+      "case": "turn_scare",
+      "repeat": 0,
+      "phase": "turn",
+      "stages_ms": {
+        "normalized": 0.21239599999489656,
+        "features": 0.09828200001038567,
+        "ranges": 6.301760999974704,
+        "equity": 91.006157000038,
+        "policy": 2.8199060000133613,
+        "legalized": 0.01448799997660899,
+        "decision_total": 100.45299000000796
+      },
+      "wall_total_ms": 103.26217199997245,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "check"
+      },
+      "error": null
+    },
+    {
+      "case": "turn_scare",
+      "repeat": 1,
+      "phase": "turn",
+      "stages_ms": {
+        "normalized": 0.20261499997786814,
+        "features": 0.09812799999053823,
+        "ranges": 6.82793000004267,
+        "equity": 91.17741199997909,
+        "policy": 2.5935019999678843,
+        "legalized": 0.013828000021476328,
+        "decision_total": 100.91341499997952
+      },
+      "wall_total_ms": 103.50594500005172,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "check"
+      },
+      "error": null
+    },
+    {
+      "case": "turn_scare",
+      "repeat": 2,
+      "phase": "turn",
+      "stages_ms": {
+        "normalized": 0.20578099997692334,
+        "features": 0.09805000001961162,
+        "ranges": 6.097934000024452,
+        "equity": 160.17985499996712,
+        "policy": 2.9951960000289546,
+        "legalized": 0.013670999976511666,
+        "decision_total": 169.59048699999357
+      },
+      "wall_total_ms": 172.36227900002632,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "check"
+      },
+      "error": null
+    },
+    {
+      "case": "turn_scare",
+      "repeat": 3,
+      "phase": "turn",
+      "stages_ms": {
+        "normalized": 0.2573159999883501,
+        "features": 0.1543490000130987,
+        "ranges": 7.238417999985813,
+        "equity": 95.45855600003961,
+        "policy": 4.109505999963403,
+        "legalized": 0.019198000018150196,
+        "decision_total": 107.23734300000842
+      },
+      "wall_total_ms": 111.38268100000914,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "check"
+      },
+      "error": null
+    },
+    {
+      "case": "turn_scare",
+      "repeat": 4,
+      "phase": "turn",
+      "stages_ms": {
+        "normalized": 0.30763099999830956,
+        "features": 0.14485900004501673,
+        "ranges": 9.627136000005976,
+        "equity": 98.4181919999969,
+        "policy": 2.6899490000005244,
+        "legalized": 0.013533999947412667,
+        "decision_total": 111.20130099999415
+      },
+      "wall_total_ms": 113.7721709999937,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "check"
+      },
+      "error": null
+    },
+    {
+      "case": "turn_scare",
+      "repeat": 5,
+      "phase": "turn",
+      "stages_ms": {
+        "normalized": 0.2080430000432898,
+        "features": 0.09584099996118312,
+        "ranges": 6.142115000045578,
+        "equity": 92.99747699998306,
+        "policy": 2.7074459999880673,
+        "legalized": 0.015153999981976085,
+        "decision_total": 102.16607600000316
+      },
+      "wall_total_ms": 104.82811400004266,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "check"
+      },
+      "error": null
+    },
+    {
+      "case": "turn_scare",
+      "repeat": 6,
+      "phase": "turn",
+      "stages_ms": {
+        "normalized": 0.21857899997712593,
+        "features": 0.10240199998179378,
+        "ranges": 6.755846000032761,
+        "equity": 97.45879999996987,
+        "policy": 3.207620000011957,
+        "legalized": 0.016130999995311868,
+        "decision_total": 107.75937799996882
+      },
+      "wall_total_ms": 161.59996500005036,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "check"
+      },
+      "error": null
+    },
+    {
+      "case": "turn_scare",
+      "repeat": 7,
+      "phase": "turn",
+      "stages_ms": {
+        "normalized": 0.23017600000230232,
+        "features": 0.11329400001613976,
+        "ranges": 6.404098999951202,
+        "equity": 40.21711400002914,
+        "policy": 53.474788000016815,
+        "legalized": 0.015483999959542416,
+        "decision_total": 100.45495499997514
+      },
+      "wall_total_ms": 103.29294100000652,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "check"
+      },
+      "error": null
+    },
+    {
+      "case": "turn_scare",
+      "repeat": 8,
+      "phase": "turn",
+      "stages_ms": {
+        "normalized": 0.21657199999935983,
+        "features": 0.10358699995549614,
+        "ranges": 6.092703000035726,
+        "equity": 90.89948399997638,
+        "policy": 2.805356000010306,
+        "legalized": 0.01440699998056516,
+        "decision_total": 100.13210899995784
+      },
+      "wall_total_ms": 102.8032920000328,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "check"
+      },
+      "error": null
+    },
+    {
+      "case": "turn_scare",
+      "repeat": 9,
+      "phase": "turn",
+      "stages_ms": {
+        "normalized": 0.22120700003824822,
+        "features": 0.10127799998826958,
+        "ranges": 7.230742999979611,
+        "equity": 91.32591000002321,
+        "policy": 2.916274999961388,
+        "legalized": 0.016259000005902635,
+        "decision_total": 101.81167199999663
+      },
+      "wall_total_ms": 104.44354600002725,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "check"
+      },
+      "error": null
+    },
+    {
+      "case": "turn_scare",
+      "repeat": 10,
+      "phase": "turn",
+      "stages_ms": {
+        "normalized": 0.21000000003823516,
+        "features": 0.12146099999199578,
+        "ranges": 7.109094999975696,
+        "equity": 90.77842200002806,
+        "policy": 2.6385569999547442,
+        "legalized": 0.0140640000267922,
+        "decision_total": 100.87159900001552
+      },
+      "wall_total_ms": 103.41877499996599,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "check"
+      },
+      "error": null
+    },
+    {
+      "case": "turn_scare",
+      "repeat": 11,
+      "phase": "turn",
+      "stages_ms": {
+        "normalized": 0.2041770000005272,
+        "features": 0.09658999999828666,
+        "ranges": 6.107799000005798,
+        "equity": 98.44307599996682,
+        "policy": 3.773977000037121,
+        "legalized": 0.0173039999822322,
+        "decision_total": 108.64292299999079
+      },
+      "wall_total_ms": 112.0026080000116,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "check"
+      },
+      "error": null
+    },
+    {
+      "case": "turn_scare",
+      "repeat": 12,
+      "phase": "turn",
+      "stages_ms": {
+        "normalized": 0.2387110000086068,
+        "features": 0.11093199998413183,
+        "ranges": 6.387716000006094,
+        "equity": 93.53993700000274,
+        "policy": 2.632815000026767,
+        "legalized": 0.014615999987199757,
+        "decision_total": 102.92472700001554
+      },
+      "wall_total_ms": 105.49619900001517,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "check"
+      },
+      "error": null
+    },
+    {
+      "case": "turn_scare",
+      "repeat": 13,
+      "phase": "turn",
+      "stages_ms": {
+        "normalized": 0.20686300001671043,
+        "features": 0.09673299996393325,
+        "ranges": 6.090785000026244,
+        "equity": 92.39403899999843,
+        "policy": 2.607172000011815,
+        "legalized": 0.014197999973930564,
+        "decision_total": 101.40978999999106
+      },
+      "wall_total_ms": 104.04360100000076,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "check"
+      },
+      "error": null
+    },
+    {
+      "case": "turn_scare",
+      "repeat": 14,
+      "phase": "turn",
+      "stages_ms": {
+        "normalized": 0.21000499998535815,
+        "features": 0.09601900001143804,
+        "ranges": 6.105524000020068,
+        "equity": 92.83587800001669,
+        "policy": 3.068073999997978,
+        "legalized": 0.013841999987107556,
+        "decision_total": 102.32934200001864
+      },
+      "wall_total_ms": 105.30329300001995,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "check"
+      },
+      "error": null
+    },
+    {
+      "case": "turn_scare",
+      "repeat": 15,
+      "phase": "turn",
+      "stages_ms": {
+        "normalized": 0.26078299998744114,
+        "features": 0.12486200000694225,
+        "ranges": 58.59133300003805,
+        "equity": 44.99968799996168,
+        "policy": 2.550668000026235,
+        "legalized": 0.013281999997616367,
+        "decision_total": 106.54061600001796
+      },
+      "wall_total_ms": 156.12125900003093,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "check"
+      },
+      "error": null
+    },
+    {
+      "case": "river_high_loss",
+      "repeat": 0,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 0.2300009999771646,
+        "features": 0.1090860000090288,
+        "ranges": 119.4886110000084,
+        "equity": 21.407825999972374,
+        "policy": 2.560344000016812,
+        "legalized": 0.014905000000453583,
+        "decision_total": 143.81077299998424
+      },
+      "wall_total_ms": 146.23350699997673,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "call"
+      },
+      "error": null
+    },
+    {
+      "case": "river_high_loss",
+      "repeat": 1,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 0.25217000001021006,
+        "features": 0.09970100001055471,
+        "ranges": 174.16913999994676,
+        "equity": 19.939182000030087,
+        "policy": 2.6100069999870357,
+        "legalized": 0.013841999987107556,
+        "decision_total": 197.08404199997176
+      },
+      "wall_total_ms": 199.6100260000162,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "call"
+      },
+      "error": null
+    },
+    {
+      "case": "river_high_loss",
+      "repeat": 2,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 0.2208880000011959,
+        "features": 0.1320160000091164,
+        "ranges": 168.40781399997695,
+        "equity": 19.576948000008088,
+        "policy": 2.5822520000247096,
+        "legalized": 0.013887999955386476,
+        "decision_total": 190.93380599997545
+      },
+      "wall_total_ms": 193.42975500001103,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "call"
+      },
+      "error": null
+    },
+    {
+      "case": "river_high_loss",
+      "repeat": 3,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 0.2519410000445532,
+        "features": 0.10529799999403622,
+        "ranges": 162.47871699999905,
+        "equity": 19.92360799999915,
+        "policy": 2.531696000005468,
+        "legalized": 0.013408999961939116,
+        "decision_total": 185.3046690000042
+      },
+      "wall_total_ms": 187.80841500000633,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "call"
+      },
+      "error": null
+    },
+    {
+      "case": "river_high_loss",
+      "repeat": 4,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 0.21651899999142188,
+        "features": 0.11237899997240675,
+        "ranges": 115.92265100000532,
+        "equity": 70.81424599999764,
+        "policy": 2.5297880000039186,
+        "legalized": 0.012178000019957835,
+        "decision_total": 189.60776099999066
+      },
+      "wall_total_ms": 192.13464400002067,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "call"
+      },
+      "error": null
+    },
+    {
+      "case": "river_high_loss",
+      "repeat": 5,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 0.21770000000742584,
+        "features": 0.09949999997616032,
+        "ranges": 115.42076199998519,
+        "equity": 70.44470600004615,
+        "policy": 2.589944999954241,
+        "legalized": 0.012358000049061957,
+        "decision_total": 188.78497100001823
+      },
+      "wall_total_ms": 191.2879530000282,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "call"
+      },
+      "error": null
+    },
+    {
+      "case": "river_high_loss",
+      "repeat": 6,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 0.22645800004283956,
+        "features": 0.09673099998508405,
+        "ranges": 111.83413399999154,
+        "equity": 19.369300999983352,
+        "policy": 2.535485000009885,
+        "legalized": 0.013448000004245841,
+        "decision_total": 134.07555700001694
+      },
+      "wall_total_ms": 187.62110900001971,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "call"
+      },
+      "error": null
+    },
+    {
+      "case": "river_high_loss",
+      "repeat": 7,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 0.21921100000099614,
+        "features": 0.10748300002205724,
+        "ranges": 119.0887489999568,
+        "equity": 19.151432999990448,
+        "policy": 2.5088020000225697,
+        "legalized": 0.012736000030599826,
+        "decision_total": 141.08841400002348
+      },
+      "wall_total_ms": 143.68734000004224,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "call"
+      },
+      "error": null
+    },
+    {
+      "case": "river_high_loss",
+      "repeat": 8,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 0.21936699999969278,
+        "features": 0.10210499999629974,
+        "ranges": 167.49974100002873,
+        "equity": 20.28820900000028,
+        "policy": 2.6594089999889547,
+        "legalized": 0.012847999983023328,
+        "decision_total": 190.78167899999698
+      },
+      "wall_total_ms": 193.21823299998186,
+      "rss_peak_mib": 34.5390625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "call"
+      },
+      "error": null
+    },
+    {
+      "case": "river_high_loss",
+      "repeat": 9,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 0.21201799995651527,
+        "features": 0.09608999999954904,
+        "ranges": 167.10870400004296,
+        "equity": 19.10245499999519,
+        "policy": 2.5260580000008304,
+        "legalized": 0.01372299999502502,
+        "decision_total": 189.05904799999007
+      },
+      "wall_total_ms": 191.88715300003878,
+      "rss_peak_mib": 34.7578125,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "call"
+      },
+      "error": null
+    },
+    {
+      "case": "river_high_loss",
+      "repeat": 10,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 0.23101900001165632,
+        "features": 0.10897599997861107,
+        "ranges": 173.40682800005425,
+        "equity": 20.526793999977144,
+        "policy": 2.770292999969115,
+        "legalized": 0.0152950000256169,
+        "decision_total": 197.0592050000164
+      },
+      "wall_total_ms": 199.5887909999965,
+      "rss_peak_mib": 34.7578125,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "call"
+      },
+      "error": null
+    },
+    {
+      "case": "river_high_loss",
+      "repeat": 11,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 0.22126799996158297,
+        "features": 0.10680400004048352,
+        "ranges": 170.72416199999907,
+        "equity": 19.342112999993333,
+        "policy": 2.457982999999331,
+        "legalized": 0.012940999965849187,
+        "decision_total": 192.86527099995965
+      },
+      "wall_total_ms": 195.36928000002263,
+      "rss_peak_mib": 34.7578125,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "call"
+      },
+      "error": null
+    },
+    {
+      "case": "river_high_loss",
+      "repeat": 12,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 0.22227399995244923,
+        "features": 0.1002280000079736,
+        "ranges": 111.6010520000259,
+        "equity": 70.62573600001087,
+        "policy": 2.518623999947067,
+        "legalized": 0.012541000046439876,
+        "decision_total": 185.0804549999907
+      },
+      "wall_total_ms": 187.5586910000493,
+      "rss_peak_mib": 34.7578125,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "call"
+      },
+      "error": null
+    },
+    {
+      "case": "river_high_loss",
+      "repeat": 13,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 0.21784800003388227,
+        "features": 0.09527299999945171,
+        "ranges": 115.5091879999759,
+        "equity": 69.98219900003733,
+        "policy": 2.5023320000059357,
+        "legalized": 0.012132999984260096,
+        "decision_total": 188.31897300003675
+      },
+      "wall_total_ms": 190.84650000002057,
+      "rss_peak_mib": 34.7578125,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "call"
+      },
+      "error": null
+    },
+    {
+      "case": "river_high_loss",
+      "repeat": 14,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 0.2175149999743553,
+        "features": 0.09687499999699867,
+        "ranges": 115.62858100000994,
+        "equity": 19.2618870000274,
+        "policy": 2.5981000000001586,
+        "legalized": 0.013596999963283452,
+        "decision_total": 137.81655499997214
+      },
+      "wall_total_ms": 140.31401799996956,
+      "rss_peak_mib": 34.7578125,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "call"
+      },
+      "error": null
+    },
+    {
+      "case": "river_high_loss",
+      "repeat": 15,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 0.256010000043716,
+        "features": 0.09874199997739197,
+        "ranges": 163.0759050000279,
+        "equity": 19.105489999958536,
+        "policy": 2.5543230000266703,
+        "legalized": 0.013754999997672712,
+        "decision_total": 185.10422500003187
+      },
+      "wall_total_ms": 187.60077299998557,
+      "rss_peak_mib": 34.7578125,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "call"
+      },
+      "error": null
+    },
+    {
+      "case": "river_nuts",
+      "repeat": 0,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 0.20226899999897796,
+        "features": 0.08543600000621154,
+        "ranges": 6.019374000004518,
+        "equity": 69.73509400000921,
+        "policy": 2.5810839999849122,
+        "legalized": 0.024725999992369907,
+        "decision_total": 78.6479829999962
+      },
+      "wall_total_ms": 81.08208599998079,
+      "rss_peak_mib": 34.7578125,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 50
+      },
+      "error": null
+    },
+    {
+      "case": "river_nuts",
+      "repeat": 1,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 0.2780739999934667,
+        "features": 0.08929899996701351,
+        "ranges": 6.0352440000315255,
+        "equity": 18.48351600000342,
+        "policy": 2.4773399999844514,
+        "legalized": 0.019117000022106367,
+        "decision_total": 27.382590000001983
+      },
+      "wall_total_ms": 29.911238000011053,
+      "rss_peak_mib": 34.7578125,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 50
+      },
+      "error": null
+    },
+    {
+      "case": "river_nuts",
+      "repeat": 2,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 0.19487200000867233,
+        "features": 0.08219199997938631,
+        "ranges": 56.880321000051026,
+        "equity": 20.68175799996652,
+        "policy": 2.5116660000321644,
+        "legalized": 0.021892999995998252,
+        "decision_total": 80.37270200003377
+      },
+      "wall_total_ms": 82.84401000003072,
+      "rss_peak_mib": 34.7578125,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 50
+      },
+      "error": null
+    },
+    {
+      "case": "river_nuts",
+      "repeat": 3,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 0.2042450000203644,
+        "features": 0.08199299998068454,
+        "ranges": 6.006800000022849,
+        "equity": 69.53084399998488,
+        "policy": 2.501885000015136,
+        "legalized": 0.023056999964410352,
+        "decision_total": 78.34882399998833
+      },
+      "wall_total_ms": 80.88302600003772,
+      "rss_peak_mib": 34.7578125,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 50
+      },
+      "error": null
+    },
+    {
+      "case": "river_nuts",
+      "repeat": 4,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 0.20675600001140992,
+        "features": 0.08563699998376251,
+        "ranges": 6.00397900001326,
+        "equity": 18.82253399998035,
+        "policy": 2.570731000048454,
+        "legalized": 0.02167899998539724,
+        "decision_total": 27.711316000022634
+      },
+      "wall_total_ms": 30.332160000000385,
+      "rss_peak_mib": 34.7578125,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 50
+      },
+      "error": null
+    },
+    {
+      "case": "river_nuts",
+      "repeat": 5,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 0.22758799997291135,
+        "features": 0.10023999999475564,
+        "ranges": 57.8875710000375,
+        "equity": 20.76291099996297,
+        "policy": 2.791625000043041,
+        "legalized": 0.041253999995660706,
+        "decision_total": 81.81118900000683
+      },
+      "wall_total_ms": 84.62921700004244,
+      "rss_peak_mib": 34.7578125,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 50
+      },
+      "error": null
+    },
+    {
+      "case": "river_nuts",
+      "repeat": 6,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 0.23167500000909058,
+        "features": 0.13027400001419664,
+        "ranges": 6.891888999973617,
+        "equity": 71.67775100003837,
+        "policy": 3.022183999974004,
+        "legalized": 0.02456499998970685,
+        "decision_total": 81.97833799999898
+      },
+      "wall_total_ms": 84.56854400003522,
+      "rss_peak_mib": 34.7578125,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 50
+      },
+      "error": null
+    },
+    {
+      "case": "river_nuts",
+      "repeat": 7,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 0.2242950000095334,
+        "features": 0.09683399997584274,
+        "ranges": 7.258673000023919,
+        "equity": 19.768646999978046,
+        "policy": 2.6681499999767766,
+        "legalized": 0.02620200001501871,
+        "decision_total": 30.042800999979136
+      },
+      "wall_total_ms": 32.58724099998744,
+      "rss_peak_mib": 34.7578125,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 50
+      },
+      "error": null
+    },
+    {
+      "case": "river_nuts",
+      "repeat": 8,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 0.21756000001005305,
+        "features": 0.09069100002534469,
+        "ranges": 6.241846999955669,
+        "equity": 67.94323500002974,
+        "policy": 2.851922999980161,
+        "legalized": 0.04137400003401126,
+        "decision_total": 77.38663000003498
+      },
+      "wall_total_ms": 80.05786699999362,
+      "rss_peak_mib": 34.7578125,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 50
+      },
+      "error": null
+    },
+    {
+      "case": "river_nuts",
+      "repeat": 9,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 0.22905100001935352,
+        "features": 0.09359500000982734,
+        "ranges": 7.084147000000485,
+        "equity": 71.22563799998716,
+        "policy": 2.811215999997785,
+        "legalized": 0.024093999968499702,
+        "decision_total": 81.4677409999831
+      },
+      "wall_total_ms": 84.10008999999263,
+      "rss_peak_mib": 34.7578125,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 50
+      },
+      "error": null
+    },
+    {
+      "case": "river_nuts",
+      "repeat": 10,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 0.21178200000804281,
+        "features": 0.08909299998549614,
+        "ranges": 6.204209000031824,
+        "equity": 18.995671999959995,
+        "policy": 2.5371560000166937,
+        "legalized": 0.021705999984078517,
+        "decision_total": 28.05961799998613
+      },
+      "wall_total_ms": 30.556440999987444,
+      "rss_peak_mib": 34.7578125,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 50
+      },
+      "error": null
+    },
+    {
+      "case": "river_nuts",
+      "repeat": 11,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 0.21970099999180093,
+        "features": 0.08622899997590139,
+        "ranges": 6.009745000028488,
+        "equity": 69.68823399995472,
+        "policy": 2.47874300004014,
+        "legalized": 0.020625999979984044,
+        "decision_total": 78.50327799997103
+      },
+      "wall_total_ms": 81.00454499998477,
+      "rss_peak_mib": 34.7578125,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 50
+      },
+      "error": null
+    },
+    {
+      "case": "river_nuts",
+      "repeat": 12,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 0.1978559999997742,
+        "features": 0.08146799996211485,
+        "ranges": 6.000593000010213,
+        "equity": 18.77920900000163,
+        "policy": 53.2636340000181,
+        "legalized": 0.023051999960443936,
+        "decision_total": 78.34581199995228
+      },
+      "wall_total_ms": 81.15632699997377,
+      "rss_peak_mib": 34.7578125,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 50
+      },
+      "error": null
+    },
+    {
+      "case": "river_nuts",
+      "repeat": 13,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 0.22422000000688058,
+        "features": 0.09290299999520357,
+        "ranges": 6.328454000026795,
+        "equity": 18.54514100000415,
+        "policy": 2.444906999983232,
+        "legalized": 0.017796999998154206,
+        "decision_total": 27.653422000014416
+      },
+      "wall_total_ms": 30.129231999978856,
+      "rss_peak_mib": 34.7578125,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 50
+      },
+      "error": null
+    },
+    {
+      "case": "river_nuts",
+      "repeat": 14,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 0.19502599997167636,
+        "features": 0.08254400000851092,
+        "ranges": 5.956329000014193,
+        "equity": 69.51154899996936,
+        "policy": 2.49659899998278,
+        "legalized": 0.02251200004366183,
+        "decision_total": 78.26455899999019
+      },
+      "wall_total_ms": 80.76740000001337,
+      "rss_peak_mib": 34.7578125,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 50
+      },
+      "error": null
+    },
+    {
+      "case": "river_nuts",
+      "repeat": 15,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 0.1954640000008112,
+        "features": 0.08157500002425877,
+        "ranges": 6.005335999986983,
+        "equity": 18.649359999983517,
+        "policy": 2.4823040000114815,
+        "legalized": 0.017647999982273177,
+        "decision_total": 27.431686999989324
+      },
+      "wall_total_ms": 29.91298699998879,
+      "rss_peak_mib": 34.7578125,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": false,
+      "fallback": false,
+      "complete_result": true,
+      "action": {
+        "action": "raise",
+        "amount": 50
+      },
+      "error": null
+    },
+    {
+      "case": "river_heavy_history",
+      "repeat": 0,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 90.31851200001029,
+        "features": 0.12102100004085514,
+        "ranges": 180.89612599999327,
+        "equity": 19.01206299999103,
+        "policy": 3.297998999983065,
+        "legalized": 0.0140640000267922,
+        "decision_total": 293.6597850000453
+      },
+      "wall_total_ms": 298.18437700004097,
+      "rss_peak_mib": 35.6328125,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": true,
+      "fallback": false,
+      "complete_result": false,
+      "action": {
+        "action": "call"
+      },
+      "error": null
+    },
+    {
+      "case": "river_heavy_history",
+      "repeat": 1,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 90.76009799997564,
+        "features": 0.1242100000240498,
+        "ranges": 179.44553799998175,
+        "equity": 19.0373579999914,
+        "policy": 2.9789480000204094,
+        "legalized": 0.012291000018649356,
+        "decision_total": 292.3584430000119
+      },
+      "wall_total_ms": 296.7793519999873,
+      "rss_peak_mib": 35.8515625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": true,
+      "fallback": false,
+      "complete_result": false,
+      "action": {
+        "action": "call"
+      },
+      "error": null
+    },
+    {
+      "case": "river_heavy_history",
+      "repeat": 2,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 90.1502789999995,
+        "features": 0.12567300001364856,
+        "ranges": 181.46310700001322,
+        "equity": 20.358176000002004,
+        "policy": 3.049299999986488,
+        "legalized": 0.013330999991012504,
+        "decision_total": 295.1598660000059
+      },
+      "wall_total_ms": 299.5869200000243,
+      "rss_peak_mib": 35.8515625,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": true,
+      "fallback": false,
+      "complete_result": false,
+      "action": {
+        "action": "call"
+      },
+      "error": null
+    },
+    {
+      "case": "river_heavy_history",
+      "repeat": 3,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 42.26380199997948,
+        "features": 0.13147500004606627,
+        "ranges": 257.5842559999728,
+        "equity": 19.17121600001792,
+        "policy": 3.0413039999643843,
+        "legalized": 0.013037000030635681,
+        "decision_total": 322.2050900000113
+      },
+      "wall_total_ms": 326.62961299996596,
+      "rss_peak_mib": 36.0703125,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": true,
+      "fallback": false,
+      "complete_result": false,
+      "action": {
+        "action": "call"
+      },
+      "error": null
+    },
+    {
+      "case": "river_heavy_history",
+      "repeat": 4,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 89.7843230000035,
+        "features": 0.12461399995800093,
+        "ranges": 182.0921020000128,
+        "equity": 19.745739000029516,
+        "policy": 3.052180999986831,
+        "legalized": 0.012717999993583362,
+        "decision_total": 294.81167699998423
+      },
+      "wall_total_ms": 299.34305799997674,
+      "rss_peak_mib": 36.0703125,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": true,
+      "fallback": false,
+      "complete_result": false,
+      "action": {
+        "action": "call"
+      },
+      "error": null
+    },
+    {
+      "case": "river_heavy_history",
+      "repeat": 5,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 91.41255899999123,
+        "features": 0.14101100003927058,
+        "ranges": 180.36866599999257,
+        "equity": 18.829384000014215,
+        "policy": 3.0632159999868236,
+        "legalized": 0.014802999999119493,
+        "decision_total": 293.82963900002323
+      },
+      "wall_total_ms": 298.2962789999988,
+      "rss_peak_mib": 36.0703125,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": true,
+      "fallback": false,
+      "complete_result": false,
+      "action": {
+        "action": "call"
+      },
+      "error": null
+    },
+    {
+      "case": "river_heavy_history",
+      "repeat": 6,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 87.292519000016,
+        "features": 0.12468400001353075,
+        "ranges": 184.61258199999975,
+        "equity": 20.591523000007328,
+        "policy": 3.266761999952905,
+        "legalized": 0.013941000020167849,
+        "decision_total": 295.9020110000097
+      },
+      "wall_total_ms": 300.7445609999877,
+      "rss_peak_mib": 36.0703125,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": true,
+      "fallback": false,
+      "complete_result": false,
+      "action": {
+        "action": "call"
+      },
+      "error": null
+    },
+    {
+      "case": "river_heavy_history",
+      "repeat": 7,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 92.0569099999966,
+        "features": 0.13055200003009304,
+        "ranges": 184.47403800001894,
+        "equity": 19.69334099999287,
+        "policy": 2.994069000010313,
+        "legalized": 0.012730999969789991,
+        "decision_total": 299.3616410000186
+      },
+      "wall_total_ms": 303.905608999969,
+      "rss_peak_mib": 36.0703125,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": true,
+      "fallback": false,
+      "complete_result": false,
+      "action": {
+        "action": "call"
+      },
+      "error": null
+    },
+    {
+      "case": "river_heavy_history",
+      "repeat": 8,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 87.49505299999782,
+        "features": 0.12449500002276181,
+        "ranges": 182.8140539999481,
+        "equity": 19.878783000024214,
+        "policy": 3.1334519999859367,
+        "legalized": 0.013294000041241816,
+        "decision_total": 293.4591310000201
+      },
+      "wall_total_ms": 298.3237029999941,
+      "rss_peak_mib": 36.0703125,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": true,
+      "fallback": false,
+      "complete_result": false,
+      "action": {
+        "action": "call"
+      },
+      "error": null
+    },
+    {
+      "case": "river_heavy_history",
+      "repeat": 9,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 90.80905399997619,
+        "features": 0.17594400003417832,
+        "ranges": 179.8140870000111,
+        "equity": 25.112713999988046,
+        "policy": 3.1990049999990333,
+        "legalized": 0.012568999977702333,
+        "decision_total": 299.12337299998626
+      },
+      "wall_total_ms": 303.5276830000271,
+      "rss_peak_mib": 36.0703125,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": true,
+      "fallback": false,
+      "complete_result": false,
+      "action": {
+        "action": "call"
+      },
+      "error": null
+    },
+    {
+      "case": "river_heavy_history",
+      "repeat": 10,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 94.48912300001666,
+        "features": 0.12050499998395026,
+        "ranges": 176.3124060000223,
+        "equity": 22.78066299999182,
+        "policy": 3.0651089999764736,
+        "legalized": 0.012231000027895789,
+        "decision_total": 296.7800370000191
+      },
+      "wall_total_ms": 352.24940699998797,
+      "rss_peak_mib": 36.0703125,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": true,
+      "fallback": false,
+      "complete_result": false,
+      "action": {
+        "action": "call"
+      },
+      "error": null
+    },
+    {
+      "case": "river_heavy_history",
+      "repeat": 11,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 102.95674499997176,
+        "features": 0.17198599999801445,
+        "ranges": 192.07684700000982,
+        "equity": 19.39554899996665,
+        "policy": 3.0287310000289835,
+        "legalized": 0.013191999983064306,
+        "decision_total": 317.6430499999583
+      },
+      "wall_total_ms": 322.1001140000226,
+      "rss_peak_mib": 36.0703125,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": true,
+      "fallback": false,
+      "complete_result": false,
+      "action": {
+        "action": "call"
+      },
+      "error": null
+    },
+    {
+      "case": "river_heavy_history",
+      "repeat": 12,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 94.32046099999525,
+        "features": 0.1292389999889565,
+        "ranges": 177.34738100000413,
+        "equity": 19.215764000023228,
+        "policy": 3.0771140000069863,
+        "legalized": 0.013209999963237351,
+        "decision_total": 294.1031689999818
+      },
+      "wall_total_ms": 298.5625669999763,
+      "rss_peak_mib": 36.0703125,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": true,
+      "fallback": false,
+      "complete_result": false,
+      "action": {
+        "action": "call"
+      },
+      "error": null
+    },
+    {
+      "case": "river_heavy_history",
+      "repeat": 13,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 89.98446499998636,
+        "features": 0.1217839999867465,
+        "ranges": 180.96654099997522,
+        "equity": 18.884965000040665,
+        "policy": 2.9995460000122875,
+        "legalized": 0.013120999994953308,
+        "decision_total": 292.97042199999623
+      },
+      "wall_total_ms": 297.3995719999607,
+      "rss_peak_mib": 36.0703125,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": true,
+      "fallback": false,
+      "complete_result": false,
+      "action": {
+        "action": "call"
+      },
+      "error": null
+    },
+    {
+      "case": "river_heavy_history",
+      "repeat": 14,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 90.01685099997303,
+        "features": 0.14667099998177946,
+        "ranges": 181.56435000003057,
+        "equity": 21.418079000000034,
+        "policy": 3.021503000013581,
+        "legalized": 0.012648999984321563,
+        "decision_total": 296.1801029999833
+      },
+      "wall_total_ms": 300.8562920000486,
+      "rss_peak_mib": 36.0703125,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": true,
+      "fallback": false,
+      "complete_result": false,
+      "action": {
+        "action": "call"
+      },
+      "error": null
+    },
+    {
+      "case": "river_heavy_history",
+      "repeat": 15,
+      "phase": "river",
+      "stages_ms": {
+        "normalized": 96.20055099998126,
+        "features": 0.16375299998117043,
+        "ranges": 174.01233600003252,
+        "equity": 20.8162729999799,
+        "policy": 3.1669410000176867,
+        "legalized": 0.013045000002875895,
+        "decision_total": 294.3728989999954
+      },
+      "wall_total_ms": 299.35268299999507,
+      "rss_peak_mib": 36.0703125,
+      "over_budget": false,
+      "budget_truncated": false,
+      "incomplete_range": true,
+      "fallback": false,
+      "complete_result": false,
+      "action": {
+        "action": "call"
+      },
+      "error": null
+    }
+  ]
+}

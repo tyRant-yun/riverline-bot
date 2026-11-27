@@ -1,0 +1,248 @@
+{
+  "schema_version": 1,
+  "candidate": {
+    "root": "E:\\hu bot\\.work\\hu-strength-v1.10.0",
+    "version": "1.10.0",
+    "seed": 20261012,
+    "rows": [
+      {
+        "case": "btn_2.25_open",
+        "action": {
+          "action": "raise",
+          "amount": 22
+        },
+        "node_digest": "00b2c8301ed70a54",
+        "gate": {
+          "module": "v1.10_vertical_slice",
+          "enabled": false,
+          "passed": false,
+          "reason": "action_value_model_incomplete",
+          "limitations": [
+            "potential_uncalled_return_unknown",
+            "no_conditioned_fold_call_raise_response",
+            "no_complete_future_street_tree",
+            "checkdown_equity_is_not_action_ev"
+          ]
+        },
+        "accounting_status": "consistent",
+        "elapsed_ms": 6.37,
+        "fallback": false,
+        "profile_scope": "fixed_state_route; no synthetic EV promotion"
+      },
+      {
+        "case": "bb_2.0_open",
+        "action": {
+          "action": "call"
+        },
+        "node_digest": "a47767448a8cf9bd",
+        "gate": {
+          "module": "v1.10_vertical_slice",
+          "enabled": false,
+          "passed": false,
+          "reason": "action_value_model_incomplete",
+          "limitations": [
+            "potential_uncalled_return_unknown",
+            "no_conditioned_fold_call_raise_response",
+            "no_complete_future_street_tree",
+            "checkdown_equity_is_not_action_ev"
+          ]
+        },
+        "accounting_status": "consistent",
+        "elapsed_ms": 7.918,
+        "fallback": false,
+        "profile_scope": "fixed_state_route; no synthetic EV promotion"
+      },
+      {
+        "case": "btn_3bet",
+        "action": {
+          "action": "fold"
+        },
+        "node_digest": "1f85bb3f8830d659",
+        "gate": {
+          "module": "v1.10_vertical_slice",
+          "enabled": false,
+          "passed": false,
+          "reason": "action_value_model_incomplete",
+          "limitations": [
+            "potential_uncalled_return_unknown",
+            "no_conditioned_fold_call_raise_response",
+            "no_complete_future_street_tree",
+            "checkdown_equity_is_not_action_ev"
+          ]
+        },
+        "accounting_status": "consistent",
+        "elapsed_ms": 14.523,
+        "fallback": false,
+        "profile_scope": "fixed_state_route; no synthetic EV promotion"
+      },
+      {
+        "case": "river_overbet_defense",
+        "action": {
+          "action": "call"
+        },
+        "node_digest": "919cb09d629a6387",
+        "gate": {
+          "module": "v1.10_vertical_slice",
+          "enabled": false,
+          "passed": false,
+          "reason": "action_value_model_incomplete",
+          "limitations": [
+            "potential_uncalled_return_unknown",
+            "no_conditioned_fold_call_raise_response",
+            "no_complete_future_street_tree",
+            "checkdown_equity_is_not_action_ev"
+          ]
+        },
+        "accounting_status": "consistent",
+        "elapsed_ms": 81.327,
+        "fallback": false,
+        "profile_scope": "fixed_state_route; no synthetic EV promotion"
+      },
+      {
+        "case": "paired_river_value_sentinel",
+        "action": {
+          "action": "raise",
+          "amount": 50
+        },
+        "node_digest": "8cb4cb447061437c",
+        "gate": {
+          "module": "v1.10_vertical_slice",
+          "enabled": false,
+          "passed": false,
+          "reason": "action_value_model_incomplete",
+          "limitations": [
+            "no_conditioned_fold_call_raise_response",
+            "no_complete_future_street_tree",
+            "checkdown_equity_is_not_action_ev"
+          ]
+        },
+        "accounting_status": "consistent",
+        "elapsed_ms": 66.721,
+        "fallback": false,
+        "profile_scope": "fixed_state_route; no synthetic EV promotion"
+      },
+      {
+        "case": "heavy_history_700",
+        "action": {
+          "action": "call"
+        },
+        "node_digest": "a47bca6ebd0d46d0",
+        "gate": {
+          "module": "v1.10_vertical_slice",
+          "enabled": false,
+          "passed": false,
+          "reason": "action_value_model_incomplete",
+          "limitations": [
+            "conditional_range_incomplete",
+            "potential_uncalled_return_unknown",
+            "no_conditioned_fold_call_raise_response",
+            "no_complete_future_street_tree",
+            "checkdown_equity_is_not_action_ev"
+          ]
+        },
+        "accounting_status": "consistent",
+        "elapsed_ms": 296.3,
+        "fallback": false,
+        "profile_scope": "fixed_state_route; no synthetic EV promotion"
+      }
+    ],
+    "counters": {
+      "strength_slice_decisions": 6,
+      "strength_slice_gate_closed": 6,
+      "range_out_of_scope": 3
+    }
+  },
+  "baseline": {
+    "schema_version": 1,
+    "candidate": {
+      "root": "E:\\hu bot\\.work\\hu-rules-v1.9.2",
+      "version": "1.9.2",
+      "seed": 20261012,
+      "rows": [
+        {
+          "case": "btn_2.25_open",
+          "action": {
+            "action": "raise",
+            "amount": 22
+          },
+          "node_digest": null,
+          "gate": {},
+          "accounting_status": "consistent",
+          "elapsed_ms": 2.574,
+          "fallback": false,
+          "profile_scope": "fixed_state_route; no synthetic EV promotion"
+        },
+        {
+          "case": "bb_2.0_open",
+          "action": {
+            "action": "call"
+          },
+          "node_digest": null,
+          "gate": {},
+          "accounting_status": "consistent",
+          "elapsed_ms": 4.158,
+          "fallback": false,
+          "profile_scope": "fixed_state_route; no synthetic EV promotion"
+        },
+        {
+          "case": "btn_3bet",
+          "action": {
+            "action": "fold"
+          },
+          "node_digest": null,
+          "gate": {},
+          "accounting_status": "consistent",
+          "elapsed_ms": 6.554,
+          "fallback": false,
+          "profile_scope": "fixed_state_route; no synthetic EV promotion"
+        },
+        {
+          "case": "river_overbet_defense",
+          "action": {
+            "action": "call"
+          },
+          "node_digest": null,
+          "gate": {},
+          "accounting_status": "consistent",
+          "elapsed_ms": 80.3,
+          "fallback": false,
+          "profile_scope": "fixed_state_route; no synthetic EV promotion"
+        },
+        {
+          "case": "paired_river_value_sentinel",
+          "action": {
+            "action": "raise",
+            "amount": 50
+          },
+          "node_digest": null,
+          "gate": {},
+          "accounting_status": "consistent",
+          "elapsed_ms": 74.635,
+          "fallback": false,
+          "profile_scope": "fixed_state_route; no synthetic EV promotion"
+        },
+        {
+          "case": "heavy_history_700",
+          "action": {
+            "action": "call"
+          },
+          "node_digest": null,
+          "gate": {},
+          "accounting_status": "consistent",
+          "elapsed_ms": 289.262,
+          "fallback": false,
+          "profile_scope": "fixed_state_route; no synthetic EV promotion"
+        }
+      ],
+      "counters": {
+        "range_out_of_scope": 3
+      }
+    }
+  },
+  "comparison": {
+    "baseline_version": "1.9.2",
+    "same_state_cases": 6,
+    "action_changes": 0,
+    "gate_enabled_count": 0
+  }
+}

@@ -1,0 +1,755 @@
+{
+  "schema_version": 1,
+  "version": "2.0.0",
+  "timeout_ms": 2000,
+  "fixture_count": 8,
+  "repeats": 8,
+  "sample_count": 64,
+  "wall_ms": {
+    "p50": 0.06485800031441613,
+    "p95": 0.09005999982036883,
+    "p99": 0.1482500001657172,
+    "max": 0.1482500001657172
+  },
+  "rss_peak_mib": 29.1484375,
+  "illegal_count": 0,
+  "fallback_count": 0,
+  "rows": [
+    {
+      "hand_number": 1,
+      "repeat": 0,
+      "action": {
+        "action": "raise",
+        "amount": 25
+      },
+      "legal": true,
+      "wall_ms": 0.1482500001657172,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 1,
+      "action": {
+        "action": "raise",
+        "amount": 25
+      },
+      "legal": true,
+      "wall_ms": 0.06992899989199941,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 2,
+      "action": {
+        "action": "raise",
+        "amount": 25
+      },
+      "legal": true,
+      "wall_ms": 0.050132000069424976,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 3,
+      "action": {
+        "action": "raise",
+        "amount": 25
+      },
+      "legal": true,
+      "wall_ms": 0.04298900012145168,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 4,
+      "action": {
+        "action": "raise",
+        "amount": 25
+      },
+      "legal": true,
+      "wall_ms": 0.0432659999205498,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 5,
+      "action": {
+        "action": "raise",
+        "amount": 25
+      },
+      "legal": true,
+      "wall_ms": 0.03752200018425356,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 6,
+      "action": {
+        "action": "raise",
+        "amount": 25
+      },
+      "legal": true,
+      "wall_ms": 0.034281999887753045,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 7,
+      "action": {
+        "action": "raise",
+        "amount": 25
+      },
+      "legal": true,
+      "wall_ms": 0.03323400005683652,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 0,
+      "action": {
+        "action": "raise",
+        "amount": 21
+      },
+      "legal": true,
+      "wall_ms": 0.04253999986758572,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 1,
+      "action": {
+        "action": "raise",
+        "amount": 21
+      },
+      "legal": true,
+      "wall_ms": 0.04331099989940412,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 2,
+      "action": {
+        "action": "raise",
+        "amount": 21
+      },
+      "legal": true,
+      "wall_ms": 0.03545300023688469,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 3,
+      "action": {
+        "action": "raise",
+        "amount": 21
+      },
+      "legal": true,
+      "wall_ms": 0.03836599989881506,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 4,
+      "action": {
+        "action": "raise",
+        "amount": 21
+      },
+      "legal": true,
+      "wall_ms": 0.03584399973988184,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 5,
+      "action": {
+        "action": "raise",
+        "amount": 21
+      },
+      "legal": true,
+      "wall_ms": 0.03480599980321131,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 6,
+      "action": {
+        "action": "raise",
+        "amount": 21
+      },
+      "legal": true,
+      "wall_ms": 0.07208500028355047,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 7,
+      "action": {
+        "action": "raise",
+        "amount": 21
+      },
+      "legal": true,
+      "wall_ms": 0.039568999909533886,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 0,
+      "action": {
+        "action": "raise",
+        "amount": 80
+      },
+      "legal": true,
+      "wall_ms": 0.03794599979300983,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 1,
+      "action": {
+        "action": "raise",
+        "amount": 80
+      },
+      "legal": true,
+      "wall_ms": 0.035770000067714136,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 2,
+      "action": {
+        "action": "raise",
+        "amount": 80
+      },
+      "legal": true,
+      "wall_ms": 0.035116999697493156,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 3,
+      "action": {
+        "action": "raise",
+        "amount": 80
+      },
+      "legal": true,
+      "wall_ms": 0.03391400014152168,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 4,
+      "action": {
+        "action": "raise",
+        "amount": 80
+      },
+      "legal": true,
+      "wall_ms": 0.034267999581061304,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 5,
+      "action": {
+        "action": "raise",
+        "amount": 80
+      },
+      "legal": true,
+      "wall_ms": 0.033957000141526805,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 6,
+      "action": {
+        "action": "raise",
+        "amount": 80
+      },
+      "legal": true,
+      "wall_ms": 0.03274300024713739,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 7,
+      "action": {
+        "action": "raise",
+        "amount": 80
+      },
+      "legal": true,
+      "wall_ms": 0.032466999982716516,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 0,
+      "action": {
+        "action": "raise",
+        "amount": 16
+      },
+      "legal": true,
+      "wall_ms": 0.14200799978425493,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 1,
+      "action": {
+        "action": "raise",
+        "amount": 16
+      },
+      "legal": true,
+      "wall_ms": 0.08840799955578404,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 2,
+      "action": {
+        "action": "raise",
+        "amount": 16
+      },
+      "legal": true,
+      "wall_ms": 0.09005999982036883,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 3,
+      "action": {
+        "action": "raise",
+        "amount": 16
+      },
+      "legal": true,
+      "wall_ms": 0.07810599981894484,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 4,
+      "action": {
+        "action": "raise",
+        "amount": 16
+      },
+      "legal": true,
+      "wall_ms": 0.07576600000902545,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 5,
+      "action": {
+        "action": "raise",
+        "amount": 16
+      },
+      "legal": true,
+      "wall_ms": 0.07108199997674092,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 6,
+      "action": {
+        "action": "raise",
+        "amount": 16
+      },
+      "legal": true,
+      "wall_ms": 0.06976300028327387,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 7,
+      "action": {
+        "action": "raise",
+        "amount": 16
+      },
+      "legal": true,
+      "wall_ms": 0.06733000009262469,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 0,
+      "action": {
+        "action": "check"
+      },
+      "legal": true,
+      "wall_ms": 0.08050900032685604,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 1,
+      "action": {
+        "action": "check"
+      },
+      "legal": true,
+      "wall_ms": 0.09705700040285592,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 2,
+      "action": {
+        "action": "check"
+      },
+      "legal": true,
+      "wall_ms": 0.07366599993474665,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 3,
+      "action": {
+        "action": "check"
+      },
+      "legal": true,
+      "wall_ms": 0.07378200007224223,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 4,
+      "action": {
+        "action": "check"
+      },
+      "legal": true,
+      "wall_ms": 0.07044999983918387,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 5,
+      "action": {
+        "action": "check"
+      },
+      "legal": true,
+      "wall_ms": 0.07172400000854395,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 6,
+      "action": {
+        "action": "check"
+      },
+      "legal": true,
+      "wall_ms": 0.06533399982799892,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 7,
+      "action": {
+        "action": "check"
+      },
+      "legal": true,
+      "wall_ms": 0.07719199993516668,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 0,
+      "action": {
+        "action": "check"
+      },
+      "legal": true,
+      "wall_ms": 0.08407499990426004,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 1,
+      "action": {
+        "action": "check"
+      },
+      "legal": true,
+      "wall_ms": 0.07363199983956292,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 2,
+      "action": {
+        "action": "check"
+      },
+      "legal": true,
+      "wall_ms": 0.07127899971237639,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 3,
+      "action": {
+        "action": "check"
+      },
+      "legal": true,
+      "wall_ms": 0.06485800031441613,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 4,
+      "action": {
+        "action": "check"
+      },
+      "legal": true,
+      "wall_ms": 0.0631230000180949,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 5,
+      "action": {
+        "action": "check"
+      },
+      "legal": true,
+      "wall_ms": 0.06744699976479751,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 6,
+      "action": {
+        "action": "check"
+      },
+      "legal": true,
+      "wall_ms": 0.06898300034663407,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 7,
+      "action": {
+        "action": "check"
+      },
+      "legal": true,
+      "wall_ms": 0.06300399991232553,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 0,
+      "action": {
+        "action": "fold"
+      },
+      "legal": true,
+      "wall_ms": 0.07711199987170403,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 1,
+      "action": {
+        "action": "fold"
+      },
+      "legal": true,
+      "wall_ms": 0.07251999977597734,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 2,
+      "action": {
+        "action": "fold"
+      },
+      "legal": true,
+      "wall_ms": 0.07062700024107471,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 3,
+      "action": {
+        "action": "fold"
+      },
+      "legal": true,
+      "wall_ms": 0.07026699995549279,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 4,
+      "action": {
+        "action": "fold"
+      },
+      "legal": true,
+      "wall_ms": 0.06906600037837052,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 5,
+      "action": {
+        "action": "fold"
+      },
+      "legal": true,
+      "wall_ms": 0.0670029999128019,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 6,
+      "action": {
+        "action": "fold"
+      },
+      "legal": true,
+      "wall_ms": 0.06769499987058225,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 1,
+      "repeat": 7,
+      "action": {
+        "action": "fold"
+      },
+      "legal": true,
+      "wall_ms": 0.06650999966950621,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 8,
+      "repeat": 0,
+      "action": {
+        "action": "fold"
+      },
+      "legal": true,
+      "wall_ms": 0.04149699998379219,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 8,
+      "repeat": 1,
+      "action": {
+        "action": "fold"
+      },
+      "legal": true,
+      "wall_ms": 0.04059799994138302,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 8,
+      "repeat": 2,
+      "action": {
+        "action": "fold"
+      },
+      "legal": true,
+      "wall_ms": 0.035746999856201,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 8,
+      "repeat": 3,
+      "action": {
+        "action": "fold"
+      },
+      "legal": true,
+      "wall_ms": 0.04389300011098385,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 8,
+      "repeat": 4,
+      "action": {
+        "action": "fold"
+      },
+      "legal": true,
+      "wall_ms": 0.036113000078330515,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 8,
+      "repeat": 5,
+      "action": {
+        "action": "fold"
+      },
+      "legal": true,
+      "wall_ms": 0.033927999993466074,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 8,
+      "repeat": 6,
+      "action": {
+        "action": "fold"
+      },
+      "legal": true,
+      "wall_ms": 0.03325199986647931,
+      "within_budget": true,
+      "fallback": false
+    },
+    {
+      "hand_number": 8,
+      "repeat": 7,
+      "action": {
+        "action": "fold"
+      },
+      "legal": true,
+      "wall_ms": 0.03409100008866517,
+      "within_budget": true,
+      "fallback": false
+    }
+  ]
+}

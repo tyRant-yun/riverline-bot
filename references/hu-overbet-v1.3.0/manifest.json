@@ -1,0 +1,25 @@
+{
+  "kind": "read-only-test-comparison",
+  "sourceVersion": "hu-overbet-v1.3.0",
+  "runtimeUse": false,
+  "files": {
+    "attribution.py": "3dc93aa502286c5f89664e53f87b3fe994c0901a83242a54c2b1933744e223df",
+    "config.py": "934ceba319f6b3ec41ad7ceae64b327616de6a7b481852e433ea512aef20784a",
+    "core.py": "a9abb16ef1a5d702fdd69491ca8e07def1f7267b3ef37e60ddfaa1daf1baddea",
+    "defense.py": "2390bd9834661d97cc232125946392e12661c4d410d3246975932afdc069b664",
+    "engine.py": "d8a3773c70dc6046e7d0494a8ba2ad9817413b06cd908dee074b8b6f7bc3225b",
+    "history.py": "54e3c11bb861b4c76d39c157bf3d009c395be88fb25476a07d2961e88f7b9f49",
+    "memory.py": "221258f71388e650157334f5787093c3b9188e5f2e303b49a8988294dc953500",
+    "poker.py": "f7552b3e2120a9036a84971badaed35b09f2f4c18d5ce4899629996f12e2ea04",
+    "polar.py": "3863346f6bfdc6afe0f80ee03f74e73b974426046c6e809a45211b2c45a37ea3",
+    "preflop.py": "31a68e20e6cc4604b3de07f4e235e7110dc9f3d5addd5b073ec1400f9ad54182",
+    "preflop_tables.json": "6db942b2de2052562d14687cc8147005d7b7ef18f3ad1d19ca2ef45dbb7c96ba",
+    "profiles.py": "1f016a53aadfe4a37952eee8fc2e8bb5fe8f848a2dc496e0a6a11ba63eb581c2",
+    "ranges.py": "5b3d319aeaf7f0b168e9a5042eb11d2a3055d622ff7f325c0a10d4a8dc4cbd23",
+    "responses.py": "358102ed1c1acbc44f1a2ba9e49e6ba4e23de1f6de2431516341fa4b7e1e3c9d",
+    "river.py": "9f096622bdc28460a6835fb0a65bbc87eae08c82bc25e4bd2b6639c01989b08f",
+    "strategy.py": "3bb380e3f7e1ba2d47ee6a2ee020b83dbd4072031345b0fa9a0d9956c4304a7e",
+    "terminal.py": "7edcb3e51ad4c88d9f508017c86dd7ce02bf8fa8482755afb7e1c854614a53c8",
+    "__init__.py": "7b2e30cb574675b68b635679fdd7301ddbaf00ed16afe7a2717463f7b07521d1"
+  }
+}

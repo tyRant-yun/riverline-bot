@@ -1,0 +1,163 @@
+{
+  "version": "2.2.0",
+  "matches": [
+    {
+      "seed": 22101,
+      "opponent": "tight",
+      "hero_seat": 0,
+      "hands": 100,
+      "final_stacks": [
+        1476,
+        524
+      ],
+      "decisions": 136,
+      "fallbacks": 0,
+      "completed": true
+    },
+    {
+      "seed": 22101,
+      "opponent": "tight",
+      "hero_seat": 1,
+      "hands": 100,
+      "final_stacks": [
+        166,
+        1834
+      ],
+      "decisions": 163,
+      "fallbacks": 0,
+      "completed": true
+    },
+    {
+      "seed": 22101,
+      "opponent": "call",
+      "hero_seat": 0,
+      "hands": 48,
+      "final_stacks": [
+        2000,
+        0
+      ],
+      "decisions": 190,
+      "fallbacks": 0,
+      "completed": true
+    },
+    {
+      "seed": 22101,
+      "opponent": "call",
+      "hero_seat": 1,
+      "hands": 25,
+      "final_stacks": [
+        0,
+        2000
+      ],
+      "decisions": 100,
+      "fallbacks": 0,
+      "completed": true
+    },
+    {
+      "seed": 22101,
+      "opponent": "aggressive",
+      "hero_seat": 0,
+      "hands": 40,
+      "final_stacks": [
+        2000,
+        0
+      ],
+      "decisions": 126,
+      "fallbacks": 0,
+      "completed": true
+    },
+    {
+      "seed": 22101,
+      "opponent": "aggressive",
+      "hero_seat": 1,
+      "hands": 10,
+      "final_stacks": [
+        0,
+        2000
+      ],
+      "decisions": 36,
+      "fallbacks": 0,
+      "completed": true
+    },
+    {
+      "seed": 22102,
+      "opponent": "tight",
+      "hero_seat": 0,
+      "hands": 100,
+      "final_stacks": [
+        1853,
+        147
+      ],
+      "decisions": 149,
+      "fallbacks": 0,
+      "completed": true
+    },
+    {
+      "seed": 22102,
+      "opponent": "tight",
+      "hero_seat": 1,
+      "hands": 100,
+      "final_stacks": [
+        230,
+        1770
+      ],
+      "decisions": 163,
+      "fallbacks": 0,
+      "completed": true
+    },
+    {
+      "seed": 22102,
+      "opponent": "call",
+      "hero_seat": 0,
+      "hands": 43,
+      "final_stacks": [
+        2000,
+        0
+      ],
+      "decisions": 172,
+      "fallbacks": 0,
+      "completed": true
+    },
+    {
+      "seed": 22102,
+      "opponent": "call",
+      "hero_seat": 1,
+      "hands": 100,
+      "final_stacks": [
+        284,
+        1716
+      ],
+      "decisions": 400,
+      "fallbacks": 0,
+      "completed": true
+    },
+    {
+      "seed": 22102,
+      "opponent": "aggressive",
+      "hero_seat": 0,
+      "hands": 100,
+      "final_stacks": [
+        404,
+        1596
+      ],
+      "decisions": 285,
+      "fallbacks": 0,
+      "completed": true
+    },
+    {
+      "seed": 22102,
+      "opponent": "aggressive",
+      "hero_seat": 1,
+      "hands": 85,
+      "final_stacks": [
+        2000,
+        0
+      ],
+      "decisions": 241,
+      "fallbacks": 0,
+      "completed": true
+    }
+  ],
+  "purpose": "legal/completion paired smoke; not strength evidence",
+  "limitations": "fixed 100BB cash-hand simulator, scripted profiles, no platform schedule"
+}

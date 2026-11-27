@@ -1,0 +1,638 @@
+{
+  "candidate": "E:\\hu bot\\.work\\hu-v2-strength-v2.2.1",
+  "rfi_raise_to_2p5_rows": 1074,
+  "rfi_range_definition": "BTN_FIRST_IN raise-to=250 at 100BB, zero ante",
+  "sentinels": [
+    {
+      "action": {
+        "action": "call"
+      },
+      "candidate_actions": [
+        "fold",
+        "call",
+        "raise"
+      ],
+      "candidate_raise_to": [
+        1958
+      ],
+      "class": "65s",
+      "combo": [
+        "6s",
+        "5s"
+      ],
+      "context": "BTN_VS_3BET",
+      "depth_bb": 100,
+      "fallback_reason": null,
+      "four_bet_to": 0,
+      "ledger_status": "consistent",
+      "legal": true,
+      "node_id": "PREFLOP_BTN_VS_3BET",
+      "off_grid": true,
+      "open_to": 250,
+      "policy_reason": "pdf_pressure_3bet_price_call",
+      "price_key": "VS_3BET:D100:O250:3B890:4B0",
+      "strength": 0.456,
+      "three_bet_to": 890
+    },
+    {
+      "action": {
+        "action": "call"
+      },
+      "candidate_actions": [
+        "fold",
+        "call",
+        "raise"
+      ],
+      "candidate_raise_to": [
+        1958
+      ],
+      "class": "76s",
+      "combo": [
+        "7s",
+        "6s"
+      ],
+      "context": "BTN_VS_3BET",
+      "depth_bb": 100,
+      "fallback_reason": null,
+      "four_bet_to": 0,
+      "ledger_status": "consistent",
+      "legal": true,
+      "node_id": "PREFLOP_BTN_VS_3BET",
+      "off_grid": true,
+      "open_to": 250,
+      "policy_reason": "pdf_pressure_3bet_price_call",
+      "price_key": "VS_3BET:D100:O250:3B890:4B0",
+      "strength": 0.499,
+      "three_bet_to": 890
+    },
+    {
+      "action": {
+        "action": "call"
+      },
+      "candidate_actions": [
+        "fold",
+        "call",
+        "raise"
+      ],
+      "candidate_raise_to": [
+        1958
+      ],
+      "class": "55",
+      "combo": [
+        "5s",
+        "5h"
+      ],
+      "context": "BTN_VS_3BET",
+      "depth_bb": 100,
+      "fallback_reason": null,
+      "four_bet_to": 0,
+      "ledger_status": "consistent",
+      "legal": true,
+      "node_id": "PREFLOP_BTN_VS_3BET",
+      "off_grid": true,
+      "open_to": 250,
+      "policy_reason": "pdf_pressure_3bet_price_call",
+      "price_key": "VS_3BET:D100:O250:3B890:4B0",
+      "strength": 0.655,
+      "three_bet_to": 890
+    },
+    {
+      "action": {
+        "action": "call"
+      },
+      "candidate_actions": [
+        "fold",
+        "call",
+        "raise"
+      ],
+      "candidate_raise_to": [
+        1958
+      ],
+      "class": "Q8s",
+      "combo": [
+        "Qs",
+        "8s"
+      ],
+      "context": "BTN_VS_3BET",
+      "depth_bb": 100,
+      "fallback_reason": null,
+      "four_bet_to": 0,
+      "ledger_status": "consistent",
+      "legal": true,
+      "node_id": "PREFLOP_BTN_VS_3BET",
+      "off_grid": true,
+      "open_to": 250,
+      "policy_reason": "pdf_pressure_3bet_price_call",
+      "price_key": "VS_3BET:D100:O250:3B890:4B0",
+      "strength": 0.608,
+      "three_bet_to": 890
+    },
+    {
+      "action": {
+        "action": "call"
+      },
+      "candidate_actions": [
+        "fold",
+        "call",
+        "raise"
+      ],
+      "candidate_raise_to": [
+        1980
+      ],
+      "class": "65s",
+      "combo": [
+        "6s",
+        "5s"
+      ],
+      "context": "BTN_VS_3BET",
+      "depth_bb": 100,
+      "fallback_reason": null,
+      "four_bet_to": 0,
+      "ledger_status": "consistent",
+      "legal": true,
+      "node_id": "PREFLOP_BTN_VS_3BET",
+      "off_grid": false,
+      "open_to": 250,
+      "policy_reason": "pdf_pressure_3bet_price_call",
+      "price_key": "VS_3BET:D100:O250:3B900:4B0",
+      "strength": 0.456,
+      "three_bet_to": 900
+    },
+    {
+      "action": {
+        "action": "call"
+      },
+      "candidate_actions": [
+        "fold",
+        "call",
+        "raise"
+      ],
+      "candidate_raise_to": [
+        1980
+      ],
+      "class": "76s",
+      "combo": [
+        "7s",
+        "6s"
+      ],
+      "context": "BTN_VS_3BET",
+      "depth_bb": 100,
+      "fallback_reason": null,
+      "four_bet_to": 0,
+      "ledger_status": "consistent",
+      "legal": true,
+      "node_id": "PREFLOP_BTN_VS_3BET",
+      "off_grid": false,
+      "open_to": 250,
+      "policy_reason": "pdf_pressure_3bet_price_call",
+      "price_key": "VS_3BET:D100:O250:3B900:4B0",
+      "strength": 0.499,
+      "three_bet_to": 900
+    },
+    {
+      "action": {
+        "action": "call"
+      },
+      "candidate_actions": [
+        "fold",
+        "call",
+        "raise"
+      ],
+      "candidate_raise_to": [
+        1980
+      ],
+      "class": "55",
+      "combo": [
+        "5s",
+        "5h"
+      ],
+      "context": "BTN_VS_3BET",
+      "depth_bb": 100,
+      "fallback_reason": null,
+      "four_bet_to": 0,
+      "ledger_status": "consistent",
+      "legal": true,
+      "node_id": "PREFLOP_BTN_VS_3BET",
+      "off_grid": false,
+      "open_to": 250,
+      "policy_reason": "pdf_pressure_3bet_price_call",
+      "price_key": "VS_3BET:D100:O250:3B900:4B0",
+      "strength": 0.655,
+      "three_bet_to": 900
+    },
+    {
+      "action": {
+        "action": "call"
+      },
+      "candidate_actions": [
+        "fold",
+        "call",
+        "raise"
+      ],
+      "candidate_raise_to": [
+        1980
+      ],
+      "class": "Q8s",
+      "combo": [
+        "Qs",
+        "8s"
+      ],
+      "context": "BTN_VS_3BET",
+      "depth_bb": 100,
+      "fallback_reason": null,
+      "four_bet_to": 0,
+      "ledger_status": "consistent",
+      "legal": true,
+      "node_id": "PREFLOP_BTN_VS_3BET",
+      "off_grid": false,
+      "open_to": 250,
+      "policy_reason": "pdf_pressure_3bet_price_call",
+      "price_key": "VS_3BET:D100:O250:3B900:4B0",
+      "strength": 0.608,
+      "three_bet_to": 900
+    },
+    {
+      "action": {
+        "action": "call"
+      },
+      "candidate_actions": [
+        "fold",
+        "call",
+        "raise"
+      ],
+      "candidate_raise_to": [
+        2002
+      ],
+      "class": "65s",
+      "combo": [
+        "6s",
+        "5s"
+      ],
+      "context": "BTN_VS_3BET",
+      "depth_bb": 100,
+      "fallback_reason": null,
+      "four_bet_to": 0,
+      "ledger_status": "consistent",
+      "legal": true,
+      "node_id": "PREFLOP_BTN_VS_3BET",
+      "off_grid": true,
+      "open_to": 250,
+      "policy_reason": "pdf_pressure_3bet_price_call",
+      "price_key": "VS_3BET:D100:O250:3B910:4B0",
+      "strength": 0.456,
+      "three_bet_to": 910
+    },
+    {
+      "action": {
+        "action": "call"
+      },
+      "candidate_actions": [
+        "fold",
+        "call",
+        "raise"
+      ],
+      "candidate_raise_to": [
+        2002
+      ],
+      "class": "76s",
+      "combo": [
+        "7s",
+        "6s"
+      ],
+      "context": "BTN_VS_3BET",
+      "depth_bb": 100,
+      "fallback_reason": null,
+      "four_bet_to": 0,
+      "ledger_status": "consistent",
+      "legal": true,
+      "node_id": "PREFLOP_BTN_VS_3BET",
+      "off_grid": true,
+      "open_to": 250,
+      "policy_reason": "pdf_pressure_3bet_price_call",
+      "price_key": "VS_3BET:D100:O250:3B910:4B0",
+      "strength": 0.499,
+      "three_bet_to": 910
+    },
+    {
+      "action": {
+        "action": "call"
+      },
+      "candidate_actions": [
+        "fold",
+        "call",
+        "raise"
+      ],
+      "candidate_raise_to": [
+        2002
+      ],
+      "class": "55",
+      "combo": [
+        "5s",
+        "5h"
+      ],
+      "context": "BTN_VS_3BET",
+      "depth_bb": 100,
+      "fallback_reason": null,
+      "four_bet_to": 0,
+      "ledger_status": "consistent",
+      "legal": true,
+      "node_id": "PREFLOP_BTN_VS_3BET",
+      "off_grid": true,
+      "open_to": 250,
+      "policy_reason": "pdf_pressure_3bet_price_call",
+      "price_key": "VS_3BET:D100:O250:3B910:4B0",
+      "strength": 0.655,
+      "three_bet_to": 910
+    },
+    {
+      "action": {
+        "action": "call"
+      },
+      "candidate_actions": [
+        "fold",
+        "call",
+        "raise"
+      ],
+      "candidate_raise_to": [
+        2002
+      ],
+      "class": "Q8s",
+      "combo": [
+        "Qs",
+        "8s"
+      ],
+      "context": "BTN_VS_3BET",
+      "depth_bb": 100,
+      "fallback_reason": null,
+      "four_bet_to": 0,
+      "ledger_status": "consistent",
+      "legal": true,
+      "node_id": "PREFLOP_BTN_VS_3BET",
+      "off_grid": true,
+      "open_to": 250,
+      "policy_reason": "pdf_pressure_3bet_price_call",
+      "price_key": "VS_3BET:D100:O250:3B910:4B0",
+      "strength": 0.608,
+      "three_bet_to": 910
+    },
+    {
+      "action": {
+        "action": "call"
+      },
+      "candidate_actions": [
+        "fold",
+        "call",
+        "raise"
+      ],
+      "candidate_raise_to": [
+        2200
+      ],
+      "class": "65s",
+      "combo": [
+        "6s",
+        "5s"
+      ],
+      "context": "BTN_VS_3BET",
+      "depth_bb": 100,
+      "fallback_reason": null,
+      "four_bet_to": 0,
+      "ledger_status": "consistent",
+      "legal": true,
+      "node_id": "PREFLOP_BTN_VS_3BET",
+      "off_grid": false,
+      "open_to": 250,
+      "policy_reason": "pdf_pressure_3bet_price_call",
+      "price_key": "VS_3BET:D100:O250:3B1000:4B0",
+      "strength": 0.456,
+      "three_bet_to": 1000
+    },
+    {
+      "action": {
+        "action": "call"
+      },
+      "candidate_actions": [
+        "fold",
+        "call",
+        "raise"
+      ],
+      "candidate_raise_to": [
+        2200
+      ],
+      "class": "76s",
+      "combo": [
+        "7s",
+        "6s"
+      ],
+      "context": "BTN_VS_3BET",
+      "depth_bb": 100,
+      "fallback_reason": null,
+      "four_bet_to": 0,
+      "ledger_status": "consistent",
+      "legal": true,
+      "node_id": "PREFLOP_BTN_VS_3BET",
+      "off_grid": false,
+      "open_to": 250,
+      "policy_reason": "pdf_pressure_3bet_price_call",
+      "price_key": "VS_3BET:D100:O250:3B1000:4B0",
+      "strength": 0.499,
+      "three_bet_to": 1000
+    },
+    {
+      "action": {
+        "action": "call"
+      },
+      "candidate_actions": [
+        "fold",
+        "call",
+        "raise"
+      ],
+      "candidate_raise_to": [
+        2200
+      ],
+      "class": "55",
+      "combo": [
+        "5s",
+        "5h"
+      ],
+      "context": "BTN_VS_3BET",
+      "depth_bb": 100,
+      "fallback_reason": null,
+      "four_bet_to": 0,
+      "ledger_status": "consistent",
+      "legal": true,
+      "node_id": "PREFLOP_BTN_VS_3BET",
+      "off_grid": false,
+      "open_to": 250,
+      "policy_reason": "pdf_pressure_3bet_price_call",
+      "price_key": "VS_3BET:D100:O250:3B1000:4B0",
+      "strength": 0.655,
+      "three_bet_to": 1000
+    },
+    {
+      "action": {
+        "action": "call"
+      },
+      "candidate_actions": [
+        "fold",
+        "call",
+        "raise"
+      ],
+      "candidate_raise_to": [
+        2200
+      ],
+      "class": "Q8s",
+      "combo": [
+        "Qs",
+        "8s"
+      ],
+      "context": "BTN_VS_3BET",
+      "depth_bb": 100,
+      "fallback_reason": null,
+      "four_bet_to": 0,
+      "ledger_status": "consistent",
+      "legal": true,
+      "node_id": "PREFLOP_BTN_VS_3BET",
+      "off_grid": false,
+      "open_to": 250,
+      "policy_reason": "pdf_pressure_3bet_price_call",
+      "price_key": "VS_3BET:D100:O250:3B1000:4B0",
+      "strength": 0.608,
+      "three_bet_to": 1000
+    }
+  ],
+  "summary": {
+    "10.00BB": {
+      "actions": {
+        "call": 400,
+        "fold": 872,
+        "raise": 54
+      },
+      "candidate_raise_to": [
+        [
+          2200
+        ]
+      ],
+      "conditional_actions_given_rfi": {
+        "call": 400,
+        "fold": 620,
+        "raise": 54
+      },
+      "conditional_rates_given_rfi": {
+        "call": 0.372439,
+        "fold": 0.577281,
+        "raise": 0.050279
+      },
+      "fallback_rows": 0,
+      "legal_rows": 1326,
+      "off_grid_rows": 0,
+      "policy_reasons": {
+        "pdf_pressure_3bet_price_call": 400,
+        "pdf_pressure_blocker_2p2x_4bet": 8,
+        "pdf_pressure_value_core_2p2x_4bet": 46,
+        "pdf_pressure_vs_3bet_junk_control": 872
+      },
+      "rfi_raise_to_2p5_rows": 1074,
+      "rows": 1326
+    },
+    "8.90BB": {
+      "actions": {
+        "call": 400,
+        "fold": 872,
+        "raise": 54
+      },
+      "candidate_raise_to": [
+        [
+          1958
+        ]
+      ],
+      "conditional_actions_given_rfi": {
+        "call": 400,
+        "fold": 620,
+        "raise": 54
+      },
+      "conditional_rates_given_rfi": {
+        "call": 0.372439,
+        "fold": 0.577281,
+        "raise": 0.050279
+      },
+      "fallback_rows": 0,
+      "legal_rows": 1326,
+      "off_grid_rows": 1326,
+      "policy_reasons": {
+        "pdf_pressure_3bet_price_call": 400,
+        "pdf_pressure_blocker_2p2x_4bet": 8,
+        "pdf_pressure_value_core_2p2x_4bet": 46,
+        "pdf_pressure_vs_3bet_junk_control": 872
+      },
+      "rfi_raise_to_2p5_rows": 1074,
+      "rows": 1326
+    },
+    "9.00BB": {
+      "actions": {
+        "call": 400,
+        "fold": 872,
+        "raise": 54
+      },
+      "candidate_raise_to": [
+        [
+          1980
+        ]
+      ],
+      "conditional_actions_given_rfi": {
+        "call": 400,
+        "fold": 620,
+        "raise": 54
+      },
+      "conditional_rates_given_rfi": {
+        "call": 0.372439,
+        "fold": 0.577281,
+        "raise": 0.050279
+      },
+      "fallback_rows": 0,
+      "legal_rows": 1326,
+      "off_grid_rows": 0,
+      "policy_reasons": {
+        "pdf_pressure_3bet_price_call": 400,
+        "pdf_pressure_blocker_2p2x_4bet": 8,
+        "pdf_pressure_value_core_2p2x_4bet": 46,
+        "pdf_pressure_vs_3bet_junk_control": 872
+      },
+      "rfi_raise_to_2p5_rows": 1074,
+      "rows": 1326
+    },
+    "9.10BB": {
+      "actions": {
+        "call": 400,
+        "fold": 872,
+        "raise": 54
+      },
+      "candidate_raise_to": [
+        [
+          2002
+        ]
+      ],
+      "conditional_actions_given_rfi": {
+        "call": 400,
+        "fold": 620,
+        "raise": 54
+      },
+      "conditional_rates_given_rfi": {
+        "call": 0.372439,
+        "fold": 0.577281,
+        "raise": 0.050279
+      },
+      "fallback_rows": 0,
+      "legal_rows": 1326,
+      "off_grid_rows": 1326,
+      "policy_reasons": {
+        "pdf_pressure_3bet_price_call": 400,
+        "pdf_pressure_blocker_2p2x_4bet": 8,
+        "pdf_pressure_value_core_2p2x_4bet": 46,
+        "pdf_pressure_vs_3bet_junk_control": 872
+      },
+      "rfi_raise_to_2p5_rows": 1074,
+      "rows": 1326
+    }
+  },
+  "version": "2.2.1"
+}

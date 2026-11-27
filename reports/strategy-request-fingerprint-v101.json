@@ -1,0 +1,11 @@
+{
+  "version": "1.10.1",
+  "states": 10,
+  "strength_slice_strategy_enabled_default": false,
+  "strength_slice_strategy_enabled_requested": true,
+  "changed_action_or_policy_fingerprints": 0,
+  "gate_passed": false,
+  "action_ev_status": "model_limited",
+  "seed": 20261012,
+  "note": "The explicit request records a closed gate and does not change policy."
+}

@@ -1,0 +1,74 @@
+{
+  "mode": "legacy",
+  "rows": [
+    {
+      "fixture": 1,
+      "action": {
+        "action": "raise",
+        "amount": 35
+      },
+      "legal": true,
+      "reason": null
+    },
+    {
+      "fixture": 1,
+      "action": {
+        "action": "raise",
+        "amount": 22
+      },
+      "legal": true,
+      "reason": null
+    },
+    {
+      "fixture": 1,
+      "action": {
+        "action": "raise",
+        "amount": 132
+      },
+      "legal": true,
+      "reason": null
+    },
+    {
+      "fixture": 1,
+      "action": {
+        "action": "raise",
+        "amount": 50
+      },
+      "legal": true,
+      "reason": null
+    },
+    {
+      "fixture": 1,
+      "action": {
+        "action": "check"
+      },
+      "legal": true,
+      "reason": null
+    },
+    {
+      "fixture": 1,
+      "action": {
+        "action": "raise",
+        "amount": 50
+      },
+      "legal": true,
+      "reason": null
+    },
+    {
+      "fixture": 1,
+      "action": {
+        "action": "call"
+      },
+      "legal": true,
+      "reason": null
+    },
+    {
+      "fixture": 8,
+      "action": {
+        "action": "call"
+      },
+      "legal": true,
+      "reason": null
+    }
+  ]
+}

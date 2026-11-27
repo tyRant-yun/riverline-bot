@@ -1,0 +1,4 @@
+-r submission/requirements.txt
+pytest==9.0.2
+treys==0.1.8
+ruff==0.15.7

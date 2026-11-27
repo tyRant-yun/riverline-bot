@@ -1,0 +1,124 @@
+{
+  "legal_count": 8,
+  "rows": [
+    {
+      "action": {
+        "action": "raise",
+        "amount": 25
+      },
+      "hand_number": 1,
+      "street": "preflop",
+      "trace": {
+        "ledger_status": "consistent",
+        "node_digest": "b3621e40ae3af55e",
+        "policy_reason": "premium_price_aware_3bet",
+        "within_budget": true
+      },
+      "valid": true
+    },
+    {
+      "action": {
+        "action": "raise",
+        "amount": 21
+      },
+      "hand_number": 1,
+      "street": "preflop",
+      "trace": {
+        "ledger_status": "consistent",
+        "node_digest": "840ad68fc3cfa686",
+        "policy_reason": "button_first_in_baseline",
+        "within_budget": true
+      },
+      "valid": true
+    },
+    {
+      "action": {
+        "action": "raise",
+        "amount": 80
+      },
+      "hand_number": 1,
+      "street": "preflop",
+      "trace": {
+        "ledger_status": "consistent",
+        "node_digest": "fd32c02edb4214ea",
+        "policy_reason": "premium_price_aware_3bet",
+        "within_budget": true
+      },
+      "valid": true
+    },
+    {
+      "action": {
+        "action": "raise",
+        "amount": 16
+      },
+      "hand_number": 1,
+      "street": "flop",
+      "trace": {
+        "ledger_status": "consistent",
+        "node_digest": "ddd6871bd4e3cf57",
+        "policy_reason": "positioned_baseline_bluff",
+        "within_budget": true
+      },
+      "valid": true
+    },
+    {
+      "action": {
+        "action": "check"
+      },
+      "hand_number": 1,
+      "street": "turn",
+      "trace": {
+        "ledger_status": "consistent",
+        "node_digest": "9e68ee2b0e943a8a",
+        "policy_reason": "out_of_position_air_control",
+        "within_budget": true
+      },
+      "valid": true
+    },
+    {
+      "action": {
+        "action": "check"
+      },
+      "hand_number": 1,
+      "street": "river",
+      "trace": {
+        "ledger_status": "consistent",
+        "node_digest": "5a829b9f2437515a",
+        "policy_reason": "paired_board_non_nut_flush_caution",
+        "within_budget": true
+      },
+      "valid": true
+    },
+    {
+      "action": {
+        "action": "fold"
+      },
+      "hand_number": 1,
+      "street": "river",
+      "trace": {
+        "ledger_status": "consistent",
+        "node_digest": "4affb23962ea0813",
+        "policy_reason": "weak_facing_bet",
+        "within_budget": true
+      },
+      "valid": true
+    },
+    {
+      "action": {
+        "action": "fold"
+      },
+      "hand_number": 8,
+      "street": "preflop",
+      "trace": {
+        "ledger_status": "conflict",
+        "node_digest": "a3ec35fa30d8621e",
+        "policy_reason": "ledger_conflict_safe_baseline",
+        "within_budget": true
+      },
+      "valid": true
+    }
+  ],
+  "sample_count": 8,
+  "schema_version": 1,
+  "version": "2.0.0"
+}

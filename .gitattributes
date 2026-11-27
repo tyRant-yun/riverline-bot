@@ -1,0 +1,13 @@
+* text=auto eol=lf
+
+# Preserve original fixed-release bytes and runtime fingerprints.
+submission/** -text whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
+lab/** -text whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
+tests/** -text whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
+tools/** -text whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
+reports/** -text whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
+references/** -text whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
+docs/source-release-readme.md -text whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
+requirements-dev.txt -text whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
+pyproject.toml -text whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
+docs/evidence/** whitespace=-blank-at-eol

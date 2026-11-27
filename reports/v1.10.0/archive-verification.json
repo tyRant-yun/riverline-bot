@@ -1,0 +1,53 @@
+{
+  "archive_sha256_verified": true,
+  "layers_verified": 9,
+  "uncompressed_layer_bytes": 125894144,
+  "layers": [
+    {
+      "name": "blobs/sha256/26c307b5e35a59ce911f5fde5b9458120ec8734e831ea2da5649a9ad14abfd3d",
+      "uncompressed_bytes": 81049600,
+      "diff_id": "sha256:6f94328331290cbd81edab450664d42da7b64c191416c9346cd5d28c84f76035"
+    },
+    {
+      "name": "blobs/sha256/fa18dfb1257a9c1afc75e233c55b0195dd02b8d6d18dd7e24c10238b039e7742",
+      "uncompressed_bytes": 4127232,
+      "diff_id": "sha256:d14fa28e2eb1f038f5c4664218a0857316a91bcf13f20391ca1e39a124ebb353"
+    },
+    {
+      "name": "blobs/sha256/b952fe9f6810de5dac5d24a3983aee5fce3884f7359a533ba325e48ecb745994",
+      "uncompressed_bytes": 38120960,
+      "diff_id": "sha256:49813eb143b9b300a599bd6fed93a629d9e9ad7922811c09bd2d67381f00d1f4"
+    },
+    {
+      "name": "blobs/sha256/6760bfe2ff00c4530bc73b2f88a1e9615a56c9a77028f41f8bb4b978d08b8439",
+      "uncompressed_bytes": 5120,
+      "diff_id": "sha256:4a3a923292e31dbb9508a11bf1be25b7e6995b2d219a08b780c1319c50de3f9f"
+    },
+    {
+      "name": "blobs/sha256/438650f353b0de0d9b7d53829599ad52f8ddf23f3f0ae7e81600ad6a01d8b6bd",
+      "uncompressed_bytes": 1536,
+      "diff_id": "sha256:be76b2b7b0454204313ea3b369786176bde7697541c8d5b390a227af96846d58"
+    },
+    {
+      "name": "blobs/sha256/ec7c441ed70300464d4819bb0aa7d104d747b81f83f5d4cd07a8ec76f2ed6f55",
+      "uncompressed_bytes": 2560,
+      "diff_id": "sha256:1536f62f61c7a83273ae2667faa63fad02aa2c5a85685531cf51aba98ec73be0"
+    },
+    {
+      "name": "blobs/sha256/105b87599e0e3982afa10df8bf40c940db3114887a0e6b28bcd400ca87a952d1",
+      "uncompressed_bytes": 1878016,
+      "diff_id": "sha256:cf4b9155431145f7c90bc0dde532f7276652d210e6ffceceb2d712e030017b8a"
+    },
+    {
+      "name": "blobs/sha256/f6c7b5761762ca45bec29972e5ce4fe1b9e87b20173934ee346c0a91db8c0583",
+      "uncompressed_bytes": 9216,
+      "diff_id": "sha256:1533286b2ca81e9a77369622be7124efeb84784a0b513150bd31ab49ded98792"
+    },
+    {
+      "name": "blobs/sha256/93130bb9222ffcd531f2b482f1980bae22ce91f817fbc34d474964b34dfc0990",
+      "uncompressed_bytes": 699904,
+      "diff_id": "sha256:d5f836bb0eb649cf52a9518cfbf11e8193aba97f74521103c3440eaa00f50370"
+    }
+  ],
+  "docker_load_roundtrip": "passed; image id matches versioned manifest"
+}
