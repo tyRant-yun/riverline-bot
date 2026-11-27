@@ -1,0 +1,50 @@
+{
+  "schema": "riverline-document-archive/1",
+  "date": "2026-11-27",
+  "sourceCommit": "276cfe900bcccae53cf6783b6bfcd456a9517a4f",
+  "policy": "Original historical document bytes retained; current entrypoints are separate.",
+  "records": [
+    {
+      "oldPath": "README.md",
+      "archivePath": "docs/archive/2026-11-27/entrypoints/README.before-consolidation.md",
+      "sourceCommit": "276cfe900bcccae53cf6783b6bfcd456a9517a4f",
+      "originalGitSha256": "8781ca25dec723794b9caaf5d980449a4bdbca45e26fcfef0a0e2ac88d85c55c",
+      "archiveSha256": "8781ca25dec723794b9caaf5d980449a4bdbca45e26fcfef0a0e2ac88d85c55c"
+    },
+    {
+      "oldPath": "AGENTS.md",
+      "archivePath": "docs/archive/2026-11-27/entrypoints/AGENTS.before-consolidation.md",
+      "sourceCommit": "276cfe900bcccae53cf6783b6bfcd456a9517a4f",
+      "originalGitSha256": "32c11f08e6701a3b4c78d3cf84862dc20a52c40d755b2ea6dfd82a0158b83ff0",
+      "archiveSha256": "32c11f08e6701a3b4c78d3cf84862dc20a52c40d755b2ea6dfd82a0158b83ff0"
+    },
+    {
+      "oldPath": "docs/BASELINE-ACCEPTANCE-2026-11-27.md",
+      "archivePath": "docs/archive/2026-11-27/BASELINE-ACCEPTANCE-2026-11-27.md",
+      "sourceCommit": "276cfe900bcccae53cf6783b6bfcd456a9517a4f",
+      "originalGitSha256": "f8f08ccf3a28a5be322de83706d9df9404e9ac8cc47875f3364d80d9e25eb76e",
+      "archiveSha256": "f8f08ccf3a28a5be322de83706d9df9404e9ac8cc47875f3364d80d9e25eb76e"
+    },
+    {
+      "oldPath": "docs/source-release-readme.md",
+      "archivePath": "docs/archive/2026-11-27/source-release-readme.md",
+      "sourceCommit": "276cfe900bcccae53cf6783b6bfcd456a9517a4f",
+      "originalGitSha256": "a2eecc0e178940a3519911118a1977d7c165011ffdcd5968f66c7e5445958932",
+      "archiveSha256": "a2eecc0e178940a3519911118a1977d7c165011ffdcd5968f66c7e5445958932"
+    },
+    {
+      "oldPath": "docs/evidence/v222-architect-decision.md",
+      "archivePath": "docs/archive/2026-11-27/evidence/v222-architect-decision.md",
+      "sourceCommit": "276cfe900bcccae53cf6783b6bfcd456a9517a4f",
+      "originalGitSha256": "fd546b9436ba5f051a290b91da7760edb7378c9ace606f293570291198bfd104",
+      "archiveSha256": "fd546b9436ba5f051a290b91da7760edb7378c9ace606f293570291198bfd104"
+    },
+    {
+      "oldPath": "docs/evidence/v222-independent-acceptance.md",
+      "archivePath": "docs/archive/2026-11-27/evidence/v222-independent-acceptance.md",
+      "sourceCommit": "276cfe900bcccae53cf6783b6bfcd456a9517a4f",
+      "originalGitSha256": "f6ece9309e4cd589548c7b82f771cb0b2e11a53e0fc4913ba15c7b04480569f4",
+      "archiveSha256": "f6ece9309e4cd589548c7b82f771cb0b2e11a53e0fc4913ba15c7b04480569f4"
+    }
+  ]
+}

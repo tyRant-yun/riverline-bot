@@ -11,3 +11,6 @@ docs/source-release-readme.md -text whitespace=-blank-at-eol,-blank-at-eof,cr-at
 requirements-dev.txt -text whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
 pyproject.toml -text whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
 docs/evidence/** whitespace=-blank-at-eol
+
+# Historical records retain original bytes; they are not active instructions.
+docs/archive/** -text whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
